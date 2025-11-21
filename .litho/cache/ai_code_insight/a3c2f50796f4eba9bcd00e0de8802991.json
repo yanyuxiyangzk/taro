@@ -1,0 +1,64 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "separator.tsx",
+      "file_path": "app\\src\\components\\ui\\separator.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.6,
+      "description": null,
+      "functions": [
+        "Separator"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "Separator组件是一个用于创建分隔线的UI组件，基于Radix UI的SeparatorPrimitive构建。该组件提供水平和垂直两种方向的分隔线，支持装饰性用途，并通过cn工具函数处理CSS类名。组件接受className、orientation(默认为horizontal)、decorative(默认为true)等属性，使用Tailwind CSS样式类定义了分隔线的外观，包括边框颜色和尺寸调整。",
+    "responsibilities": [
+      "提供UI分隔线功能",
+      "支持水平和垂直方向",
+      "实现装饰性分隔用途",
+      "处理CSS类名合并"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": 3,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "@radix-ui/react-separator",
+        "path": null,
+        "is_external": true,
+        "line_number": 4,
+        "dependency_type": "library",
+        "version": "1.1.2"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": 6,
+        "dependency_type": "local",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 28,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519554,
+  "prompt_hash": "a3c2f50796f4eba9bcd00e0de8802991",
+  "token_usage": {
+    "input_tokens": 441,
+    "output_tokens": 358,
+    "total_tokens": 799
+  },
+  "model_name": null
+}

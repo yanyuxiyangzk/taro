@@ -1,0 +1,100 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "App.tsx",
+      "file_path": "app\\src\\App.tsx",
+      "source_summary": "",
+      "code_purpose": "entry",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "App",
+        "renderPage"
+      ],
+      "interfaces": [
+        "TabType"
+      ]
+    },
+    "detailed_description": "App.tsx是占卜应用的主要入口组件，实现了一个多标签页导航的移动端界面。该组件提供了四个主要功能模块：占卜(divination)、风水(fengshui)、社区(community)和我的(profile)。它使用React的状态管理来控制当前显示的标签页，并通过renderPage函数根据当前激活的标签动态渲染相应的页面组件。界面设计采用了深色主题配合紫色/红色渐变的背景特效，营造神秘氛围，底部导航栏采用固定定位并带有过渡动画效果。",
+    "responsibilities": [
+      "作为应用主入口组件负责页面路由和导航",
+      "管理底部导航标签页的状态和切换逻辑",
+      "提供统一的UI布局和主题样式",
+      "渲染当前激活的功能页面组件"
+    ],
+    "interfaces": [
+      {
+        "name": "TabType",
+        "interface_type": "type",
+        "visibility": "private",
+        "parameters": [],
+        "return_type": null,
+        "description": "定义了应用中可用的标签页类型：占卜、风水、社区和我的"
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": 1,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "lucide-react",
+        "path": null,
+        "is_external": true,
+        "line_number": 2,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "DivinationPage",
+        "path": "./components/DivinationPage",
+        "is_external": false,
+        "line_number": 5,
+        "dependency_type": "component",
+        "version": null
+      },
+      {
+        "name": "FengShuiPage",
+        "path": "./components/FengShuiPage",
+        "is_external": false,
+        "line_number": 6,
+        "dependency_type": "component",
+        "version": null
+      },
+      {
+        "name": "CommunityPage",
+        "path": "./components/CommunityPage",
+        "is_external": false,
+        "line_number": 7,
+        "dependency_type": "component",
+        "version": null
+      },
+      {
+        "name": "ProfilePage",
+        "path": "./components/ProfilePage",
+        "is_external": false,
+        "line_number": 8,
+        "dependency_type": "component",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 5.0,
+      "lines_of_code": 92,
+      "number_of_functions": 2,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763518983,
+  "prompt_hash": "f705b7cbd5b56084451edacdfa12e00f",
+  "token_usage": {
+    "input_tokens": 1142,
+    "output_tokens": 554,
+    "total_tokens": 1696
+  },
+  "model_name": null
+}

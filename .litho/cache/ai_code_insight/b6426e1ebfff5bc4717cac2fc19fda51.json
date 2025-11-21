@@ -1,0 +1,97 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "CommunityPage.tsx",
+      "file_path": "app\\src\\components\\CommunityPage.tsx",
+      "source_summary": "",
+      "code_purpose": "page",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "CommunityPage"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "社区页面组件，提供了一个完整的神秘学社区功能界面。该组件实现了社区动态展示和达人咨询两个主要功能模块，通过标签页切换实现。组件包含热门话题展示、帖子列表、达人列表等UI元素，以及搜索功能和交互操作。整体设计采用深紫色渐变主题，具有典型的神秘学风格UI设计。",
+    "responsibilities": [
+      "管理社区页面的整体布局和导航",
+      "展示社区帖子列表和热门话题",
+      "提供达人搜索和咨询功能",
+      "处理用户界面交互（标签切换、搜索等）",
+      "渲染神秘学主题的UI组件"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": "react",
+        "is_external": true,
+        "line_number": 1,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "lucide-react",
+        "path": "lucide-react",
+        "is_external": true,
+        "line_number": 2,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "Card",
+        "path": "./ui/card",
+        "is_external": false,
+        "line_number": 3,
+        "dependency_type": "component",
+        "version": null
+      },
+      {
+        "name": "Badge",
+        "path": "./ui/badge",
+        "is_external": false,
+        "line_number": 4,
+        "dependency_type": "component",
+        "version": null
+      },
+      {
+        "name": "Button",
+        "path": "./ui/button",
+        "is_external": false,
+        "line_number": 5,
+        "dependency_type": "component",
+        "version": null
+      },
+      {
+        "name": "Input",
+        "path": "./ui/input",
+        "is_external": false,
+        "line_number": 6,
+        "dependency_type": "component",
+        "version": null
+      },
+      {
+        "name": "ImageWithFallback",
+        "path": "./figma/ImageWithFallback",
+        "is_external": false,
+        "line_number": 7,
+        "dependency_type": "component",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 378,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763518987,
+  "prompt_hash": "b6426e1ebfff5bc4717cac2fc19fda51",
+  "token_usage": {
+    "input_tokens": 4060,
+    "output_tokens": 497,
+    "total_tokens": 4557
+  },
+  "model_name": null
+}

@@ -1,0 +1,90 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "chart.tsx",
+      "file_path": "app\\src\\components\\ui\\chart.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "useChart",
+        "ChartContainer",
+        "ChartStyle",
+        "ChartTooltipContent",
+        "ChartLegendContent",
+        "getPayloadConfigFromPayload"
+      ],
+      "interfaces": [
+        "ChartConfig",
+        "ChartContextProps"
+      ]
+    },
+    "detailed_description": "该组件是一个基于Recharts库的图表UI组件，提供了完整的图表展示功能。它封装了Recharts的基本功能并添加了样式定制、主题支持、工具提示和图例等高级功能。组件通过React Context提供配置管理，支持暗色和亮色主题，包含容器、工具提示、图例等子组件，实现了完整的图表展示解决方案。",
+    "responsibilities": [
+      "提供图表容器组件，管理图表的显示和样式",
+      "实现工具提示功能，显示图表数据的详细信息",
+      "提供图例组件，展示图表数据系列的标识",
+      "管理图表配置和主题，支持暗色和亮色模式",
+      "处理图表数据载荷的配置映射"
+    ],
+    "interfaces": [
+      {
+        "name": "ChartConfig",
+        "interface_type": "type",
+        "visibility": "public",
+        "parameters": [],
+        "return_type": null,
+        "description": "定义图表配置类型，包含标签、图标和颜色配置"
+      },
+      {
+        "name": "ChartContextProps",
+        "interface_type": "type",
+        "visibility": "private",
+        "parameters": [],
+        "return_type": null,
+        "description": "定义图表上下文属性，包含配置信息"
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": "react",
+        "is_external": true,
+        "line_number": 2,
+        "dependency_type": "import",
+        "version": null
+      },
+      {
+        "name": "recharts@2.15.2",
+        "path": "recharts@2.15.2",
+        "is_external": true,
+        "line_number": 3,
+        "dependency_type": "import",
+        "version": "2.15.2"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": 5,
+        "dependency_type": "import",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 11.0,
+      "lines_of_code": 353,
+      "number_of_functions": 6,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519063,
+  "prompt_hash": "5d036a7a515c6ea339a2579f6f2d758a",
+  "token_usage": {
+    "input_tokens": 2726,
+    "output_tokens": 504,
+    "total_tokens": 3230
+  },
+  "model_name": null
+}

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "该文件是一个前端UI组件，具体实现了面包屑导航组件。从以下方面可以判断：1）文件路径位于components/ui目录下，表明是UI组件；2）文件名为breadcrumb.tsx，使用tsx扩展名，符合React组件命名规范；3）代码中定义了多个React函数组件（Breadcrumb、BreadcrumbList、BreadcrumbItem、BreadcrumbLink等），实现了面包屑导航的UI结构；4）使用了React和Radix UI等前端框架，返回JSX元素；5）组件具有清晰的UI职责，用于展示导航层级结构，符合前端UI组件的特征。"
+  },
+  "timestamp": 1763518783,
+  "prompt_hash": "8562cf4be581b2c3556467c271a4d820",
+  "token_usage": {
+    "input_tokens": 412,
+    "output_tokens": 188,
+    "total_tokens": 600
+  },
+  "model_name": null
+}

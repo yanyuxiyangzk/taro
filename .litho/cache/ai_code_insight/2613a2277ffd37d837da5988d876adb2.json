@@ -1,0 +1,73 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "checkbox.tsx",
+      "file_path": "app\\src\\components\\ui\\checkbox.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "Checkbox"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "这是一个基于Radix UI和Tailwind CSS的可重用复选框组件。该组件封装了CheckboxPrimitive.Root和CheckboxPrimitive.Indicator，并应用了预定义的样式类来创建具有统一外观和行为的复选框。组件支持状态管理（未选中、选中、禁用），并提供了视觉反馈（包括焦点状态、错误状态的视觉指示）。使用了lucide-react的CheckIcon作为选中标记，并通过cn工具函数合并了传入的className以支持自定义样式覆盖。组件遵循了现代React组件设计模式，使用了复合组件模式来实现其功能。",
+    "responsibilities": [
+      "提供统一的复选框UI表示",
+      "管理复选框的交互状态（选中/未选中）",
+      "处理复选框的视觉反馈（焦点、错误状态）",
+      "支持自定义样式和可访问性属性",
+      "封装Radix UI复选框原语"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "CheckboxPrimitive",
+        "path": "@radix-ui/react-checkbox",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "1.1.4"
+      },
+      {
+        "name": "CheckIcon",
+        "path": "lucide-react",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "0.487.0"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "local_util",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 32,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519077,
+  "prompt_hash": "2613a2277ffd37d837da5988d876adb2",
+  "token_usage": {
+    "input_tokens": 577,
+    "output_tokens": 460,
+    "total_tokens": 1037
+  },
+  "model_name": null
+}

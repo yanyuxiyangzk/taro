@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1. 文件路径位于components/ui目录下，表明这是一个UI组件；2. 文件名input.tsx是典型的React组件命名；3. 代码结构显示这是一个Input组件，接收React.ComponentProps参数，返回JSX元素；4. 使用了cn工具函数进行样式处理，符合现代前端UI组件的模式；5. 组件具有标准的React组件特征，用于渲染input元素并提供样式定制；6. 业务逻辑简单明确，专注于UI渲染，符合widget组件的定义"
+  },
+  "timestamp": 1763518939,
+  "prompt_hash": "99e9492e3a9f373bcba3bbeae3aac7c6",
+  "token_usage": {
+    "input_tokens": 399,
+    "output_tokens": 181,
+    "total_tokens": 580
+  },
+  "model_name": null
+}

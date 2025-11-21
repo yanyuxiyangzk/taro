@@ -1,0 +1,74 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "resizable.tsx",
+      "file_path": "app\\src\\components\\ui\\resizable.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "ResizablePanelGroup",
+        "ResizablePanel",
+        "ResizableHandle"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "该组件是一个可调整大小的面板系统，基于react-resizable-panels库实现。它提供了三个核心组件：ResizablePanelGroup（可调整大小的面板组容器）、ResizablePanel（单个可调整大小的面板）和ResizableHandle（面板间的调整手柄）。组件支持水平和垂直方向的面板调整，手柄可以配置是否显示拖拽图标，提供了完整的可调整大小的UI布局解决方案。",
+    "responsibilities": [
+      "提供可调整大小的面板容器功能",
+      "实现面板间的分隔拖拽手柄",
+      "管理面板组的布局方向（水平/垂直）",
+      "支持手柄的视觉反馈和交互效果"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "lucide-react",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "ui-library",
+        "version": "0.487.0"
+      },
+      {
+        "name": "react-resizable-panels",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "ui-library",
+        "version": "2.1.7"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "utility",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 56,
+      "number_of_functions": 3,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519150,
+  "prompt_hash": "3eb91b27311a78dc1f344e930f4c5365",
+  "token_usage": {
+    "input_tokens": 776,
+    "output_tokens": 421,
+    "total_tokens": 1197
+  },
+  "model_name": null
+}

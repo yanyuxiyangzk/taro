@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体是一个侧边栏组件（sidebar.tsx）。从文件路径app/src/components/ui/可以看出这是一个UI组件库中的组件。文件内容显示它是一个React组件，使用了TypeScript，并导入了多个UI相关库（如lucide-react、class-variance-authority等），定义了侧边栏的各种状态和样式，提供了可复用的UI组件功能，符合widget（前端UI组件）的定义。"
+  },
+  "timestamp": 1763518896,
+  "prompt_hash": "5bb4f287eccca66cb9d628dbd5ab98e4",
+  "token_usage": {
+    "input_tokens": 410,
+    "output_tokens": 161,
+    "total_tokens": 571
+  },
+  "model_name": null
+}

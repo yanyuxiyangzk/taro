@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "该文件是一个前端UI组件，具体是一个Sheet（抽屉/侧边面板）组件。分析依据：1）文件路径位于components/ui目录下，表明这是一个UI组件；2）文件名为sheet.tsx，使用tsx扩展名，表明这是React组件；3）代码内容显示这是一个基于Radix UI的Dialog组件封装的Sheet组件，提供了Sheet、SheetTrigger、SheetClose、SheetPortal、SheetOverlay等子组件；4）组件使用了React的ComponentProps类型定义，以及cn工具函数进行样式处理；5）整个组件的目的是提供一个可复用的Sheet UI组件，符合widget（前端UI组件）的定义。"
+  },
+  "timestamp": 1763518893,
+  "prompt_hash": "ab77cd6b9cdb7f7f4c0a33af1062b956",
+  "token_usage": {
+    "input_tokens": 409,
+    "output_tokens": 200,
+    "total_tokens": 609
+  },
+  "model_name": null
+}

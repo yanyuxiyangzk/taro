@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "根据文件分析，这是一个前端UI组件文件，具体表现为：\n\n1. 文件路径：位于app/src/components/ui/目录下，明确属于UI组件层级\n2. 文件名：resizable.tsx，表明是可调整大小的组件\n3. 文件内容特征：\n   - 使用\"use client\"指令，表明是客户端组件\n   - 定义了多个React组件(ResizablePanelGroup、ResizablePanel、ResizableHandle)\n   - 基于react-resizable-panels库构建可调整大小的面板功能\n   - 使用了cn工具函数处理CSS类名\n   - 包含GripVerticalIcon图标组件\n\n4. 代码结构：导出多个UI组件，用于构建可调整大小的面板界面\n5. 功能定位：提供可调整大小的UI面板组件，属于前端界面构建的基础组件\n\n综合以上分析，该文件属于前端UI组件(widget)类型。"
+  },
+  "timestamp": 1763518878,
+  "prompt_hash": "099c65fa77f53483e9655e11f6dab28e",
+  "token_usage": {
+    "input_tokens": 411,
+    "output_tokens": 248,
+    "total_tokens": 659
+  },
+  "model_name": null
+}

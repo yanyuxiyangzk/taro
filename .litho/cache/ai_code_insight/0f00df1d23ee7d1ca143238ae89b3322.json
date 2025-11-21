@@ -1,0 +1,80 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "command.tsx",
+      "file_path": "app\\src\\components\\ui\\command.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "Command",
+        "CommandDialog",
+        "CommandInput",
+        "CommandList",
+        "CommandEmpty",
+        "CommandGroup",
+        "CommandSeparator",
+        "CommandItem",
+        "CommandShortcut"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "Command组件是一个高级UI组件，封装了cmdk库的命令面板功能。它提供了一套完整的命令面板UI组件集，包括基本的Command容器、CommandDialog对话框、CommandInput输入框、CommandList列表、CommandEmpty空状态提示、CommandGroup分组、CommandItem项目、CommandSeparator分隔符和CommandShortcut快捷键显示。所有组件都通过data-slot属性进行标准化标记，并应用了统一的样式类来保持视觉一致性。CommandDialog组件封装了Dialog组件，提供了默认的标题和描述，CommandInput组件在输入框前添加了搜索图标。整个组件集提供了可定制的命令面板界面，支持搜索、分组、选择等功能，适用于需要提供命令面板或快速搜索功能的场景。",
+    "responsibilities": [
+      "提供命令面板UI组件集",
+      "封装cmdk库功能并提供统一接口",
+      "提供对话框模式的命令面板",
+      "提供输入、列表、分组等基础组件"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": 3,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "cmdk",
+        "path": null,
+        "is_external": true,
+        "line_number": 4,
+        "dependency_type": "library",
+        "version": "1.1.1"
+      },
+      {
+        "name": "lucide-react",
+        "path": null,
+        "is_external": true,
+        "line_number": 5,
+        "dependency_type": "library",
+        "version": "0.487.0"
+      },
+      {
+        "name": "dialog",
+        "path": "./dialog",
+        "is_external": false,
+        "line_number": 8,
+        "dependency_type": "local",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 2.0,
+      "lines_of_code": 177,
+      "number_of_functions": 9,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519075,
+  "prompt_hash": "0f00df1d23ee7d1ca143238ae89b3322",
+  "token_usage": {
+    "input_tokens": 1431,
+    "output_tokens": 503,
+    "total_tokens": 1934
+  },
+  "model_name": null
+}

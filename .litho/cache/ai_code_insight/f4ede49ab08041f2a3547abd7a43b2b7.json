@@ -1,0 +1,67 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "avatar.tsx",
+      "file_path": "app\\src\\components\\ui\\avatar.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "Avatar",
+        "AvatarImage",
+        "AvatarFallback"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "这是一个React前端UI组件，实现了用户头像显示功能。组件基于Radix UI的Avatar原语构建，提供了三种子组件：Avatar（根容器）、AvatarImage（头像图片）和AvatarFallback（头像回退显示）。该组件使用了cn工具函数来处理CSS类名合并，支持自定义样式类名传递。组件设计遵循了React的无状态函数组件模式，使用了TypeScript类型定义，支持灵活的props传递。",
+    "responsibilities": [
+      "提供用户头像的根容器组件",
+      "渲染头像图片，支持图片加载失败时的回退机制",
+      "提供头像回退内容，当图片加载失败时显示默认内容",
+      "管理头像组件的样式和布局",
+      "处理组件的可访问性属性"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": 3,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "@radix-ui/react-avatar",
+        "path": null,
+        "is_external": true,
+        "line_number": 4,
+        "dependency_type": "component",
+        "version": "1.1.3"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": 6,
+        "dependency_type": "utility",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 53,
+      "number_of_functions": 3,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519040,
+  "prompt_hash": "f4ede49ab08041f2a3547abd7a43b2b7",
+  "token_usage": {
+    "input_tokens": 539,
+    "output_tokens": 399,
+    "total_tokens": 938
+  },
+  "model_name": null
+}

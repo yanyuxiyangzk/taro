@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体是一个单选按钮组组件。分析依据如下：1) 文件路径位于components/ui目录下，表明这是一个UI组件；2) 文件名radio-group.tsx表明这是一个单选组组件；3) 文件内容显示定义了RadioGroup和RadioGroupItem两个组件，使用了Radix UI的RadioGroupPrimitive，并结合了Tailwind CSS进行样式处理；4) 代码结构是典型的React组件定义，用于构建用户界面的单选功能；5) 该组件使用了client directive，表明这是一个客户端组件；6) 组件封装了基础的单选按钮功能，属于UI层面的组件抽象。"
+  },
+  "timestamp": 1763518872,
+  "prompt_hash": "fd2bc526943610cd7dd2460212be1dd4",
+  "token_usage": {
+    "input_tokens": 412,
+    "output_tokens": 205,
+    "total_tokens": 617
+  },
+  "model_name": null
+}

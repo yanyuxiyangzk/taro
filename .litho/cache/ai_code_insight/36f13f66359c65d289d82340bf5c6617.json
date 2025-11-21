@@ -1,0 +1,74 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "radio-group.tsx",
+      "file_path": "app\\src\\components\\ui\\radio-group.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "RadioGroup",
+        "RadioGroupItem"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "该组件是一个基于 Radix UI 构建的可访问性优化的单选按钮组组件。它包含两个主要部分：RadioGroup 作为容器组件，负责管理单选按钮组的整体状态；RadioGroupItem 作为单个可选中项，包含视觉指示器。组件实现了现代 Web 设计的最佳实践，包括无障碍访问支持、响应式设计、主题适配、以及状态管理。使用了 CSS-in-JS 样式方案 (通过 cn 工具类) 和 SVG 图标 (CircleIcon) 来实现美观且功能完善的单选按钮交互。",
+    "responsibilities": [
+      "作为容器组件管理单选按钮组的整体状态和布局",
+      "提供单个可选中项的UI渲染和交互逻辑",
+      "支持无障碍访问，确保键盘导航和屏幕阅读器兼容",
+      "实现主题适配和响应式设计",
+      "处理各种视觉状态（选中、未选中、禁用、错误等）"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "client"
+      },
+      {
+        "name": "@radix-ui/react-radio-group",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "1.2.3"
+      },
+      {
+        "name": "lucide-react",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "0.487.0"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "local utility",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 45,
+      "number_of_functions": 2,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519151,
+  "prompt_hash": "36f13f66359c65d289d82340bf5c6617",
+  "token_usage": {
+    "input_tokens": 635,
+    "output_tokens": 464,
+    "total_tokens": 1099
+  },
+  "model_name": null
+}

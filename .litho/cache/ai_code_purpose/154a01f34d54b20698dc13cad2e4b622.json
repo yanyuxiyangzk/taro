@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1. 文件路径位于components/ui目录下，表明这是一个UI组件；2. 文件名为hover-card.tsx，使用tsx扩展名，符合React组件命名规范；3. 代码内容显示这是一个HoverCard组件，包含HoverCard、HoverCardTrigger和HoverCardContent三个子组件，使用了Radix UI原语构建；4. 导入了React和Radix UI的hover-card原语，以及cn工具函数；5. 该组件实现了悬停卡片的UI功能，具有清晰的组件结构和样式处理；6. 从代码结构看，这是一个可复用的UI组件，属于widget类型。"
+  },
+  "timestamp": 1763519374,
+  "prompt_hash": "154a01f34d54b20698dc13cad2e4b622",
+  "token_usage": {
+    "input_tokens": 416,
+    "output_tokens": 199,
+    "total_tokens": 615
+  },
+  "model_name": null
+}

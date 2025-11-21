@@ -1,0 +1,48 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "ImageWithFallback.tsx",
+      "file_path": "app\\src\\components\\figma\\ImageWithFallback.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "ImageWithFallback"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "ImageWithFallback组件是一个React前端UI组件，用于处理图片加载失败时的替代显示方案。组件的核心功能是提供优雅的图片加载错误处理机制，当图片加载失败时会显示一个预定义的错误占位图。组件通过React的状态管理机制跟踪图片加载状态，当图片加载失败时触发状态切换，从而渲染带有错误占位图的替代UI。组件采用复合组件的设计模式，外部显示为一个容器div，内部包含一个SVG格式的错误图标，同时保留原始图片的URL信息作为数据属性以便调试。组件设计简洁，具有良好的可访问性，通过合理使用alt属性和语义化标签提升用户体验。",
+    "responsibilities": [
+      "处理图片加载失败情况，提供优雅的错误处理机制",
+      "管理图片加载状态，通过React状态机制控制UI渲染",
+      "提供可访问性支持，通过alt属性和语义化标签提升用户体验",
+      "保持原始图片的URL信息，便于调试和追踪"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "React",
+        "path": "react",
+        "is_external": true,
+        "line_number": 1,
+        "dependency_type": "library",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 27,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519001,
+  "prompt_hash": "ddab77001b70fb3ee6ed52483d392c01",
+  "token_usage": {
+    "input_tokens": 556,
+    "output_tokens": 404,
+    "total_tokens": 960
+  },
+  "model_name": null
+}

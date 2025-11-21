@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1）文件路径位于components/ui目录下，表明这是一个UI组件；2）文件名为sonner.tsx，使用tsx扩展名，说明是React组件；3）代码内容显示这是一个Toaster组件的封装，导入了sonner库的Toaster组件，并结合next-themes实现主题适配；4）该组件主要负责UI展示功能，通过useTheme获取主题并将主题传递给底层的Sonner组件；5）从代码结构看，这是一个无状态的函数组件，专门用于展示toast通知，属于前端UI组件(widget)类型。"
+  },
+  "timestamp": 1763519502,
+  "prompt_hash": "4fc0582aec98c0e0be0f4b322f4e7724",
+  "token_usage": {
+    "input_tokens": 309,
+    "output_tokens": 190,
+    "total_tokens": 499
+  },
+  "model_name": null
+}

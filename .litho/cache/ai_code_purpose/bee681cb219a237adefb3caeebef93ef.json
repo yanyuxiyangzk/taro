@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "根据文件路径`app/src/components/ui/navigation-menu.tsx`和文件内容分析，该文件是一个前端UI组件。具体分析如下：1) 文件位于components/ui目录下，表明这是一个UI组件；2) 文件名为navigation-menu.tsx，使用tsx扩展名，表明这是一个React组件；3) 代码内容定义了NavigationMenu组件，使用了React和Radix UI原语，实现了导航菜单的UI功能；4) 组件接受className、children等标准UI组件属性；5) 代码结构清晰，专注于UI渲染逻辑，没有复杂的业务逻辑。因此，这是一个前端UI组件(widget)。"
+  },
+  "timestamp": 1763519389,
+  "prompt_hash": "bee681cb219a237adefb3caeebef93ef",
+  "token_usage": {
+    "input_tokens": 419,
+    "output_tokens": 196,
+    "total_tokens": 615
+  },
+  "model_name": null
+}

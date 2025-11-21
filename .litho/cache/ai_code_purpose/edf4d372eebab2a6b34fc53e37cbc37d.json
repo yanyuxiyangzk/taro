@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1）文件路径位于components/ui目录下，表明这是一个UI组件；2）文件名为switch.tsx，使用了tsx扩展名，符合React组件的标准命名；3）代码内容实现了一个Switch组件，使用了React和Radix UI原语，具有典型的UI组件结构；4）导入了cn工具函数用于样式处理，进一步证实这是UI组件；5）组件具有明确的UI展示功能（开关切换），属于前端界面组件而非业务逻辑组件。因此，该文件属于前端UI组件(widget)类别。"
+  },
+  "timestamp": 1763518904,
+  "prompt_hash": "edf4d372eebab2a6b34fc53e37cbc37d",
+  "token_usage": {
+    "input_tokens": 410,
+    "output_tokens": 186,
+    "total_tokens": 596
+  },
+  "model_name": null
+}

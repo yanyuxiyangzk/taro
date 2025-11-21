@@ -1,0 +1,63 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "table.tsx",
+      "file_path": "app\\src\\components\\ui\\table.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "Table",
+        "TableHeader",
+        "TableBody",
+        "TableFooter",
+        "TableHead",
+        "TableRow",
+        "TableCell",
+        "TableCaption"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "该组件实现了一个完整的表格UI组件系统，包含表格的各个组成部分：表头、表体、表尾、行、单元格和标题。组件遵循React的可组合设计原则，提供了基础的表格结构和样式封装，支持添加自定义类名和属性。组件采用原子化设计思路，将表格的不同部分拆分为独立的组件，便于灵活组合使用。通过使用React的ComponentProps类型推导，确保了各组件与原生HTML表格元素的API兼容性。组件还内置了悬停状态、选中状态和响应式设计等基础交互功能。",
+    "responsibilities": [
+      "提供表格的结构化展示组件",
+      "管理表格各部分的样式和布局",
+      "处理表格的交互状态（如悬停、选中）",
+      "支持响应式设计和自定义样式扩展"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": "react",
+        "is_external": true,
+        "line_number": 3,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": 5,
+        "dependency_type": "internal",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 116,
+      "number_of_functions": 8,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519195,
+  "prompt_hash": "0194b5b6f6e1186e2a6f287384a29d92",
+  "token_usage": {
+    "input_tokens": 876,
+    "output_tokens": 394,
+    "total_tokens": 1270
+  },
+  "model_name": null
+}

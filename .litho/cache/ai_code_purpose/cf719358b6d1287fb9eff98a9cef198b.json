@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "根据文件路径`app/src/components/ui/card.tsx`和文件内容分析，该文件是一个前端UI组件：\n\n1. 文件路径：位于`components/ui/`目录下，明确表示这是一个UI组件\n2. 文件名：`card.tsx`，tsx扩展名表明是React组件，card是典型的UI组件名称\n3. 代码结构：定义了Card、CardHeader、CardTitle、CardDescription等组件函数，使用React.ComponentProps类型，符合React UI组件模式\n4. 功能特征：实现了卡片布局的UI组件，包含基础的卡片结构和样式，通过cn工具函数处理类名合并\n5. 业务逻辑：纯前端UI展示组件，无业务逻辑，仅负责视觉呈现\n\n这是一个典型的前端UI组件（widget），用于构建用户界面中的卡片元素。"
+  },
+  "timestamp": 1763519325,
+  "prompt_hash": "cf719358b6d1287fb9eff98a9cef198b",
+  "token_usage": {
+    "input_tokens": 413,
+    "output_tokens": 231,
+    "total_tokens": 644
+  },
+  "model_name": null
+}

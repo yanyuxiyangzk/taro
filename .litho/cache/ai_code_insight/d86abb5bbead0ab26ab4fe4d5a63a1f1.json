@@ -1,0 +1,55 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "utils.ts",
+      "file_path": "app\\src\\components\\ui\\utils.ts",
+      "source_summary": "",
+      "code_purpose": "util",
+      "importance_score": 0.6,
+      "description": null,
+      "functions": [
+        "cn"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "该组件是一个UI工具函数集，主要提供一个名为cn的函数，用于合并和处理CSS类名。它整合了clsx和tailwind-merge两个库的功能，实现了条件类名处理和Tailwind CSS类名的智能合并。这个工具在UI组件中广泛使用，用于根据条件动态生成CSS类名字符串。",
+    "responsibilities": [
+      "CSS类名合并",
+      "条件类名处理",
+      "Tailwind CSS类名优化"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "clsx",
+        "path": null,
+        "is_external": true,
+        "line_number": 1,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "tailwind-merge",
+        "path": null,
+        "is_external": true,
+        "line_number": 2,
+        "dependency_type": "library",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 6,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519547,
+  "prompt_hash": "d86abb5bbead0ab26ab4fe4d5a63a1f1",
+  "token_usage": {
+    "input_tokens": 304,
+    "output_tokens": 291,
+    "total_tokens": 595
+  },
+  "model_name": null
+}

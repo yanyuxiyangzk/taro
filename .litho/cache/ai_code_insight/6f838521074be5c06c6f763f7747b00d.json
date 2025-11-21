@@ -1,0 +1,188 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "form.tsx",
+      "file_path": "app\\src\\components\\ui\\form.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "FormField",
+        "useFormField",
+        "FormItem",
+        "FormLabel",
+        "FormControl",
+        "FormDescription",
+        "FormMessage"
+      ],
+      "interfaces": [
+        "FormFieldContextValue"
+      ]
+    },
+    "detailed_description": "这是一个基于React Hook Form和Radix UI的表单UI组件库，提供了完整的表单构建和状态管理功能。组件通过Context API实现表单字段之间的状态共享，封装了表单的通用逻辑，包括字段验证状态处理、错误信息显示、标签关联等功能。主要包含Form、FormField、FormItem、FormLabel、FormControl、FormDescription、FormMessage等组件，形成了一个完整的表单构建系统。",
+    "responsibilities": [
+      "表单状态管理：通过Context API在组件间共享表单字段状态（如错误信息、ID等）",
+      "UI组件封装：提供标准化的表单UI组件，包括标签、控件、描述和错误信息显示",
+      "无障碍访问支持：处理aria标签、for标签等，确保表单的可访问性",
+      "验证状态处理：根据表单字段的验证状态动态应用样式和属性"
+    ],
+    "interfaces": [
+      {
+        "name": "FormFieldContextValue",
+        "interface_type": "type",
+        "visibility": "private",
+        "parameters": [
+          {
+            "name": "name",
+            "param_type": "FieldPath<TFieldValues>",
+            "is_optional": false,
+            "description": null
+          }
+        ],
+        "return_type": null,
+        "description": "FormField组件的Context值类型定义，包含字段名称信息"
+      },
+      {
+        "name": "useFormField",
+        "interface_type": "function",
+        "visibility": "public",
+        "parameters": [],
+        "return_type": "{\"id\":\"string\",\"name\":\"string\",\"formItemId\":\"string\",\"formDescriptionId\":\"string\",\"formMessageId\":\"string\",...fieldState}",
+        "description": "自定义Hook，用于获取当前表单字段的上下文信息，包括ID、名称和验证状态"
+      },
+      {
+        "name": "Form",
+        "interface_type": "component",
+        "visibility": "public",
+        "parameters": [],
+        "return_type": "JSX.Element",
+        "description": "表单提供者组件，封装了react-hook-form的FormProvider"
+      },
+      {
+        "name": "FormItem",
+        "interface_type": "component",
+        "visibility": "public",
+        "parameters": [
+          {
+            "name": "className",
+            "param_type": "string",
+            "is_optional": true,
+            "description": null
+          }
+        ],
+        "return_type": "JSX.Element",
+        "description": "表单项容器组件，提供标准的布局和ID生成"
+      },
+      {
+        "name": "FormLabel",
+        "interface_type": "component",
+        "visibility": "public",
+        "parameters": [
+          {
+            "name": "className",
+            "param_type": "string",
+            "is_optional": true,
+            "description": null
+          }
+        ],
+        "return_type": "JSX.Element",
+        "description": "表单标签组件，基于验证状态动态应用样式"
+      },
+      {
+        "name": "FormControl",
+        "interface_type": "component",
+        "visibility": "public",
+        "parameters": [],
+        "return_type": "JSX.Element",
+        "description": "表单控件组件，处理aria属性和验证状态"
+      },
+      {
+        "name": "FormDescription",
+        "interface_type": "component",
+        "visibility": "public",
+        "parameters": [
+          {
+            "name": "className",
+            "param_type": "string",
+            "is_optional": true,
+            "description": null
+          }
+        ],
+        "return_type": "JSX.Element",
+        "description": "表单描述组件，提供描述文本的ID关联"
+      },
+      {
+        "name": "FormMessage",
+        "interface_type": "component",
+        "visibility": "public",
+        "parameters": [
+          {
+            "name": "className",
+            "param_type": "string",
+            "is_optional": true,
+            "description": null
+          }
+        ],
+        "return_type": "JSX.Element",
+        "description": "表单消息组件（通常是错误信息），仅在有消息时渲染"
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": 3,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "@radix-ui/react-label",
+        "path": null,
+        "is_external": true,
+        "line_number": 4,
+        "dependency_type": "library",
+        "version": "2.1.2"
+      },
+      {
+        "name": "@radix-ui/react-slot",
+        "path": null,
+        "is_external": true,
+        "line_number": 5,
+        "dependency_type": "library",
+        "version": "1.1.2"
+      },
+      {
+        "name": "react-hook-form",
+        "path": null,
+        "is_external": true,
+        "line_number": 6,
+        "dependency_type": "library",
+        "version": "7.55.0"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": 12,
+        "dependency_type": "local",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 3.0,
+      "lines_of_code": 168,
+      "number_of_functions": 7,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519117,
+  "prompt_hash": "6f838521074be5c06c6f763f7747b00d",
+  "token_usage": {
+    "input_tokens": 1212,
+    "output_tokens": 1019,
+    "total_tokens": 2231
+  },
+  "model_name": null
+}

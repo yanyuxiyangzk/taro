@@ -1,0 +1,74 @@
+{
+  "data": {
+    "project_name": "占卜应用",
+    "project_description": "这是一个基于React的移动端占卜应用，提供占卜、风水、社区和个人中心四大核心功能模块。应用采用深色主题配合神秘学色彩设计，为用户提供星座运势、卡牌占卜、风水方位建议、社区互动等玄学服务体验。",
+    "project_type": "FrontendApp",
+    "business_value": "为对占卜、风水等神秘学感兴趣的用户提供便捷的移动端占卜服务，满足用户获取运势指导、生活建议和社区互动的需求，打造一个集占卜、风水、社区于一体的神秘学服务平台。",
+    "target_users": [
+      {
+        "name": "占卜爱好者",
+        "description": "对星座运势、卡牌占卜等占卜服务感兴趣的用户",
+        "needs": [
+          "获取准确的占卜结果",
+          "简单易用的操作界面",
+          "丰富的占卜功能"
+        ]
+      },
+      {
+        "name": "风水咨询者",
+        "description": "希望通过风水知识改善生活质量的用户",
+        "needs": [
+          "获取风水建议",
+          "了解方位布局",
+          "改善家居环境"
+        ]
+      },
+      {
+        "name": "社区用户",
+        "description": "希望在神秘学领域与其他用户交流互动的用户",
+        "needs": [
+          "社区互动",
+          "经验分享",
+          "达人咨询"
+        ]
+      },
+      {
+        "name": "个人用户",
+        "description": "关注个人成长和运势变化的用户",
+        "needs": [
+          "个人运势追踪",
+          "成就系统",
+          "个性化服务"
+        ]
+      }
+    ],
+    "external_systems": [],
+    "system_boundary": {
+      "scope": "提供占卜、风水、社区和个人中心四大核心功能的移动端应用",
+      "included_components": [
+        "占卜功能模块",
+        "风水功能模块",
+        "社区互动模块",
+        "个人中心模块",
+        "UI组件库",
+        "导航系统",
+        "用户界面"
+      ],
+      "excluded_components": [
+        "后端服务",
+        "数据库系统",
+        "第三方API服务",
+        "支付系统"
+      ]
+    },
+    "confidence_score": 0.9
+  },
+  "timestamp": 1763519594,
+  "prompt_hash": "d041e111bc7d82aabde9decb08e52930",
+  "token_usage": {
+    "input_tokens": 7741,
+    "output_tokens": 437,
+    "total_tokens": 8178
+  },
+  "model_name": null
+}

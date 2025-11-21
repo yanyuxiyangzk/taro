@@ -1,0 +1,48 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "skeleton.tsx",
+      "file_path": "app\\src\\components\\ui\\skeleton.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.6,
+      "description": null,
+      "functions": [
+        "Skeleton"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "Skeleton组件是一个用于展示加载状态的UI组件。其主要功能是在数据加载过程中显示一个占位符，以提供更好的用户体验。组件通过使用animate-pulse类实现脉冲动画效果，模拟内容加载的视觉反馈。该组件接收任何div元素的属性，并将这些属性传递给底层的div元素，同时添加预定义的样式类以实现骨架屏效果。",
+    "responsibilities": [
+      "作为加载状态的UI占位符",
+      "提供脉冲动画以模拟内容加载",
+      "接收并传递底层div元素的属性",
+      "应用预定义的骨架屏样式"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": true,
+        "line_number": 1,
+        "dependency_type": "utility",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 13,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519529,
+  "prompt_hash": "fcf0095bb6e00eed7d4f3d434f96bb94",
+  "token_usage": {
+    "input_tokens": 331,
+    "output_tokens": 305,
+    "total_tokens": 636
+  },
+  "model_name": null
+}

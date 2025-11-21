@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "config",
+    "confidence": 0.9,
+    "reasoning": "这是一个CSS样式文件，位于styles/globals目录下，文件名为globals.css。文件内容主要包含CSS自定义属性（CSS Variables）的定义，如颜色变量(--background, --foreground等)、字体大小、边框半径等全局样式配置。这些变量定义了整个应用的全局样式主题，属于全局样式配置文件。根据文件路径、文件名和内容分析，这是一个用于配置全局样式的CSS文件，因此归类为config类型。"
+  },
+  "timestamp": 1763519516,
+  "prompt_hash": "f1e9dcaa3224367ddd2397c8036f4f17",
+  "token_usage": {
+    "input_tokens": 413,
+    "output_tokens": 168,
+    "total_tokens": 581
+  },
+  "model_name": null
+}

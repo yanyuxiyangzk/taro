@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1. 文件路径位于components/ui/目录下，表明这是一个UI组件 2. 文件名为label.tsx，使用tsx扩展名，表明这是React组件 3. 代码结构显示这是一个Label组件，使用了Radix UI的LabelPrimitive作为基础组件，并添加了自定义的CSS类名 4. 组件导出了Label，这是一个典型的UI组件封装 5. 代码主要功能是为LabelPrimitive.Root添加样式和属性，属于前端UI组件的范畴 6. 使用了\"use client\"指令，表明这是客户端组件"
+  },
+  "timestamp": 1763519484,
+  "prompt_hash": "63b3694bcdabf1155e2cce1c5ce86316",
+  "token_usage": {
+    "input_tokens": 318,
+    "output_tokens": 190,
+    "total_tokens": 508
+  },
+  "model_name": null
+}

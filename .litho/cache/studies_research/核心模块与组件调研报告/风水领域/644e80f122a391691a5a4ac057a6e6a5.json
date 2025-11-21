@@ -1,0 +1,22 @@
+{
+  "data": {
+    "domain_name": "风水领域",
+    "module_name": "罗盘展示模块",
+    "module_description": "罗盘展示模块是风水领域的核心组件之一，负责展示风水罗盘图像并提供方位导向功能。该模块采用深色/紫色渐变背景设计，包含一个罗盘图像展示区，使用动画效果和渐变背景营造风水占卜的氛围。该模块通过展示罗盘图像来帮助用户识别方位，是风水占卜功能的基础界面。",
+    "interaction": "该模块通过React组件接口与用户进行交互。主要交互方式为：1)使用useState钩子管理用户选择的方位状态；2)通过点击罗盘区域或方位按钮触发方位选择；3)组件接收用户点击事件，并更新选中的方位显示。组件还提供响应式布局，适配不同屏幕尺寸，通过CSS类和动画效果提供视觉反馈。",
+    "implementation": "该模块使用React框架实现，采用TypeScript编写。技术细节包括：1)导入lucide-react图标库中的Compass等图标组件；2)使用Card组件构建卡片式UI；3)通过ImageWithFallback组件展示罗盘图像；4)使用CSS渐变背景和动画效果；5)采用grid布局展示八方位；6)通过状态管理实现选中方位的高亮显示；7)使用条件渲染展示选中方位的详细信息。",
+    "associated_files": [
+      "app/src/components/FengShuiPage.tsx"
+    ],
+    "flowchart_mermaid": "graph TD\n    A[风水页面加载] --> B[初始化罗盘状态]\n    B --> C[渲染罗盘图像]\n    C --> D[展示八方位按钮]\n    D --> E[等待用户交互]\n    E --> F{用户点击方位?}\n    F -->|是| G[更新选中状态]\n    F -->|否| E\n    G --> H[高亮选中方位]\n    H --> I[显示方位详情]\n    I --> J[持续响应用户操作]",
+    "sequence_diagram_mermaid": "sequenceDiagram\n    participant 用户\n    participant FengShuiPage\n    participant useState\n    participant ImageWithFallback\n    \n    用户->>FengShuiPage: 访问风水页面\n    FengShuiPage->>useState: 初始化selectedDirection状态\n    FengShuiPage->>ImageWithFallback: 加载罗盘图像\n    ImageWithFallback-->>FengShuiPage: 返回罗盘图像\n    FengShuiPage-->>用户: 显示罗盘界面\n    用户->>FengShuiPage: 点击方位按钮\n    FengShuiPage->>useState: 更新selectedDirection\n    FengShuiPage-->>用户: 高亮显示选中方位\n    用户->>FengShuiPage: 查看方位详情\n    FengShuiPage-->>用户: 显示五行属性和运势信息"
+  },
+  "timestamp": 1763519717,
+  "prompt_hash": "644e80f122a391691a5a4ac057a6e6a5",
+  "token_usage": {
+    "input_tokens": 2286,
+    "output_tokens": 607,
+    "total_tokens": 2893
+  },
+  "model_name": null
+}

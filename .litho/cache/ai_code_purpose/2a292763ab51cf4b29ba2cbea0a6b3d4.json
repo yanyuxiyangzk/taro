@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体是一个侧边栏组件。从以下几个方面可以确定：1）文件路径位于components/ui/目录下，表明是UI组件；2）文件名为sidebar.tsx，使用tsx扩展名，是React组件；3）代码中使用了React、Slot、Button、Input等UI组件，实现了侧边栏的完整功能；4）包含样式定义、状态管理、响应式设计等典型的UI组件特征；5）该组件提供了完整的侧边栏交互功能，属于可复用的UI部件。"
+  },
+  "timestamp": 1763519432,
+  "prompt_hash": "2a292763ab51cf4b29ba2cbea0a6b3d4",
+  "token_usage": {
+    "input_tokens": 415,
+    "output_tokens": 171,
+    "total_tokens": 586
+  },
+  "model_name": null
+}

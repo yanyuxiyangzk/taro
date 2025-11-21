@@ -1,0 +1,72 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "toggle.tsx",
+      "file_path": "app\\src\\components\\ui\\toggle.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "Toggle"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "Toggle组件是一个可切换的UI控件，基于Radix UI的TogglePrimitive构建。它提供了一个按钮样式的切换器，用户可以点击来切换选中/未选中状态。组件使用cva（class-variance-authority）库来管理不同的样式变体，支持默认和边框两种外观变体，以及小、中、大三种尺寸规格。该组件还集成了焦点可见性、禁用状态、悬停效果、过渡动画等丰富的交互反馈，确保良好的用户体验。组件通过cn工具函数进行CSS类名的合并，支持自定义样式覆盖。数据状态通过data-[state=on]属性进行管理，当处于开启状态时会应用特定的背景和文字颜色。",
+    "responsibilities": [
+      "提供可切换的UI控件功能，允许用户切换选中/未选中状态",
+      "管理组件的多种样式变体（如默认、边框样式）和尺寸规格（如小、中、大）",
+      "处理交互反馈（如悬停、焦点、禁用状态）和视觉效果",
+      "整合Radix UI的可访问性功能和状态管理"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": "react",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "unknown"
+      },
+      {
+        "name": "@radix-ui/react-toggle",
+        "path": "@radix-ui/react-toggle@1.1.2",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "1.1.2"
+      },
+      {
+        "name": "class-variance-authority",
+        "path": "class-variance-authority@0.7.1",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "0.7.1"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "local_utility",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 47,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519215,
+  "prompt_hash": "9d29199c943bf3fa684af61b52fa6884",
+  "token_usage": {
+    "input_tokens": 656,
+    "output_tokens": 503,
+    "total_tokens": 1159
+  },
+  "model_name": null
+}

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体是一个选择器(Select)组件。分析依据：1)文件路径位于components/ui目录下，表明这是一个UI组件；2)文件名为select.tsx，使用tsx扩展名，说明是React组件；3)代码内容显示该文件封装了@radix-ui/react-select库的组件，提供了Select、SelectGroup、SelectValue、SelectTrigger等UI组件；4)代码结构是典型的React组件封装，通过props传递和自定义样式；5)导入了lucide-react图标组件和cn工具函数，用于UI渲染；6)组件类型明确为前端UI组件，用于构建用户界面的选择交互功能。"
+  },
+  "timestamp": 1763519422,
+  "prompt_hash": "cbed56e4324e04e0edadb9cf49d0acd6",
+  "token_usage": {
+    "input_tokens": 414,
+    "output_tokens": 201,
+    "total_tokens": 615
+  },
+  "model_name": null
+}

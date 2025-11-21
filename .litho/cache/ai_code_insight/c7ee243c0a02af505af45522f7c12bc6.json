@@ -1,0 +1,81 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "sheet.tsx",
+      "file_path": "app\\src\\components\\ui\\sheet.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "Sheet",
+        "SheetTrigger",
+        "SheetClose",
+        "SheetPortal",
+        "SheetOverlay",
+        "SheetContent",
+        "SheetHeader",
+        "SheetFooter",
+        "SheetTitle",
+        "SheetDescription"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "Sheet组件是一个可自定义的侧边抽屉UI组件，基于Radix UI的Dialog原语构建。它提供了完整的侧边抽屉功能，包括从四个方向（上、右、下、左）滑入滑出的动画效果、遮罩层、关闭按钮和结构化的标题、描述、头部和底部区域。该组件使用了现代React模式，通过复合组件的方式提供了一套完整的API来构建侧边抽屉界面，支持无障碍访问（如关闭按钮的屏幕阅读器友好标签）和响应式设计（不同尺寸下的宽度适配）。",
+    "responsibilities": [
+      "提供侧边抽屉UI组件",
+      "管理抽屉的打开关闭状态",
+      "处理抽屉从不同方向滑入滑出的动画效果",
+      "提供结构化的组件API（头部、底部、标题、描述等）"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "React",
+        "path": "react",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "SheetPrimitive",
+        "path": "@radix-ui/react-dialog",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "1.1.6"
+      },
+      {
+        "name": "XIcon",
+        "path": "lucide-react",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "0.487.0"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "utility",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 139,
+      "number_of_functions": 10,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519169,
+  "prompt_hash": "c7ee243c0a02af505af45522f7c12bc6",
+  "token_usage": {
+    "input_tokens": 1291,
+    "output_tokens": 465,
+    "total_tokens": 1756
+  },
+  "model_name": null
+}

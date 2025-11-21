@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1.文件路径位于components/ui目录下，表明这是一个UI组件；2.文件名为input.tsx，使用tsx扩展名，符合React组件命名规范；3.代码结构显示这是一个React函数组件，接收组件属性并渲染input元素；4.该组件使用了cn工具函数进行CSS类名合并，具有典型的UI组件样式处理逻辑；5.组件定义了特定的CSS样式类，用于创建一个具有特定外观的输入框组件；6.该组件被导出以供其他模块使用，符合UI组件的特征。综合以上因素，这是一个前端UI组件(widget)。"
+  },
+  "timestamp": 1763519480,
+  "prompt_hash": "c828b7641bdff16262acd14a579ae665",
+  "token_usage": {
+    "input_tokens": 404,
+    "output_tokens": 201,
+    "total_tokens": 605
+  },
+  "model_name": null
+}

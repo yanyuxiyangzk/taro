@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1.文件路径位于components/ui/目录下，表明这是一个UI组件；2.文件名为checkbox.tsx，使用tsx扩展名，符合React组件命名规范；3.代码内容实现了一个Checkbox组件，使用了React和Radix UI原语库；4.导入了React、CheckboxPrimitive和UI相关的图标组件；5.定义了一个函数式组件Checkbox，接收className等props参数，返回CheckboxPrimitive.Root组件；6.该组件具有典型的UI组件特征，包括样式类名处理、状态指示器等，用于构建用户界面的复选框元素。"
+  },
+  "timestamp": 1763518808,
+  "prompt_hash": "ee6e41ed04ab10005c219b0e5a65d000",
+  "token_usage": {
+    "input_tokens": 411,
+    "output_tokens": 197,
+    "total_tokens": 608
+  },
+  "model_name": null
+}

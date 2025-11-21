@@ -1,0 +1,256 @@
+{
+  "data": {
+    "core_dependencies": [
+      {
+        "from": "App.tsx",
+        "to": "DivinationPage.tsx",
+        "dependency_type": "Import",
+        "importance": 4,
+        "description": "主应用组件导入占卜页面"
+      },
+      {
+        "from": "App.tsx",
+        "to": "FengShuiPage.tsx",
+        "dependency_type": "Import",
+        "importance": 4,
+        "description": "主应用组件导入风水页面"
+      },
+      {
+        "from": "App.tsx",
+        "to": "CommunityPage.tsx",
+        "dependency_type": "Import",
+        "importance": 4,
+        "description": "主应用组件导入社区页面"
+      },
+      {
+        "from": "App.tsx",
+        "to": "ProfilePage.tsx",
+        "dependency_type": "Import",
+        "importance": 4,
+        "description": "主应用组件导入用户个人页面"
+      },
+      {
+        "from": "main.tsx",
+        "to": "App.tsx",
+        "dependency_type": "Import",
+        "importance": 5,
+        "description": "入口文件导入主应用组件"
+      },
+      {
+        "from": "DivinationPage.tsx",
+        "to": "card.tsx",
+        "dependency_type": "Import",
+        "importance": 3,
+        "description": "占卜页面使用卡片组件"
+      },
+      {
+        "from": "DivinationPage.tsx",
+        "to": "button.tsx",
+        "dependency_type": "Import",
+        "importance": 3,
+        "description": "占卜页面使用按钮组件"
+      },
+      {
+        "from": "DivinationPage.tsx",
+        "to": "ImageWithFallback.tsx",
+        "dependency_type": "Import",
+        "importance": 3,
+        "description": "占卜页面使用图片组件"
+      },
+      {
+        "from": "DivinationPage.tsx",
+        "to": "progress.tsx",
+        "dependency_type": "Import",
+        "importance": 3,
+        "description": "占卜页面使用进度条组件"
+      },
+      {
+        "from": "FengShuiPage.tsx",
+        "to": "card.tsx",
+        "dependency_type": "Import",
+        "importance": 3,
+        "description": "风水页面使用卡片组件"
+      },
+      {
+        "from": "FengShuiPage.tsx",
+        "to": "ImageWithFallback.tsx",
+        "dependency_type": "Import",
+        "importance": 3,
+        "description": "风水页面使用图片组件"
+      },
+      {
+        "from": "CommunityPage.tsx",
+        "to": "card.tsx",
+        "dependency_type": "Import",
+        "importance": 3,
+        "description": "社区页面使用卡片组件"
+      },
+      {
+        "from": "CommunityPage.tsx",
+        "to": "badge.tsx",
+        "dependency_type": "Import",
+        "importance": 3,
+        "description": "社区页面使用徽章组件"
+      },
+      {
+        "from": "CommunityPage.tsx",
+        "to": "button.tsx",
+        "dependency_type": "Import",
+        "importance": 3,
+        "description": "社区页面使用按钮组件"
+      },
+      {
+        "from": "CommunityPage.tsx",
+        "to": "input.tsx",
+        "dependency_type": "Import",
+        "importance": 3,
+        "description": "社区页面使用输入框组件"
+      },
+      {
+        "from": "ProfilePage.tsx",
+        "to": "card.tsx",
+        "dependency_type": "Import",
+        "importance": 3,
+        "description": "用户页面使用卡片组件"
+      },
+      {
+        "from": "ProfilePage.tsx",
+        "to": "button.tsx",
+        "dependency_type": "Import",
+        "importance": 3,
+        "description": "用户页面使用按钮组件"
+      },
+      {
+        "from": "ProfilePage.tsx",
+        "to": "progress.tsx",
+        "dependency_type": "Import",
+        "importance": 3,
+        "description": "用户页面使用进度条组件"
+      },
+      {
+        "from": "sidebar.tsx",
+        "to": "utils.ts",
+        "dependency_type": "Import",
+        "importance": 3,
+        "description": "侧边栏组件使用工具函数"
+      },
+      {
+        "from": "sidebar.tsx",
+        "to": "button.tsx",
+        "dependency_type": "Import",
+        "importance": 3,
+        "description": "侧边栏组件使用按钮组件"
+      },
+      {
+        "from": "form.tsx",
+        "to": "react-hook-form",
+        "dependency_type": "Import",
+        "importance": 3,
+        "description": "表单组件使用react-hook-form库"
+      },
+      {
+        "from": "command.tsx",
+        "to": "dialog.tsx",
+        "dependency_type": "Import",
+        "importance": 2,
+        "description": "命令组件使用对话框组件"
+      }
+    ],
+    "architecture_layers": [
+      {
+        "name": "Presentation Layer",
+        "components": [
+          "App.tsx",
+          "main.tsx",
+          "DivinationPage.tsx",
+          "FengShuiPage.tsx",
+          "CommunityPage.tsx",
+          "ProfilePage.tsx"
+        ],
+        "level": 0
+      },
+      {
+        "name": "UI Components Layer",
+        "components": [
+          "card.tsx",
+          "button.tsx",
+          "input.tsx",
+          "ImageWithFallback.tsx",
+          "Progress.tsx",
+          "Badge.tsx",
+          "avatar.tsx",
+          "alert.tsx",
+          "breadcrumb.tsx",
+          "calendar.tsx",
+          "carousel.tsx",
+          "chart.tsx",
+          "checkbox.tsx",
+          "command.tsx",
+          "dialog.tsx",
+          "dropdown-menu.tsx",
+          "form.tsx",
+          "input-otp.tsx",
+          "menubar.tsx",
+          "pagination.tsx",
+          "popover.tsx",
+          "radio-group.tsx",
+          "scroll-area.tsx",
+          "select.tsx",
+          "sheet.tsx",
+          "slider.tsx",
+          "switch.tsx",
+          "table.tsx",
+          "tabs.tsx",
+          "tooltip.tsx",
+          "sidebar.tsx",
+          "resizable.tsx",
+          "context-menu.tsx",
+          "accordion.tsx",
+          "alert-dialog.tsx",
+          "badge.tsx",
+          "use-mobile.ts",
+          "utils.ts"
+        ],
+        "level": 1
+      },
+      {
+        "name": "Core Libraries",
+        "components": [
+          "react",
+          "lucide-react",
+          "radix-ui",
+          "recharts",
+          "embla-carousel-react",
+          "vaul",
+          "react-hook-form",
+          "react-day-picker"
+        ],
+        "level": 2
+      },
+      {
+        "name": "Configuration",
+        "components": [
+          "vite.config.ts",
+          "globals.css"
+        ],
+        "level": 3
+      }
+    ],
+    "key_insights": [
+      "项目采用典型的React前端架构，使用shadcn/ui作为UI组件库",
+      "页面组件（DivinationPage、FengShuiPage等）直接依赖基础UI组件",
+      "核心依赖包括react、lucide-react图标库和radix-ui组件库",
+      "存在一些复杂度较高的UI组件，如sidebar.tsx（复杂度10）和chart.tsx（复杂度11）",
+      "没有发现明显的循环依赖，架构层次清晰",
+      "建议对高复杂度组件如carousel.tsx和chart.tsx进行进一步拆分以提高可维护性"
+    ]
+  },
+  "timestamp": 1763519582,
+  "prompt_hash": "e8518b7c01d1b5245c736ac8a53dfb42",
+  "token_usage": {
+    "input_tokens": 2827,
+    "output_tokens": 1156,
+    "total_tokens": 3983
+  },
+  "model_name": null
+}

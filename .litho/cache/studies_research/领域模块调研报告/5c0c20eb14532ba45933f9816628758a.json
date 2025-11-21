@@ -1,0 +1,461 @@
+{
+  "data": {
+    "domain_modules": [
+      {
+        "name": "占卜领域",
+        "description": "提供星座运势、卡牌占卜等玄学服务功能，包括星座选择、运势展示、占卜卡牌等核心功能",
+        "domain_type": "核心业务域",
+        "sub_modules": [
+          {
+            "name": "星座运势模块",
+            "description": "展示用户星座运势信息，包含综合评分和健康、爱情、事业、财富四个维度的进度条",
+            "code_paths": [
+              "app/src/components/DivinationPage.tsx"
+            ],
+            "key_functions": [
+              "星座选择",
+              "运势展示",
+              "进度条显示"
+            ],
+            "importance": 8.5
+          },
+          {
+            "name": "卡牌占卜模块",
+            "description": "提供卡牌占卜服务，通过占卜卡牌网格展示多种占卜服务入口",
+            "code_paths": [
+              "app/src/components/DivinationPage.tsx"
+            ],
+            "key_functions": [
+              "卡牌展示",
+              "占卜服务",
+              "神秘之书功能"
+            ],
+            "importance": 9.0
+          }
+        ],
+        "code_paths": [
+          "app/src/components/DivinationPage.tsx"
+        ],
+        "importance": 9.0,
+        "complexity": 7.5
+      },
+      {
+        "name": "风水领域",
+        "description": "提供风水占卜和方位建议功能，包含罗盘展示、八方位运势和家居风水建议",
+        "domain_type": "核心业务域",
+        "sub_modules": [
+          {
+            "name": "罗盘展示模块",
+            "description": "展示风水罗盘图像，提供方位导向功能",
+            "code_paths": [
+              "app/src/components/FengShuiPage.tsx"
+            ],
+            "key_functions": [
+              "罗盘显示",
+              "方位识别",
+              "风水属性展示"
+            ],
+            "importance": 7.5
+          },
+          {
+            "name": "方位运势模块",
+            "description": "展示八个方位的风水运势，包括五行属性和摆放建议",
+            "code_paths": [
+              "app/src/components/FengShuiPage.tsx"
+            ],
+            "key_functions": [
+              "方位切换",
+              "运势展示",
+              "风水建议"
+            ],
+            "importance": 8.0
+          }
+        ],
+        "code_paths": [
+          "app/src/components/FengShuiPage.tsx"
+        ],
+        "importance": 8.5,
+        "complexity": 7.0
+      },
+      {
+        "name": "社区领域",
+        "description": "提供神秘学社区功能，包含社区动态展示和达人咨询",
+        "domain_type": "核心业务域",
+        "sub_modules": [
+          {
+            "name": "社区动态模块",
+            "description": "展示社区热门话题和帖子列表",
+            "code_paths": [
+              "app/src/components/CommunityPage.tsx"
+            ],
+            "key_functions": [
+              "话题展示",
+              "帖子列表",
+              "动态更新"
+            ],
+            "importance": 8.0
+          },
+          {
+            "name": "达人咨询模块",
+            "description": "提供达人咨询服务和达人列表展示",
+            "code_paths": [
+              "app/src/components/CommunityPage.tsx"
+            ],
+            "key_functions": [
+              "达人展示",
+              "咨询服务",
+              "专家推荐"
+            ],
+            "importance": 7.5
+          }
+        ],
+        "code_paths": [
+          "app/src/components/CommunityPage.tsx"
+        ],
+        "importance": 8.0,
+        "complexity": 6.5
+      },
+      {
+        "name": "个人中心领域",
+        "description": "管理用户个人信息和统计数据，包含成就系统和功能菜单",
+        "domain_type": "核心业务域",
+        "sub_modules": [
+          {
+            "name": "用户信息模块",
+            "description": "展示用户头像、等级和经验值进度",
+            "code_paths": [
+              "app/src/components/ProfilePage.tsx"
+            ],
+            "key_functions": [
+              "个人信息展示",
+              "等级显示",
+              "经验进度"
+            ],
+            "importance": 7.5
+          },
+          {
+            "name": "成就统计模块",
+            "description": "展示用户统计数据和成就系统",
+            "code_paths": [
+              "app/src/components/ProfilePage.tsx"
+            ],
+            "key_functions": [
+              "统计展示",
+              "成就解锁",
+              "数据分析"
+            ],
+            "importance": 7.0
+          },
+          {
+            "name": "功能设置模块",
+            "description": "提供各项功能菜单和系统设置选项",
+            "code_paths": [
+              "app/src/components/ProfilePage.tsx"
+            ],
+            "key_functions": [
+              "菜单导航",
+              "设置选项",
+              "系统配置"
+            ],
+            "importance": 6.5
+          }
+        ],
+        "code_paths": [
+          "app/src/components/ProfilePage.tsx"
+        ],
+        "importance": 7.5,
+        "complexity": 6.0
+      },
+      {
+        "name": "UI组件支撑域",
+        "description": "提供通用UI组件库，包括表单、导航、数据展示等基础组件",
+        "domain_type": "基础设施域",
+        "sub_modules": [
+          {
+            "name": "基础UI组件",
+            "description": "包含按钮、卡片、输入框等基础UI组件",
+            "code_paths": [
+              "app/src/components/ui/button.tsx",
+              "app/src/components/ui/card.tsx",
+              "app/src/components/ui/input.tsx"
+            ],
+            "key_functions": [
+              "按钮组件",
+              "卡片组件",
+              "输入框组件"
+            ],
+            "importance": 9.5
+          },
+          {
+            "name": "高级UI组件",
+            "description": "包含对话框、下拉菜单、标签页等高级UI组件",
+            "code_paths": [
+              "app/src/components/ui/dialog.tsx",
+              "app/src/components/ui/dropdown-menu.tsx",
+              "app/src/components/ui/tabs.tsx"
+            ],
+            "key_functions": [
+              "对话框组件",
+              "下拉菜单组件",
+              "标签页组件"
+            ],
+            "importance": 9.0
+          }
+        ],
+        "code_paths": [
+          "app/src/components/ui"
+        ],
+        "importance": 9.0,
+        "complexity": 8.5
+      }
+    ],
+    "domain_relations": [
+      {
+        "from_domain": "占卜领域",
+        "to_domain": "UI组件支撑域",
+        "relation_type": "服务调用",
+        "strength": 9.0,
+        "description": "占卜页面大量使用UI组件库中的卡片、按钮、进度条等组件"
+      },
+      {
+        "from_domain": "风水领域",
+        "to_domain": "UI组件支撑域",
+        "relation_type": "服务调用",
+        "strength": 8.5,
+        "description": "风水页面使用UI组件库中的卡片、导航组件等"
+      },
+      {
+        "from_domain": "社区领域",
+        "to_domain": "UI组件支撑域",
+        "relation_type": "服务调用",
+        "strength": 8.0,
+        "description": "社区页面使用UI组件库中的卡片、标签页、输入框等组件"
+      },
+      {
+        "from_domain": "个人中心领域",
+        "to_domain": "UI组件支撑域",
+        "relation_type": "服务调用",
+        "strength": 8.5,
+        "description": "个人中心页面使用UI组件库中的卡片、进度条、头像等组件"
+      },
+      {
+        "from_domain": "应用导航",
+        "to_domain": "占卜领域",
+        "relation_type": "数据依赖",
+        "strength": 8.0,
+        "description": "App组件根据路由状态渲染占卜页面"
+      },
+      {
+        "from_domain": "应用导航",
+        "to_domain": "风水领域",
+        "relation_type": "数据依赖",
+        "strength": 8.0,
+        "description": "App组件根据路由状态渲染风水页面"
+      },
+      {
+        "from_domain": "应用导航",
+        "to_domain": "社区领域",
+        "relation_type": "数据依赖",
+        "strength": 8.0,
+        "description": "App组件根据路由状态渲染社区页面"
+      },
+      {
+        "from_domain": "应用导航",
+        "to_domain": "个人中心领域",
+        "relation_type": "数据依赖",
+        "strength": 8.0,
+        "description": "App组件根据路由状态渲染个人中心页面"
+      }
+    ],
+    "business_flows": [
+      {
+        "name": "占卜服务流程",
+        "description": "用户在占卜页面选择星座，查看运势，进行卡牌占卜的过程",
+        "steps": [
+          {
+            "step": 1,
+            "domain_module": "占卜领域",
+            "sub_module": "星座运势模块",
+            "operation": "用户选择星座",
+            "code_entry_point": "app/src/components/DivinationPage.tsx"
+          },
+          {
+            "step": 2,
+            "domain_module": "占卜领域",
+            "sub_module": "星座运势模块",
+            "operation": "展示星座运势信息",
+            "code_entry_point": "app/src/components/DivinationPage.tsx"
+          },
+          {
+            "step": 3,
+            "domain_module": "占卜领域",
+            "sub_module": "卡牌占卜模块",
+            "operation": "用户点击占卜卡牌",
+            "code_entry_point": "app/src/components/DivinationPage.tsx"
+          },
+          {
+            "step": 4,
+            "domain_module": "占卜领域",
+            "sub_module": "卡牌占卜模块",
+            "operation": "显示占卜结果",
+            "code_entry_point": "app/src/components/DivinationPage.tsx"
+          }
+        ],
+        "entry_point": "DivinationPage.tsx",
+        "importance": 9.5,
+        "involved_domains_count": 2
+      },
+      {
+        "name": "风水咨询流程",
+        "description": "用户在风水页面查看罗盘，选择方位，获取风水建议的过程",
+        "steps": [
+          {
+            "step": 1,
+            "domain_module": "风水领域",
+            "sub_module": "罗盘展示模块",
+            "operation": "显示风水罗盘图像",
+            "code_entry_point": "app/src/components/FengShuiPage.tsx"
+          },
+          {
+            "step": 2,
+            "domain_module": "风水领域",
+            "sub_module": "方位运势模块",
+            "operation": "用户点击方位按钮",
+            "code_entry_point": "app/src/components/FengShuiPage.tsx"
+          },
+          {
+            "step": 3,
+            "domain_module": "风水领域",
+            "sub_module": "方位运势模块",
+            "operation": "展示该方位风水属性和建议",
+            "code_entry_point": "app/src/components/FengShuiPage.tsx"
+          }
+        ],
+        "entry_point": "FengShuiPage.tsx",
+        "importance": 8.5,
+        "involved_domains_count": 2
+      },
+      {
+        "name": "社区互动流程",
+        "description": "用户在社区页面浏览动态，参与话题讨论的过程",
+        "steps": [
+          {
+            "step": 1,
+            "domain_module": "社区领域",
+            "sub_module": "社区动态模块",
+            "operation": "展示热门话题列表",
+            "code_entry_point": "app/src/components/CommunityPage.tsx"
+          },
+          {
+            "step": 2,
+            "domain_module": "社区领域",
+            "sub_module": "社区动态模块",
+            "operation": "用户点击话题查看帖子",
+            "code_entry_point": "app/src/components/CommunityPage.tsx"
+          },
+          {
+            "step": 3,
+            "domain_module": "社区领域",
+            "sub_module": "达人咨询模块",
+            "operation": "展示达人列表",
+            "code_entry_point": "app/src/components/CommunityPage.tsx"
+          },
+          {
+            "step": 4,
+            "domain_module": "社区领域",
+            "sub_module": "达人咨询模块",
+            "operation": "用户发起咨询或查看达人信息",
+            "code_entry_point": "app/src/components/CommunityPage.tsx"
+          }
+        ],
+        "entry_point": "CommunityPage.tsx",
+        "importance": 8.0,
+        "involved_domains_count": 2
+      },
+      {
+        "name": "个人中心流程",
+        "description": "用户查看个人信息、统计数据和系统设置的过程",
+        "steps": [
+          {
+            "step": 1,
+            "domain_module": "个人中心领域",
+            "sub_module": "用户信息模块",
+            "operation": "展示用户头像和等级信息",
+            "code_entry_point": "app/src/components/ProfilePage.tsx"
+          },
+          {
+            "step": 2,
+            "domain_module": "个人中心领域",
+            "sub_module": "成就统计模块",
+            "operation": "展示统计数据和成就",
+            "code_entry_point": "app/src/components/ProfilePage.tsx"
+          },
+          {
+            "step": 3,
+            "domain_module": "个人中心领域",
+            "sub_module": "功能设置模块",
+            "operation": "用户切换不同功能菜单",
+            "code_entry_point": "app/src/components/ProfilePage.tsx"
+          },
+          {
+            "step": 4,
+            "domain_module": "个人中心领域",
+            "sub_module": "功能设置模块",
+            "operation": "用户进行系统设置或退出登录",
+            "code_entry_point": "app/src/components/ProfilePage.tsx"
+          }
+        ],
+        "entry_point": "ProfilePage.tsx",
+        "importance": 7.5,
+        "involved_domains_count": 2
+      },
+      {
+        "name": "应用导航流程",
+        "description": "用户在底部导航栏切换不同功能页面的过程",
+        "steps": [
+          {
+            "step": 1,
+            "domain_module": "应用导航",
+            "sub_module": null,
+            "operation": "App组件渲染底部导航栏",
+            "code_entry_point": "app/src/App.tsx"
+          },
+          {
+            "step": 2,
+            "domain_module": "应用导航",
+            "sub_module": null,
+            "operation": "用户点击导航标签",
+            "code_entry_point": "app/src/App.tsx"
+          },
+          {
+            "step": 3,
+            "domain_module": "应用导航",
+            "sub_module": null,
+            "operation": "App组件更新激活标签状态",
+            "code_entry_point": "app/src/App.tsx"
+          },
+          {
+            "step": 4,
+            "domain_module": "应用导航",
+            "sub_module": null,
+            "operation": "根据标签渲染对应页面组件",
+            "code_entry_point": "app/src/App.tsx"
+          }
+        ],
+        "entry_point": "App.tsx",
+        "importance": 9.0,
+        "involved_domains_count": 5
+      }
+    ],
+    "architecture_summary": "该占卜应用采用现代React前端架构，以App.tsx为入口组件，实现多页面导航系统。整体架构呈现清晰的分层结构：底层为通用UI组件库（基于Radix UI构建），中层为业务页面组件（占卜、风水、社区、个人中心四大功能模块），顶层为应用容器和导航管理。技术栈包括React 18、TypeScript、Tailwind CSS，并集成大量第三方UI组件库如Radix UI、Lucide React等。应用采用深色主题设计，营造神秘学氛围，整体架构注重组件复用性和可维护性。",
+    "confidence_score": 8.5
+  },
+  "timestamp": 1763519643,
+  "prompt_hash": "5c0c20eb14532ba45933f9816628758a",
+  "token_usage": {
+    "input_tokens": 8419,
+    "output_tokens": 2520,
+    "total_tokens": 10939
+  },
+  "model_name": null
+}

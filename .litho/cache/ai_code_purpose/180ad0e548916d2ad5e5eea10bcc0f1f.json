@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "根据分析，该文件是一个前端UI组件，具体为popover（弹出框）组件。分析依据如下：1）文件路径位于components/ui目录下，表明这是一个UI组件；2）文件名为popover.tsx，使用tsx扩展名，符合React组件命名规范；3）文件内容定义了Popover、PopoverTrigger、PopoverContent等React组件，是对@radix-ui/react-popover的封装；4）代码结构为典型的React组件定义，包含props类型定义和JSX渲染逻辑；5）功能上实现了弹出框的UI展示逻辑，属于UI组件库的一部分。因此该文件属于widget（前端UI组件）类型。"
+  },
+  "timestamp": 1763519402,
+  "prompt_hash": "180ad0e548916d2ad5e5eea10bcc0f1f",
+  "token_usage": {
+    "input_tokens": 415,
+    "output_tokens": 197,
+    "total_tokens": 612
+  },
+  "model_name": null
+}

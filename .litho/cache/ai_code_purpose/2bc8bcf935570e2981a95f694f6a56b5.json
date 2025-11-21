@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1. 文件路径位于components/ui目录下，表明这是一个UI组件；2. 文件名为checkbox.tsx，明确表示这是一个复选框组件；3. 代码结构显示这是一个React组件，使用了Radix UI的CheckboxPrimitive作为基础组件；4. 导入了React、Radix UI的Checkbox组件和图标组件；5. 函数定义了一个Checkbox组件，使用了Tailwind CSS类名进行样式处理；6. 该组件用于构建用户界面中的复选框交互元素，符合UI组件的特征。"
+  },
+  "timestamp": 1763519341,
+  "prompt_hash": "2bc8bcf935570e2981a95f694f6a56b5",
+  "token_usage": {
+    "input_tokens": 415,
+    "output_tokens": 186,
+    "total_tokens": 601
+  },
+  "model_name": null
+}

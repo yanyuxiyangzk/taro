@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "根据代码分析，这是一个前端UI组件：\n\n1. 文件路径：位于app/src/components/ui/目录下，表明这是一个UI组件\n2. 文件名：toggle-group.tsx，明确表示这是一个切换组组件\n3. 代码特征：\n   - 使用了\"use client\"指令，表明这是客户端组件\n   - 导入了React和@radix-ui/react-toggle-group，这是一个UI组件库\n   - 创建了ToggleGroupContext上下文用于组件间状态传递\n   - 定义了ToggleGroup组件函数，接收className、variant、size等UI相关属性\n   - 使用了cn工具函数处理CSS类名合并\n   - 使用了toggleVariants变体样式定义\n4. 功能：这是一个用于实现切换组（Toggle Group）UI控件的组件，允许用户在多个选项中进行单选或多选\n5. 组件类型：典型的可复用UI组件，用于构建用户界面"
+  },
+  "timestamp": 1763518920,
+  "prompt_hash": "b3f400f882a2ca49273cfee8df285dce",
+  "token_usage": {
+    "input_tokens": 413,
+    "output_tokens": 253,
+    "total_tokens": 666
+  },
+  "model_name": null
+}

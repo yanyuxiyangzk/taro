@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "根据文件路径'app\\src\\components\\ui\\breadcrumb.tsx'和文件内容分析，这是一个前端UI组件。文件位于components/ui目录下，表明这是一个UI组件库的一部分。文件名为breadcrumb.tsx，使用了React组件结构，定义了Breadcrumb、BreadcrumbList、BreadcrumbItem、BreadcrumbLink等组件，这些都用于实现面包屑导航功能。代码结构清晰，使用了TypeScript类型定义，符合现代前端UI组件的开发模式。属于特定功能的UI组件，用于构建用户界面。"
+  },
+  "timestamp": 1763519309,
+  "prompt_hash": "a89a2fc87dd1d2265f69f03163b16da9",
+  "token_usage": {
+    "input_tokens": 416,
+    "output_tokens": 182,
+    "total_tokens": 598
+  },
+  "model_name": null
+}

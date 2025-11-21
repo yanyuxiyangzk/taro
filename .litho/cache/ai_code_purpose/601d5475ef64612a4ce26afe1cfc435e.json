@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1. 文件路径在components/ui目录下，表明这是一个UI组件；2. 文件名为button.tsx，明确表示这是一个按钮组件；3. 代码内容显示这是一个React组件，使用了React和Radix UI的Slot组件；4. 使用了cva（class variance authority）来定义按钮的样式变体，这是典型的UI组件模式；5. 导入了cn工具函数用于处理CSS类名，这是UI组件的常见做法；6. 代码结构清晰，定义了buttonVariants来处理不同的按钮样式变体，符合UI组件的特征。综合以上因素，这是一个用于构建用户界面的按钮组件。"
+  },
+  "timestamp": 1763518787,
+  "prompt_hash": "601d5475ef64612a4ce26afe1cfc435e",
+  "token_usage": {
+    "input_tokens": 410,
+    "output_tokens": 208,
+    "total_tokens": 618
+  },
+  "model_name": null
+}

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "该文件是一个前端UI组件，具体是一个下拉菜单组件。从以下几个方面可以确定：\n\n1. 文件路径：位于app/src/components/ui/目录下，表明这是一个UI组件\n2. 文件名：dropdown-menu.tsx，明确表示这是一个下拉菜单组件\n3. 文件内容：\n   - 使用了\"use client\"指令，表明这是客户端组件\n   - 导入了React和Radix UI的下拉菜单原语组件\n   - 导入了lucide-react图标\n   - 定义了多个组件函数（DropdownMenu、DropdownMenuPortal、DropdownMenuTrigger、DropdownMenuContent等）\n   - 使用了cn工具函数来处理样式类名\n4. 代码结构：典型的React组件封装，将Radix UI的原始组件进行封装和定制\n5. 业务逻辑：纯粹的UI展示逻辑，没有业务逻辑处理\n\n这些都是典型的前端UI组件特征，因此归类为widget（前端UI组件）"
+  },
+  "timestamp": 1763518835,
+  "prompt_hash": "fe43681abb97a91d3f05fc46e0f42bb7",
+  "token_usage": {
+    "input_tokens": 413,
+    "output_tokens": 260,
+    "total_tokens": 673
+  },
+  "model_name": null
+}

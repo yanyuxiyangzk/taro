@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "根据分析，该文件是一个前端UI组件，具体为菜单栏组件。分析依据如下：1. 文件路径在components/ui目录下，表明这是一个UI组件；2. 文件名menubar.tsx表明这是菜单栏组件；3. 文件内容显示这是一个使用Radix UI构建的可复用UI组件，包含了Menubar、MenubarMenu、MenubarGroup等组件定义；4. 使用了React和Radix UI的MenubarPrimitive，是典型的UI组件库实现；5. 代码结构是标准的React组件定义，提供可复用的菜单栏UI功能。因此，该文件属于前端UI组件(widget)类型。"
+  },
+  "timestamp": 1763519384,
+  "prompt_hash": "39c6a8763729e48906e6ebb0d58b9640",
+  "token_usage": {
+    "input_tokens": 415,
+    "output_tokens": 193,
+    "total_tokens": 608
+  },
+  "model_name": null
+}

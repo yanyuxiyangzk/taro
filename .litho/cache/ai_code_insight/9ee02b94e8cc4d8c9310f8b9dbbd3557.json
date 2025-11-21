@@ -1,0 +1,82 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "alert-dialog.tsx",
+      "file_path": "app\\src\\components\\ui\\alert-dialog.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "AlertDialog",
+        "AlertDialogTrigger",
+        "AlertDialogPortal",
+        "AlertDialogOverlay",
+        "AlertDialogContent",
+        "AlertDialogHeader",
+        "AlertDialogFooter",
+        "AlertDialogTitle",
+        "AlertDialogDescription",
+        "AlertDialogAction",
+        "AlertDialogCancel"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "该组件是一个基于 Radix UI 的可访问性对话框实现，提供了标准化的警告对话框用户界面。组件封装了 Radix UI 的原始AlertDialog组件，添加了样式和动画效果，使得对话框在打开和关闭时具有平滑的过渡动画。组件包含完整的对话框结构：触发器、内容区域、标题、描述、页眉、页脚以及确认和取消按钮。通过使用cn工具函数，组件实现了可定制的样式，允许用户传入自定义的className来覆盖默认样式。所有子组件都继承了Radix UI的原始组件的props，保持了与底层组件的兼容性。",
+    "responsibilities": [
+      "提供可访问性对话框组件",
+      "封装Radix UI AlertDialog实现",
+      "管理样式和动画效果",
+      "提供结构化的对话框布局"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "React",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "client"
+      },
+      {
+        "name": "@radix-ui/react-alert-dialog",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "1.1.6"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "component",
+        "version": null
+      },
+      {
+        "name": "buttonVariants",
+        "path": "./button",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "component",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 157,
+      "number_of_functions": 11,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519018,
+  "prompt_hash": "9ee02b94e8cc4d8c9310f8b9dbbd3557",
+  "token_usage": {
+    "input_tokens": 1233,
+    "output_tokens": 499,
+    "total_tokens": 1732
+  },
+  "model_name": null
+}

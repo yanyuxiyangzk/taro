@@ -1,0 +1,175 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "carousel.tsx",
+      "file_path": "app\\src\\components\\ui\\carousel.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "useCarousel",
+        "Carousel",
+        "CarouselContent",
+        "CarouselItem",
+        "CarouselPrevious",
+        "CarouselNext"
+      ],
+      "interfaces": [
+        "CarouselApi",
+        "CarouselProps",
+        "CarouselContextProps"
+      ]
+    },
+    "detailed_description": "该组件是一个基于embla-carousel-react库构建的轮播图UI组件，提供了完整的轮播功能包括前后导航、键盘控制、响应式布局等。组件使用React Context实现状态共享，支持水平和垂直方向的轮播，并提供了无障碍访问支持。组件通过封装embla-carousel的API，简化了轮播功能的使用，同时保持了灵活性和可定制性。",
+    "responsibilities": [
+      "轮播状态管理与API集成",
+      "前后导航按钮控制",
+      "键盘事件处理",
+      "可访问性支持",
+      "响应式布局处理"
+    ],
+    "interfaces": [
+      {
+        "name": "CarouselApi",
+        "interface_type": "type",
+        "visibility": "public",
+        "parameters": [],
+        "return_type": "UseEmblaCarouselType[1]",
+        "description": null
+      },
+      {
+        "name": "CarouselProps",
+        "interface_type": "type",
+        "visibility": "public",
+        "parameters": [],
+        "return_type": "{ opts?: CarouselOptions; plugins?: CarouselPlugin; orientation?: \"horizontal\" | \"vertical\"; setApi?: (api: CarouselApi) => void; }",
+        "description": null
+      },
+      {
+        "name": "CarouselContextProps",
+        "interface_type": "type",
+        "visibility": "public",
+        "parameters": [],
+        "return_type": "{ carouselRef: ReturnType<typeof useEmblaCarousel>[0]; api: ReturnType<typeof useEmblaCarousel>[1]; scrollPrev: () => void; scrollNext: () => void; canScrollPrev: boolean; canScrollNext: boolean; } & CarouselProps",
+        "description": null
+      },
+      {
+        "name": "useCarousel",
+        "interface_type": "function",
+        "visibility": "public",
+        "parameters": [],
+        "return_type": "CarouselContextProps",
+        "description": null
+      },
+      {
+        "name": "Carousel",
+        "interface_type": "function",
+        "visibility": "public",
+        "parameters": [
+          {
+            "name": "orientation",
+            "param_type": "\"horizontal\" | \"vertical\"",
+            "is_optional": true,
+            "description": "轮播方向，默认为horizontal"
+          },
+          {
+            "name": "opts",
+            "param_type": "CarouselOptions",
+            "is_optional": true,
+            "description": "轮播选项配置"
+          },
+          {
+            "name": "setApi",
+            "param_type": "(api: CarouselApi) => void",
+            "is_optional": true,
+            "description": "设置轮播API的回调函数"
+          },
+          {
+            "name": "plugins",
+            "param_type": "CarouselPlugin",
+            "is_optional": true,
+            "description": "轮播插件"
+          },
+          {
+            "name": "className",
+            "param_type": "string",
+            "is_optional": true,
+            "description": "CSS类名"
+          },
+          {
+            "name": "children",
+            "param_type": "React.ReactNode",
+            "is_optional": true,
+            "description": "子元素"
+          }
+        ],
+        "return_type": "JSX.Element",
+        "description": null
+      },
+      {
+        "name": "CarouselContent",
+        "interface_type": "function",
+        "visibility": "public",
+        "parameters": [
+          {
+            "name": "className",
+            "param_type": "string",
+            "is_optional": true,
+            "description": "CSS类名"
+          }
+        ],
+        "return_type": "JSX.Element",
+        "description": null
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "embla-carousel-react",
+        "path": "embla-carousel-react@8.6.0",
+        "is_external": true,
+        "line_number": 4,
+        "dependency_type": "library",
+        "version": "8.6.0"
+      },
+      {
+        "name": "lucide-react",
+        "path": "lucide-react@0.487.0",
+        "is_external": true,
+        "line_number": 5,
+        "dependency_type": "library",
+        "version": "0.487.0"
+      },
+      {
+        "name": "react",
+        "path": "react",
+        "is_external": true,
+        "line_number": 3,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "button",
+        "path": "./button",
+        "is_external": false,
+        "line_number": 8,
+        "dependency_type": "component",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 7.0,
+      "lines_of_code": 241,
+      "number_of_functions": 6,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519062,
+  "prompt_hash": "0393b772f8875431ca517d04a7d7ff57",
+  "token_usage": {
+    "input_tokens": 1668,
+    "output_tokens": 902,
+    "total_tokens": 2570
+  },
+  "model_name": null
+}

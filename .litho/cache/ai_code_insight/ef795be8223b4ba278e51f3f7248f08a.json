@@ -1,0 +1,56 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "input.tsx",
+      "file_path": "app\\src\\components\\ui\\input.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.6,
+      "description": null,
+      "functions": [
+        "Input"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "这是一个基础的前端UI输入组件，基于React的原生input元素进行封装。该组件的主要功能是提供一个具有预设样式的输入框，通过使用cn工具函数来合并基础样式和传入的className。组件支持所有React输入元素的标准props，并添加了特定的CSS类名以实现统一的UI设计语言。它包含焦点状态、无效状态、禁用状态等不同样式变体，并支持文件输入的样式定制。该组件属于UI库的一部分，旨在提供一致的用户体验。",
+    "responsibilities": [
+      "提供统一的输入框UI组件",
+      "处理不同状态下的样式变化（焦点、无效、禁用）",
+      "支持所有原生input元素的props",
+      "应用预设的CSS样式和主题"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": 1,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": 3,
+        "dependency_type": "local",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 21,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519242,
+  "prompt_hash": "ef795be8223b4ba278e51f3f7248f08a",
+  "token_usage": {
+    "input_tokens": 502,
+    "output_tokens": 361,
+    "total_tokens": 863
+  },
+  "model_name": null
+}

@@ -1,0 +1,72 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "button.tsx",
+      "file_path": "app\\src\\components\\ui\\button.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "Button"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "该组件是一个高度可定制的按钮UI组件，基于React和Radix UI的Slot组件构建。它使用class-variance-authority(CVA)库来管理按钮的样式变体，支持多种预定义的外观样式（如default、destructive、outline等）和尺寸（如default、sm、lg、icon）。组件通过asChild属性支持将样式和行为传递给子组件，实现了灵活的组件组合能力。该组件遵循无障碍设计原则，包含了适当的焦点状态、禁用状态和错误状态的样式处理，确保了良好的用户体验。",
+    "responsibilities": [
+      "提供可定制的按钮UI组件",
+      "管理按钮的样式变体和尺寸",
+      "支持无障碍设计和状态处理",
+      "实现组件组合能力"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": 1,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "@radix-ui/react-slot",
+        "path": null,
+        "is_external": true,
+        "line_number": 2,
+        "dependency_type": "library",
+        "version": "1.1.2"
+      },
+      {
+        "name": "class-variance-authority",
+        "path": null,
+        "is_external": true,
+        "line_number": 3,
+        "dependency_type": "library",
+        "version": "0.7.1"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": 5,
+        "dependency_type": "utility",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 58,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519042,
+  "prompt_hash": "10f51a348f0825f89e7f96c3b35ba770",
+  "token_usage": {
+    "input_tokens": 791,
+    "output_tokens": 421,
+    "total_tokens": 1212
+  },
+  "model_name": null
+}

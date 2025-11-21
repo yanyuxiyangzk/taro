@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1. 文件路径位于components/ui/目录下，表明这是一个UI组件；2. 文件名为tabs.tsx，使用tsx扩展名，表明这是一个React组件；3. 代码内容显示这是一个Tabs组件的实现，包含了Tabs、TabsList、TabsTrigger等子组件，是对@radix-ui/react-tabs的封装；4. 代码结构清晰，使用React的ComponentProps进行类型定义，通过cn工具函数处理CSS类名；5. 组件具有典型的UI组件特征，没有业务逻辑，主要用于界面展示和交互；6. 组件具有可复用性，符合UI组件库的设计模式。"
+  },
+  "timestamp": 1763519452,
+  "prompt_hash": "e9f156169ae83af7cdc774e0ce7da037",
+  "token_usage": {
+    "input_tokens": 413,
+    "output_tokens": 201,
+    "total_tokens": 614
+  },
+  "model_name": null
+}

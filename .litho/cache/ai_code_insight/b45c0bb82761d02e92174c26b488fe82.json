@@ -1,0 +1,82 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "toggle-group.tsx",
+      "file_path": "app\\src\\components\\ui\\toggle-group.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "ToggleGroup",
+        "ToggleGroupItem"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "ToggleGroup组件是一个可切换的按钮组UI组件，基于Radix UI的Toggle Group原语构建。它提供了两个主要组件：ToggleGroup作为容器组件，ToggleGroupItem作为子项组件。该组件支持变体（variant）和尺寸（size）的定制，并通过React Context来传递这些属性给子项。组件具有outline变体样式，支持阴影效果，并且在第一个和最后一个子项上应用特殊的圆角样式。",
+    "responsibilities": [
+      "作为可切换按钮组的容器组件",
+      "通过Context传递变体和尺寸属性给子项",
+      "渲染单个可切换的按钮项",
+      "应用适当的样式和圆角到子项",
+      "支持outline变体的边框处理"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "@radix-ui/react-toggle-group",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "component",
+        "version": "1.1.2"
+      },
+      {
+        "name": "class-variance-authority",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "utility",
+        "version": "0.7.1"
+      },
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "framework",
+        "version": null
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "utility",
+        "version": null
+      },
+      {
+        "name": "toggleVariants",
+        "path": "./toggle",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "component",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 73,
+      "number_of_functions": 2,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519205,
+  "prompt_hash": "b45c0bb82761d02e92174c26b488fe82",
+  "token_usage": {
+    "input_tokens": 748,
+    "output_tokens": 462,
+    "total_tokens": 1210
+  },
+  "model_name": null
+}

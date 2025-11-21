@@ -1,0 +1,79 @@
+{
+  "data": {
+    "cli_boundaries": [],
+    "api_boundaries": [],
+    "router_boundaries": [
+      {
+        "path": "/",
+        "description": "应用主入口页面，包含底部导航栏，支持占卜、风水、社区和我的四个标签页",
+        "source_location": "app/src/App.tsx",
+        "params": []
+      },
+      {
+        "path": "/divination",
+        "description": "占卜功能页面，提供星座运势、卡牌占卜等占卜服务",
+        "source_location": "app/src/components/DivinationPage.tsx",
+        "params": []
+      },
+      {
+        "path": "/fengshui",
+        "description": "风水功能页面，提供风水方位建议和家居布局指导",
+        "source_location": "app/src/components/FengShuiPage.tsx",
+        "params": []
+      },
+      {
+        "path": "/community",
+        "description": "社区互动页面，用户可以发布内容、查看达人咨询和社区活动",
+        "source_location": "app/src/components/CommunityPage.tsx",
+        "params": []
+      },
+      {
+        "path": "/profile",
+        "description": "个人中心页面，展示用户信息、成就系统和个人设置",
+        "source_location": "app/src/components/ProfilePage.tsx",
+        "params": []
+      }
+    ],
+    "integration_suggestions": [
+      {
+        "integration_type": "UI组件集成",
+        "description": "通过React组件方式集成到现有React应用中",
+        "example_code": "import App from 'path/to/your/divination-app/App';\n\nfunction YourApp() {\n  return (\n    <div>\n      <header>你的应用头部</header>\n      <App /> {/* 集成占卜应用 */}\n    </div>\n  );\n}",
+        "best_practices": [
+          "确保项目中已安装React及相关依赖",
+          "正确配置CSS样式以保持视觉一致性",
+          "使用相同的主题变量系统"
+        ]
+      },
+      {
+        "integration_type": "微前端集成",
+        "description": "通过微前端框架将占卜应用嵌入到更大的系统中",
+        "example_code": "// 使用single-spa等微前端框架\nconst lifecycles = {\n  bootstrap: async () => {\n    console.log('占卜应用开始加载');\n  },\n  mount: async () => {\n    ReactDOM.render(\n      <App />,\n      document.getElementById('divination-app')\n    );\n  },\n  unmount: async () => {\n    ReactDOM.unmountComponentAtNode(\n      document.getElementById('divination-app')\n    );\n  }\n};",
+        "best_practices": [
+          "确保应用间的样式隔离",
+          "处理好全局状态管理",
+          "注意资源加载顺序"
+        ]
+      },
+      {
+        "integration_type": "IFrame集成",
+        "description": "通过IFrame方式嵌入占卜应用，适合简单集成场景",
+        "example_code": "<!-- 在HTML中嵌入占卜应用 -->\n<iframe \n  src=\"https://your-divination-app.com\" \n  width=\"100%\" \n  height=\"600px\"\n  frameborder=\"0\"\n  title=\"占卜应用\">\n</iframe>",
+        "best_practices": [
+          "设置合适的iframe尺寸",
+          "注意跨域安全策略",
+          "处理好通信机制"
+        ]
+      }
+    ],
+    "confidence_score": 7.5
+  },
+  "timestamp": 1763519772,
+  "prompt_hash": "b8e5840a577e0367f1fb5415f489fd70",
+  "token_usage": {
+    "input_tokens": 5939,
+    "output_tokens": 656,
+    "total_tokens": 6595
+  },
+  "model_name": null
+}

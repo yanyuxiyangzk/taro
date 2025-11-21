@@ -1,0 +1,75 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "input-otp.tsx",
+      "file_path": "app\\src\\components\\ui\\input-otp.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "InputOTP",
+        "InputOTPGroup",
+        "InputOTPSlot",
+        "InputOTPSeparator"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "该组件是一个用于处理一次性密码(OTP)输入的UI组件库。它基于第三方OTP输入库(input-otp@1.4.2)进行了封装，提供了完整的OTP输入体验，包括输入框、分组、插槽和分隔符。组件支持字符显示、活动状态指示、虚拟光标动画、错误状态以及禁用状态等丰富的交互特性。通过使用OTPInputContext上下文来管理各个插槽的状态，如当前字符、是否激活、是否有虚拟光标等。整个组件设计遵循了可访问性标准，包含适当的ARIA标签和语义化属性。",
+    "responsibilities": [
+      "提供OTP输入的UI组件集合",
+      "管理OTP输入的视觉状态（激活、错误、禁用等）",
+      "处理OTP输入的动画效果（光标闪烁）",
+      "实现OTP输入的可访问性支持"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "input-otp",
+        "path": null,
+        "is_external": true,
+        "line_number": 3,
+        "dependency_type": "library",
+        "version": "1.4.2"
+      },
+      {
+        "name": "lucide-react",
+        "path": null,
+        "is_external": true,
+        "line_number": 4,
+        "dependency_type": "library",
+        "version": "0.487.0"
+      },
+      {
+        "name": "React",
+        "path": null,
+        "is_external": true,
+        "line_number": 2,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": 6,
+        "dependency_type": "local",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 77,
+      "number_of_functions": 4,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519140,
+  "prompt_hash": "c610c50043d07fe347e01030a3e653f3",
+  "token_usage": {
+    "input_tokens": 837,
+    "output_tokens": 442,
+    "total_tokens": 1279
+  },
+  "model_name": null
+}

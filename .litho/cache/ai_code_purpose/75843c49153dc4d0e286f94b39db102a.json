@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1.文件路径在components/ui目录下，表明这是一个UI组件；2.文件名为skeleton.tsx，使用tsx扩展名，符合React组件规范；3.代码实现了一个Skeleton组件，用于显示加载占位符效果；4.导入了cn工具函数用于样式处理；5.组件结构简单，只包含一个div元素，添加了动画和样式类；6.该组件用于UI展示，没有业务逻辑，属于前端UI组件(widget)类型。"
+  },
+  "timestamp": 1763519499,
+  "prompt_hash": "75843c49153dc4d0e286f94b39db102a",
+  "token_usage": {
+    "input_tokens": 233,
+    "output_tokens": 169,
+    "total_tokens": 402
+  },
+  "model_name": null
+}

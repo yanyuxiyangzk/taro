@@ -1,0 +1,64 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "progress.tsx",
+      "file_path": "app\\src\\components\\ui\\progress.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.6,
+      "description": null,
+      "functions": [
+        "Progress"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "Progress组件是一个进度条UI组件，基于Radix UI的ProgressPrimitive构建。它接收一个value属性来表示当前进度（0-100），通过CSS变换(transform)来实现进度指示器的动画效果。组件使用了cn工具函数来合并CSS类名，并提供了良好的可定制性，支持传递额外的props给底层的ProgressPrimitive.Root组件。",
+    "responsibilities": [
+      "渲染进度条UI",
+      "处理进度值显示",
+      "提供可定制的外观",
+      "管理进度条动画效果"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "import",
+        "version": null
+      },
+      {
+        "name": "@radix-ui/react-progress",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "import",
+        "version": "1.1.2"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "import",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 31,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519248,
+  "prompt_hash": "97548ff31a9f07976c00bd4f28f07c61",
+  "token_usage": {
+    "input_tokens": 450,
+    "output_tokens": 348,
+    "total_tokens": 798
+  },
+  "model_name": null
+}

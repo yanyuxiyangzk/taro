@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1. 文件路径在components/ui目录下，表明这是一个UI组件；2. 文件名为avatar.tsx，使用tsx扩展名，表明这是React组件；3. 代码结构显示定义了Avatar、AvatarImage、AvatarFallback三个UI组件函数；4. 导入了React和@radix-ui/react-avatar库，用于构建头像组件；5. 组件使用了cn工具函数进行样式类名合并，这是典型的UI组件实现方式；6. 从代码功能看，这是实现用户头像显示的UI组件，包含头像图片和备选显示功能，符合前端UI组件的特征。"
+  },
+  "timestamp": 1763519298,
+  "prompt_hash": "b5fff7f31dc70a7d6050771c97e18474",
+  "token_usage": {
+    "input_tokens": 414,
+    "output_tokens": 196,
+    "total_tokens": 610
+  },
+  "model_name": null
+}

@@ -1,0 +1,67 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "alert.tsx",
+      "file_path": "app\\src\\components\\ui\\alert.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "Alert",
+        "AlertTitle",
+        "AlertDescription"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "Alert组件是一个可复用的UI通知组件，提供了三种预定义的样式变体：默认样式和破坏性样式。该组件基于React和class-variance-authority库构建，支持通过variant属性控制样式变体，通过className属性自定义样式。组件内部使用了CSS Grid布局来实现图标和文本内容的排列，并使用了Tailwind CSS的实用类来实现样式。组件包含三个子组件：Alert（主容器）、AlertTitle（标题）和AlertDescription（描述），它们共同构成了一个完整的通知信息展示区域。组件使用了data-slot属性来标识不同的功能区域，便于样式定制和测试。",
+    "responsibilities": [
+      "提供可定制的通知组件UI",
+      "管理不同样式变体的渲染",
+      "处理图标和文本内容的布局",
+      "支持通过props自定义组件外观",
+      "定义组件的语义化结构"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": 1,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "class-variance-authority",
+        "path": null,
+        "is_external": true,
+        "line_number": 2,
+        "dependency_type": "library",
+        "version": "0.7.1"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": 4,
+        "dependency_type": "local",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 66,
+      "number_of_functions": 3,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519017,
+  "prompt_hash": "e4e0b963a2e66545658bd905202d0f24",
+  "token_usage": {
+    "input_tokens": 668,
+    "output_tokens": 431,
+    "total_tokens": 1099
+  },
+  "model_name": null
+}

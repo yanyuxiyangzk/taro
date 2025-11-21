@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1) 文件路径位于components/ui目录下，表明这是一个UI组件；2) 文件名为resizable.tsx，使用tsx扩展名，表明这是一个React组件；3) 代码内容显示定义了ResizablePanelGroup、ResizablePanel和ResizableHandle三个UI组件，它们是对react-resizable-panels库的封装；4) 使用了React.ComponentProps进行类型定义，符合现代React组件开发规范；5) 包含了cn工具函数用于样式处理，典型UI组件的特征；6) 代码结构清晰，仅包含组件定义，无业务逻辑，属于可复用的UI组件。因此，这是一个前端UI组件(widget)。"
+  },
+  "timestamp": 1763519412,
+  "prompt_hash": "52ea61eb59efd798981f705ec6737518",
+  "token_usage": {
+    "input_tokens": 416,
+    "output_tokens": 210,
+    "total_tokens": 626
+  },
+  "model_name": null
+}

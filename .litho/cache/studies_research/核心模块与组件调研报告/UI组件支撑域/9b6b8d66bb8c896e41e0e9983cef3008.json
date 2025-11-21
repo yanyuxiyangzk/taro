@@ -1,0 +1,29 @@
+{
+  "data": {
+    "domain_name": "UI组件支撑域",
+    "module_name": "基础UI组件",
+    "module_description": "包含按钮、卡片、输入框等基础UI组件，提供通用UI组件库，包括表单、导航、数据展示等基础组件，基于Radix UI原语构建，使用Tailwind CSS进行样式设计",
+    "interaction": "组件间通过React的Props机制进行交互，使用Context API实现状态共享，通过事件回调函数处理用户交互，遵循无障碍设计标准，支持键盘导航和ARIA属性",
+    "implementation": "基于Radix UI原语构建，使用React函数组件和Hooks实现，采用TypeScript进行类型定义，通过class-variance-authority(CVA)管理样式变体，使用Tailwind CSS进行样式设计，通过cn工具函数合并CSS类名",
+    "associated_files": [
+      "app/src/components/ui/button.tsx",
+      "app/src/components/ui/card.tsx",
+      "app/src/components/ui/input.tsx",
+      "app/src/components/ui/utils.ts",
+      "app/src/components/ui/label.tsx",
+      "app/src/components/ui/textarea.tsx",
+      "app/src/components/ui/separator.tsx",
+      "app/src/components/ui/skeleton.tsx"
+    ],
+    "flowchart_mermaid": "graph TD\n    A[UI组件请求] --> B[React组件渲染]\n    B --> C{组件类型判断}\n    C -->|按钮| D[Button组件]\n    C -->|卡片| E[Card组件]\n    C -->|输入框| F[Input组件]\n    C -->|标签| G[Label组件]\n    D --> H[Radix UI原语]\n    E --> H\n    F --> H\n    G --> H\n    H --> I[Tailwind CSS样式]\n    I --> J[最终UI渲染]",
+    "sequence_diagram_mermaid": "sequenceDiagram\n    participant App as 应用组件\n    participant Component as UI组件\n    participant Radix as Radix UI原语\n    participant Styles as 样式系统\n    \n    App->>Component: 请求UI组件渲染\n    Component->>Radix: 调用原语组件\n    Radix->>Styles: 应用样式类\n    Styles->>Component: 返回样式化组件\n    Component->>App: 返回最终组件"
+  },
+  "timestamp": 1763519756,
+  "prompt_hash": "9b6b8d66bb8c896e41e0e9983cef3008",
+  "token_usage": {
+    "input_tokens": 44243,
+    "output_tokens": 487,
+    "total_tokens": 44730
+  },
+  "model_name": null
+}

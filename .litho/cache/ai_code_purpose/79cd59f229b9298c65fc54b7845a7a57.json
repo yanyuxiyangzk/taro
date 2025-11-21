@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "util",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个React自定义Hook，用于检测设备是否为移动端。从以下几个方面分析：1）文件路径位于components/ui目录下，表明这是一个UI相关的组件；2）文件名use-mobile.ts遵循React Hook的命名规范，以'use'开头；3）代码实现了一个简单的移动端检测功能，通过监听窗口宽度变化来判断是否为移动设备；4）该功能是通用的UI响应式工具，不包含具体业务逻辑，属于通用工具函数；5）代码结构简洁，符合工具函数的特征。因此归类为util（通用工具函数）。"
+  },
+  "timestamp": 1763519512,
+  "prompt_hash": "79cd59f229b9298c65fc54b7845a7a57",
+  "token_usage": {
+    "input_tokens": 311,
+    "output_tokens": 190,
+    "total_tokens": 501
+  },
+  "model_name": null
+}

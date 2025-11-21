@@ -1,0 +1,73 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "drawer.tsx",
+      "file_path": "app\\src\\components\\ui\\drawer.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "Drawer",
+        "DrawerTrigger",
+        "DrawerPortal",
+        "DrawerClose",
+        "DrawerOverlay",
+        "DrawerContent",
+        "DrawerHeader",
+        "DrawerFooter",
+        "DrawerTitle",
+        "DrawerDescription"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "此组件是一个基于Vaul库的抽屉式UI组件，提供了一个可滑动的侧边面板功能。它封装了Vaul原生API，为应用程序提供了一套完整的抽屉交互界面，支持上下左右四个方向的抽屉展示。组件包含抽屉的整体结构、触发器、内容区域、标题、描述、页脚和页眉等功能模块，具有良好的动画效果和响应式设计。",
+    "responsibilities": [
+      "提供抽屉界面的完整组件体系，包括触发器、内容、标题、描述等子组件",
+      "封装Vaul抽屉库的复杂API，为上层应用提供简化的界面接口",
+      "管理抽屉的动画效果、位置布局和样式定制",
+      "处理抽屉在不同方向（上下左右）的展示逻辑"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "vaul@1.1.2",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "1.1.2"
+      },
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "utility",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 132,
+      "number_of_functions": 10,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519099,
+  "prompt_hash": "05397def423e57b58fd8590eb4483458",
+  "token_usage": {
+    "input_tokens": 1285,
+    "output_tokens": 423,
+    "total_tokens": 1708
+  },
+  "model_name": null
+}

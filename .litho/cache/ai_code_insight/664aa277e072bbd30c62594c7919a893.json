@@ -1,0 +1,48 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "use-mobile.ts",
+      "file_path": "app\\src\\components\\ui\\use-mobile.ts",
+      "source_summary": "",
+      "code_purpose": "util",
+      "importance_score": 0.6,
+      "description": null,
+      "functions": [
+        "useIsMobile"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "use-mobile.ts 是一个React自定义Hook组件，主要用于检测当前设备是否为移动设备。组件通过监听窗口宽度变化，使用CSS媒体查询来判断当前设备是否小于指定的断点值(MOBILE_BREAKPOINT = 768px)。组件采用React的useState和useEffect Hooks来管理响应式状态，当窗口大小发生变化时自动更新isMobile状态。该组件实现了一个响应式的移动设备检测机制，通过事件监听器确保在窗口大小改变时状态能够正确更新。",
+    "responsibilities": [
+      "检测设备类型",
+      "监听窗口尺寸变化",
+      "管理响应式状态",
+      "提供移动设备检测能力"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "React",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 21,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519545,
+  "prompt_hash": "664aa277e072bbd30c62594c7919a893",
+  "token_usage": {
+    "input_tokens": 411,
+    "output_tokens": 321,
+    "total_tokens": 732
+  },
+  "model_name": null
+}

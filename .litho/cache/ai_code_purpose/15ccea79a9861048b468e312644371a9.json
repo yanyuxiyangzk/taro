@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "该文件是一个前端UI组件，具体是一个tooltip（提示框）组件。从以下几个方面可以确定：1) 文件路径位于components/ui目录下，表明这是一个UI组件；2) 文件扩展名为tsx，是React组件的标准格式；3) 代码中定义了多个React组件（TooltipProvider、Tooltip、TooltipTrigger、TooltipContent），这些都是tooltip功能的不同部分；4) 使用了@radix-ui/react-tooltip库，这是一个UI组件库；5) 组件结构清晰，提供了tooltip的完整功能实现，包括提供者、根组件、触发器和内容展示等。这完全符合前端UI组件的特征。"
+  },
+  "timestamp": 1763519469,
+  "prompt_hash": "15ccea79a9861048b468e312644371a9",
+  "token_usage": {
+    "input_tokens": 415,
+    "output_tokens": 200,
+    "total_tokens": 615
+  },
+  "model_name": null
+}

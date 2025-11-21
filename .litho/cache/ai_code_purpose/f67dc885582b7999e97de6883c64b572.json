@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "根据文件路径`app\\src\\components\\ui\\switch.tsx`和文件内容分析，这是一个前端UI组件。文件位于components/ui目录下，表明这是一个用户界面组件。代码实现了一个Switch开关组件，使用了React和Radix UI原语，具有典型的UI组件特征：接收className和props参数，返回JSX元素，包含样式类名和状态处理。该组件用于构建用户界面中的开关控件，属于前端UI组件类别。"
+  },
+  "timestamp": 1763519441,
+  "prompt_hash": "f67dc885582b7999e97de6883c64b572",
+  "token_usage": {
+    "input_tokens": 414,
+    "output_tokens": 165,
+    "total_tokens": 579
+  },
+  "model_name": null
+}

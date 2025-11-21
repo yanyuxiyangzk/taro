@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体是一个表格组件的实现。从以下几个方面可以确定：\n1. 文件路径：位于app/src/components/ui/目录下，明确表示这是一个UI组件\n2. 文件扩展名：.tsx表示这是一个React组件文件\n3. 文件内容：实现了一个完整的表格组件，包含Table、TableHeader、TableBody、TableFooter等子组件\n4. 组件特征：使用了React.ComponentProps类型定义props，使用了cn工具函数处理样式，具有典型的UI组件特征\n5. 功能定位：实现了表格的基础结构和样式封装，供其他组件复用\n因此，该文件属于widget（前端UI组件）类别"
+  },
+  "timestamp": 1763518910,
+  "prompt_hash": "53c4783d4d75dd1f7d6e4a3269d93791",
+  "token_usage": {
+    "input_tokens": 409,
+    "output_tokens": 209,
+    "total_tokens": 618
+  },
+  "model_name": null
+}

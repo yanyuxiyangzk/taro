@@ -1,0 +1,674 @@
+{
+  "data": {
+    "project_name": "",
+    "root_path": ".",
+    "directories": [
+      {
+        "path": ".\\app\\src\\components\\figma",
+        "name": "figma",
+        "file_count": 1,
+        "subdirectory_count": 0,
+        "total_size": 1153,
+        "importance_score": 0.0
+      },
+      {
+        "path": ".\\app\\src\\components\\ui",
+        "name": "ui",
+        "file_count": 48,
+        "subdirectory_count": 0,
+        "total_size": 149666,
+        "importance_score": 0.2
+      },
+      {
+        "path": ".\\app\\src\\components",
+        "name": "components",
+        "file_count": 4,
+        "subdirectory_count": 2,
+        "total_size": 41968,
+        "importance_score": 0.0
+      },
+      {
+        "path": ".\\app\\src\\guidelines",
+        "name": "guidelines",
+        "file_count": 0,
+        "subdirectory_count": 0,
+        "total_size": 0,
+        "importance_score": 0.0
+      },
+      {
+        "path": ".\\app\\src\\styles",
+        "name": "styles",
+        "file_count": 1,
+        "subdirectory_count": 0,
+        "total_size": 5630,
+        "importance_score": 0.0
+      },
+      {
+        "path": ".\\app\\src",
+        "name": "src",
+        "file_count": 2,
+        "subdirectory_count": 3,
+        "total_size": 3712,
+        "importance_score": 0.5
+      },
+      {
+        "path": ".\\app",
+        "name": "app",
+        "file_count": 3,
+        "subdirectory_count": 1,
+        "total_size": 5401,
+        "importance_score": 0.0
+      }
+    ],
+    "files": [
+      {
+        "path": "app\\index.html",
+        "name": "index.html",
+        "size": 338,
+        "extension": "html",
+        "is_core": false,
+        "importance_score": 0.30000000000000004,
+        "complexity_score": 0.0,
+        "last_modified": "1762830511"
+      },
+      {
+        "path": "app\\package.json",
+        "name": "package.json",
+        "size": 2189,
+        "extension": "json",
+        "is_core": false,
+        "importance_score": 0.30000000000000004,
+        "complexity_score": 0.0,
+        "last_modified": "1762830511"
+      },
+      {
+        "path": "app\\src\\App.tsx",
+        "name": "App.tsx",
+        "size": 3540,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\CommunityPage.tsx",
+        "name": "CommunityPage.tsx",
+        "size": 15388,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\DivinationPage.tsx",
+        "name": "DivinationPage.tsx",
+        "size": 11987,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\FengShuiPage.tsx",
+        "name": "FengShuiPage.tsx",
+        "size": 7649,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\figma\\ImageWithFallback.tsx",
+        "name": "ImageWithFallback.tsx",
+        "size": 1153,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ProfilePage.tsx",
+        "name": "ProfilePage.tsx",
+        "size": 6944,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\accordion.tsx",
+        "name": "accordion.tsx",
+        "size": 2074,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\alert-dialog.tsx",
+        "name": "alert-dialog.tsx",
+        "size": 3872,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\alert.tsx",
+        "name": "alert.tsx",
+        "size": 1627,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\aspect-ratio.tsx",
+        "name": "aspect-ratio.tsx",
+        "size": 290,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.6,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\avatar.tsx",
+        "name": "avatar.tsx",
+        "size": 1110,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\badge.tsx",
+        "name": "badge.tsx",
+        "size": 1648,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\breadcrumb.tsx",
+        "name": "breadcrumb.tsx",
+        "size": 2382,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\button.tsx",
+        "name": "button.tsx",
+        "size": 2118,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\calendar.tsx",
+        "name": "calendar.tsx",
+        "size": 2928,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\card.tsx",
+        "name": "card.tsx",
+        "size": 1988,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\carousel.tsx",
+        "name": "carousel.tsx",
+        "size": 5620,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\chart.tsx",
+        "name": "chart.tsx",
+        "size": 9859,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\checkbox.tsx",
+        "name": "checkbox.tsx",
+        "size": 1258,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\collapsible.tsx",
+        "name": "collapsible.tsx",
+        "size": 812,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.6,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\command.tsx",
+        "name": "command.tsx",
+        "size": 4676,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\context-menu.tsx",
+        "name": "context-menu.tsx",
+        "size": 8265,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\dialog.tsx",
+        "name": "dialog.tsx",
+        "size": 3842,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\drawer.tsx",
+        "name": "drawer.tsx",
+        "size": 4091,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\dropdown-menu.tsx",
+        "name": "dropdown-menu.tsx",
+        "size": 8327,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\form.tsx",
+        "name": "form.tsx",
+        "size": 3804,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\hover-card.tsx",
+        "name": "hover-card.tsx",
+        "size": 1543,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\input-otp.tsx",
+        "name": "input-otp.tsx",
+        "size": 2296,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\input.tsx",
+        "name": "input.tsx",
+        "size": 963,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.6,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\label.tsx",
+        "name": "label.tsx",
+        "size": 620,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.6,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\menubar.tsx",
+        "name": "menubar.tsx",
+        "size": 8440,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\navigation-menu.tsx",
+        "name": "navigation-menu.tsx",
+        "size": 6704,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\pagination.tsx",
+        "name": "pagination.tsx",
+        "size": 2717,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\popover.tsx",
+        "name": "popover.tsx",
+        "size": 1647,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\progress.tsx",
+        "name": "progress.tsx",
+        "size": 749,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.6,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\radio-group.tsx",
+        "name": "radio-group.tsx",
+        "size": 1485,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\resizable.tsx",
+        "name": "resizable.tsx",
+        "size": 2050,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\scroll-area.tsx",
+        "name": "scroll-area.tsx",
+        "size": 1655,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\select.tsx",
+        "name": "select.tsx",
+        "size": 6289,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\separator.tsx",
+        "name": "separator.tsx",
+        "size": 713,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.6,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\sheet.tsx",
+        "name": "sheet.tsx",
+        "size": 4119,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\sidebar.tsx",
+        "name": "sidebar.tsx",
+        "size": 21683,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\skeleton.tsx",
+        "name": "skeleton.tsx",
+        "size": 275,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.6,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\slider.tsx",
+        "name": "slider.tsx",
+        "size": 2012,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\sonner.tsx",
+        "name": "sonner.tsx",
+        "size": 583,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.6,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\switch.tsx",
+        "name": "switch.tsx",
+        "size": 1188,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\table.tsx",
+        "name": "table.tsx",
+        "size": 2460,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\tabs.tsx",
+        "name": "tabs.tsx",
+        "size": 1951,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\textarea.tsx",
+        "name": "textarea.tsx",
+        "size": 767,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.6,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\toggle-group.tsx",
+        "name": "toggle-group.tsx",
+        "size": 1932,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\toggle.tsx",
+        "name": "toggle.tsx",
+        "size": 1577,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\tooltip.tsx",
+        "name": "tooltip.tsx",
+        "size": 1903,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\use-mobile.ts",
+        "name": "use-mobile.ts",
+        "size": 585,
+        "extension": "ts",
+        "is_core": true,
+        "importance_score": 0.6,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\components\\ui\\utils.ts",
+        "name": "utils.ts",
+        "size": 169,
+        "extension": "ts",
+        "is_core": true,
+        "importance_score": 0.6,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\src\\main.tsx",
+        "name": "main.tsx",
+        "size": 172,
+        "extension": "tsx",
+        "is_core": true,
+        "importance_score": 0.8,
+        "complexity_score": 0.0,
+        "last_modified": "1762830511"
+      },
+      {
+        "path": "app\\src\\styles\\globals.css",
+        "name": "globals.css",
+        "size": 5630,
+        "extension": "css",
+        "is_core": true,
+        "importance_score": 0.6,
+        "complexity_score": 0.0,
+        "last_modified": "1762830512"
+      },
+      {
+        "path": "app\\vite.config.ts",
+        "name": "vite.config.ts",
+        "size": 2874,
+        "extension": "ts",
+        "is_core": true,
+        "importance_score": 0.6000000000000001,
+        "complexity_score": 0.0,
+        "last_modified": "1762830511"
+      }
+    ],
+    "total_files": 59,
+    "total_directories": 7,
+    "file_types": {
+      "html": 1,
+      "json": 1,
+      "css": 1,
+      "tsx": 53,
+      "ts": 3
+    },
+    "size_distribution": {
+      "tiny": 13,
+      "small": 43,
+      "medium": 3
+    }
+  },
+  "timestamp": 1763519270,
+  "prompt_hash": "81ce170d34aadf59b5341dea337be584",
+  "token_usage": null,
+  "model_name": null
+}

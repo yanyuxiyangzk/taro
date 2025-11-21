@@ -1,0 +1,22 @@
+{
+  "data": {
+    "domain_name": "占卜领域",
+    "module_name": "DivinationPage",
+    "module_description": "DivinationPage 是一个占卜功能的前端页面组件，提供星座运势、卡牌占卜等玄学服务界面。该组件主要功能包括：1) 星座选择器，用户可切换不同的星座；2) 轮播图展示占卜服务横幅；3) 今日运势展示，包括综合评分和健康、爱情、事业、财富四个维度的进度条；4) 占卜卡牌网格，提供多种占卜服务入口；5) 神秘之书功能区。页面采用深紫色主题，营造神秘氛围，并使用渐变背景、毛玻璃效果等视觉设计。",
+    "interaction": "该组件采用React函数组件实现，通过useState管理组件内部状态如选中星座、星座选择器显示状态、当前横幅索引和综合评分。通过useEffect实现横幅自动轮播功能。组件与用户交互包括：1) 星座选择下拉菜单交互，通过按钮点击显示/隐藏星座列表；2) 卡牌点击交互，每个占卜卡牌都是可点击的；3) 横幅轮播控制，支持手动切换和自动播放；4) 进度条动态展示各维度运势数据。",
+    "implementation": "该组件使用React、TypeScript和Tailwind CSS实现，采用以下技术方案：1) 使用useState管理组件状态，包括选中星座、星座选择器状态、横幅索引等；2) 使用useEffect实现轮播图自动切换功能；3) 使用Tailwind CSS实现响应式布局和视觉效果，包括渐变背景、毛玻璃效果(backdrop-blur)、动画效果等；4) 使用Grid布局实现星座选择器和占卜卡牌网格；5) 使用CSS过渡动画实现卡牌悬停效果和进度条填充动画；6) 使用绝对定位实现背景图片和装饰元素的视觉层次。",
+    "associated_files": [
+      "app/src/components/DivinationPage.tsx"
+    ],
+    "flowchart_mermaid": "graph TD\n    A[组件初始化] --> B[设置初始状态]\n    B --> C[渲染UI结构]\n    C --> D[星座选择器渲染]\n    C --> E[轮播图渲染]\n    C --> F[运势展示渲染]\n    C --> G[占卜卡牌网格渲染]\n    D --> H[处理星座选择事件]\n    E --> I[轮播图自动切换定时器]\n    F --> J[显示运势进度条]\n    G --> K[卡牌点击事件处理]\n    H --> L[更新选中星座状态]\n    I --> M[更新轮播索引]\n    L --> N[重新渲染UI]\n    M --> N\n    K --> O[跳转占卜服务]\n    N --> P{用户交互}\n    P -->|星座选择| H\n    P -->|卡牌点击| K\n    P -->|轮播控制| M\n    P -->|其他| N",
+    "sequence_diagram_mermaid": "sequenceDiagram\n    participant User as 用户\n    participant Component as DivinationPage组件\n    participant State as React状态管理\n    participant UI as UI渲染\n    \n    User->>Component: 访问占卜页面\n    Component->>State: 初始化状态(selectedZodiac, showZodiacSelect, currentBanner, overallScore)\n    State->>UI: 渲染初始UI\n    UI->>User: 显示占卜页面\n    \n    User->>UI: 点击星座选择器\n    UI->>Component: 触发setShowZodiacSelect(true)\n    Component->>UI: 显示星座选择下拉菜单\n    \n    User->>UI: 选择星座\n    UI->>Component: 触发setSelectedZodiac(新星座)\n    Component->>UI: 更新星座显示并重新渲染运势\n    \n    User->>UI: 点击占卜卡牌\n    UI->>Component: 触发卡牌点击事件\n    Component->>Component: 处理占卜服务跳转\n    \n    Component->>State: useEffect设置轮播定时器\n    State->>Component: 定时更新currentBanner\n    Component->>UI: 更新轮播图显示"
+  },
+  "timestamp": 1763519726,
+  "prompt_hash": "49ac4bd35dfb2e44714f8b41362af033",
+  "token_usage": {
+    "input_tokens": 3391,
+    "output_tokens": 845,
+    "total_tokens": 4236
+  },
+  "model_name": null
+}

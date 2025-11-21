@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个React组件，位于components目录下，文件名为ImageWithFallback.tsx。代码实现了一个带有fallback功能的图片组件，当图片加载失败时显示默认的SVG图标。这是一个可重用的UI组件，符合widget的定义。代码结构清晰，使用了React的useState Hook来管理错误状态，并提供了优雅的图片加载失败处理机制。"
+  },
+  "timestamp": 1763519274,
+  "prompt_hash": "9cad9811696cd45de397858d77bdb942",
+  "token_usage": {
+    "input_tokens": 420,
+    "output_tokens": 151,
+    "total_tokens": 571
+  },
+  "model_name": null
+}

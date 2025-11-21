@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "根据分析，这个文件是一个前端UI组件，具体是一个Badge（徽章）组件。分析依据如下：1）文件路径位于components/ui/目录下，明确表明这是一个UI组件；2）文件名为badge.tsx，使用tsx扩展名，符合React组件命名规范；3）代码内容显示这是一个使用React和class-variance-authority库构建的UI组件，定义了badgeVariants样式变体，具有default、secondary、destructive等不同样式；4）导入了React、Slot、cva等UI相关库，并使用了cn工具函数；5）从代码结构看，这是一个专门用于展示小型标签或徽章的UI组件，具有明确的样式和变体控制，符合前端UI组件的特征。"
+  },
+  "timestamp": 1763519304,
+  "prompt_hash": "3b76feaaef97acc2ed58b29946c4efcd",
+  "token_usage": {
+    "input_tokens": 414,
+    "output_tokens": 215,
+    "total_tokens": 629
+  },
+  "model_name": null
+}

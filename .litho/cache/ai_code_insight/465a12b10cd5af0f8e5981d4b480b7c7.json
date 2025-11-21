@@ -1,0 +1,86 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "dropdown-menu.tsx",
+      "file_path": "app\\src\\components\\ui\\dropdown-menu.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "DropdownMenu",
+        "DropdownMenuPortal",
+        "DropdownMenuTrigger",
+        "DropdownMenuContent",
+        "DropdownMenuGroup",
+        "DropdownMenuItem",
+        "DropdownMenuCheckboxItem",
+        "DropdownMenuRadioGroup",
+        "DropdownMenuRadioItem",
+        "DropdownMenuLabel",
+        "DropdownMenuSeparator",
+        "DropdownMenuShortcut",
+        "DropdownMenuSub",
+        "DropdownMenuSubTrigger",
+        "DropdownMenuSubContent"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "这是一个基于Radix UI的下拉菜单组件实现，提供了完整的下拉菜单功能。该组件包装了Radix UI的原生下拉菜单组件，增加了Tailwind CSS样式类以实现美观的视觉效果。组件包含多种子组件，如触发器、内容区域、菜单项、复选框项、单选项、分割线、标签等，支持嵌套子菜单和快捷键显示。所有组件都使用Radix UI的原语，确保无障碍访问和键盘导航的支持。",
+    "responsibilities": [
+      "提供可访问的下拉菜单UI组件",
+      "处理菜单项的样式和交互",
+      "管理下拉菜单的显示和隐藏逻辑",
+      "支持菜单项的复选框和单选功能"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "@radix-ui/react-dropdown-menu",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "2.1.6"
+      },
+      {
+        "name": "lucide-react",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "0.487.0"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "internal",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 257,
+      "number_of_functions": 15,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519119,
+  "prompt_hash": "465a12b10cd5af0f8e5981d4b480b7c7",
+  "token_usage": {
+    "input_tokens": 2347,
+    "output_tokens": 494,
+    "total_tokens": 2841
+  },
+  "model_name": null
+}

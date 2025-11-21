@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体是一个表格组件的实现。从文件路径`app/src/components/ui/table.tsx`可以看出这是一个UI组件，文件名`table.tsx`表明是表格组件，文件内容中定义了Table、TableHeader、TableBody、TableFooter等React组件，使用了`\"use client\"`指令表明这是客户端组件，且导入了`cn`工具函数用于样式处理。这些都是典型的前端UI组件特征。"
+  },
+  "timestamp": 1763519446,
+  "prompt_hash": "43c9cbc8f7260c849b9b39140dc34a1f",
+  "token_usage": {
+    "input_tokens": 414,
+    "output_tokens": 161,
+    "total_tokens": 575
+  },
+  "model_name": null
+}

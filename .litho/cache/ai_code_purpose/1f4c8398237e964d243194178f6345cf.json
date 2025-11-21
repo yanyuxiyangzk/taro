@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1. 文件路径在components/ui目录下，表明这是一个UI组件；2. 文件名为calendar.tsx，使用了tsx扩展名，符合React组件的命名规范；3. 代码内容显示这是一个Calendar组件，使用了React的函数组件模式；4. 导入了react、lucide-react等UI相关库，以及button等其他UI组件；5. 组件使用了DayPicker库来实现日历功能，并通过CSS类名进行样式定制；6. 该组件具有典型的UI组件特征：接收className等props，返回JSX元素，属于前端UI组件(widget)类别。"
+  },
+  "timestamp": 1763518792,
+  "prompt_hash": "1f4c8398237e964d243194178f6345cf",
+  "token_usage": {
+    "input_tokens": 411,
+    "output_tokens": 196,
+    "total_tokens": 607
+  },
+  "model_name": null
+}

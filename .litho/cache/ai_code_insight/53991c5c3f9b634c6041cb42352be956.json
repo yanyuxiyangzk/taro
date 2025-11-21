@@ -1,0 +1,86 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "context-menu.tsx",
+      "file_path": "app\\src\\components\\ui\\context-menu.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "ContextMenu",
+        "ContextMenuTrigger",
+        "ContextMenuGroup",
+        "ContextMenuPortal",
+        "ContextMenuSub",
+        "ContextMenuRadioGroup",
+        "ContextMenuSubTrigger",
+        "ContextMenuSubContent",
+        "ContextMenuContent",
+        "ContextMenuItem",
+        "ContextMenuCheckboxItem",
+        "ContextMenuRadioItem",
+        "ContextMenuLabel",
+        "ContextMenuSeparator",
+        "ContextMenuShortcut"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "这个组件是一个React上下文菜单UI组件库，它基于Radix UI的ContextMenuPrimitive构建。该组件提供了一整套用于创建上下文菜单的功能性组件，包括菜单根组件、触发器、内容区域、分组、子菜单、单选/复选菜单项等完整功能。组件使用了Tailwind CSS进行样式定制，实现了现代化的UI设计，包括动画效果、阴影、边框等视觉元素。它支持多种菜单项类型（普通项、复选框、单选项）、分组、嵌套子菜单等功能，是一个功能完备的上下文菜单解决方案。",
+    "responsibilities": [
+      "提供上下文菜单的基础结构组件",
+      "实现菜单项的样式定制和视觉效果",
+      "处理菜单的交互逻辑和状态管理",
+      "提供可访问性和用户体验优化"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "unknown"
+      },
+      {
+        "name": "@radix-ui/react-context-menu",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "2.2.6"
+      },
+      {
+        "name": "lucide-react",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "0.487.0"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "utility",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 252,
+      "number_of_functions": 15,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519531,
+  "prompt_hash": "53991c5c3f9b634c6041cb42352be956",
+  "token_usage": {
+    "input_tokens": 2332,
+    "output_tokens": 518,
+    "total_tokens": 2850
+  },
+  "model_name": null
+}

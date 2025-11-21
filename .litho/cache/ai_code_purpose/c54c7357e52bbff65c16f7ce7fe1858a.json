@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1. 文件路径位于components/ui/目录下，表明这是一个UI组件；2. 文件名为dropdown-menu.tsx，是一个React组件文件；3. 代码内容显示这是一系列Dropdown菜单相关组件的封装，包括DropdownMenu、DropdownMenuPortal、DropdownMenuTrigger、DropdownMenuContent等；4. 使用了Radix UI的DropdownMenuPrimitive组件进行封装，并添加了自定义的data-slot属性；5. 从代码结构看，这是一个纯粹的UI组件，不包含业务逻辑，主要职责是提供可复用的下拉菜单UI元素；6. 符合widget组件的定义，即前端UI组件"
+  },
+  "timestamp": 1763519363,
+  "prompt_hash": "c54c7357e52bbff65c16f7ce7fe1858a",
+  "token_usage": {
+    "input_tokens": 418,
+    "output_tokens": 208,
+    "total_tokens": 626
+  },
+  "model_name": null
+}

@@ -1,0 +1,56 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "sonner.tsx",
+      "file_path": "app\\src\\components\\ui\\sonner.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.6,
+      "description": null,
+      "functions": [
+        "Toaster"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "这是一个基于Sonner库的自定义Toast通知组件。该组件主要功能是封装了Sonner toast库的Toaster组件，通过集成next-themes来支持主题切换，使得通知提示能够根据当前应用主题自动调整样式。组件为toast通知提供了定制化的样式类名和CSS变量，以确保与应用的整体UI风格一致。",
+    "responsibilities": [
+      "封装Sonner Toaster组件",
+      "集成应用主题系统",
+      "提供定制化样式支持",
+      "管理通知组件的外观"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "next-themes",
+        "path": null,
+        "is_external": true,
+        "line_number": 3,
+        "dependency_type": "ui-theme",
+        "version": "0.4.6"
+      },
+      {
+        "name": "sonner",
+        "path": null,
+        "is_external": true,
+        "line_number": 4,
+        "dependency_type": "notification",
+        "version": "2.0.3"
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 25,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519538,
+  "prompt_hash": "f7735a60ce2cc80c2931af12b457a1bc",
+  "token_usage": {
+    "input_tokens": 407,
+    "output_tokens": 317,
+    "total_tokens": 724
+  },
+  "model_name": null
+}

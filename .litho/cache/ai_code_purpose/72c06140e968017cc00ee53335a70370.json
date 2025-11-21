@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体是一个上下文菜单（context menu）组件。根据以下特征进行判断：1）文件路径位于components/ui目录下，表明这是一个UI组件；2）文件扩展名为tsx，是React组件的标准格式；3）文件内容实现了ContextMenu及其相关子组件（Trigger、Group、Portal等），是对Radix UI的ContextMenuPrimitive的封装；4）代码结构是典型的React组件实现，包含多个相关的UI组件函数；5）这是一个可重用的UI组件，用于实现右键上下文菜单功能，符合widget（前端UI组件）的定义。"
+  },
+  "timestamp": 1763518818,
+  "prompt_hash": "72c06140e968017cc00ee53335a70370",
+  "token_usage": {
+    "input_tokens": 413,
+    "output_tokens": 194,
+    "total_tokens": 607
+  },
+  "model_name": null
+}

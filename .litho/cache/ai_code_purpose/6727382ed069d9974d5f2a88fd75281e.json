@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "该文件是一个前端UI组件，具体是一个Hover Card（悬停卡片）组件。分析依据：1）文件路径位于components/ui目录下，表明这是一个UI组件；2）文件扩展名为tsx，是React组件的标准格式；3）代码中导入了React和Radix UI的hover-card原语组件；4）定义了三个组件函数：HoverCard、HoverCardTrigger和HoverCardContent，这些都是典型的UI组件实现；5）使用了cn工具函数来处理CSS类名，这是常见的UI组件样式处理方式；6）整个文件实现了悬停卡片的完整UI功能，包括触发器和内容展示，符合前端UI组件的特征。"
+  },
+  "timestamp": 1763518844,
+  "prompt_hash": "6727382ed069d9974d5f2a88fd75281e",
+  "token_usage": {
+    "input_tokens": 412,
+    "output_tokens": 201,
+    "total_tokens": 613
+  },
+  "model_name": null
+}

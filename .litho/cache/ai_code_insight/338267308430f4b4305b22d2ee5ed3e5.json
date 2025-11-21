@@ -1,0 +1,90 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "DivinationPage.tsx",
+      "file_path": "app\\src\\components\\DivinationPage.tsx",
+      "source_summary": "",
+      "code_purpose": "page",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "DivinationPage",
+        "useEffect"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "DivinationPage 是一个占卜功能的前端页面组件，提供星座运势、卡牌占卜等玄学服务界面。该组件主要功能包括：1) 星座选择器，用户可切换不同的星座；2) 轮播图展示占卜服务横幅；3) 今日运势展示，包括综合评分和健康、爱情、事业、财富四个维度的进度条；4) 占卜卡牌网格，提供多种占卜服务入口；5) 神秘之书功能区。页面采用深紫色主题，营造神秘氛围，并使用渐变背景、毛玻璃效果等视觉设计。",
+    "responsibilities": [
+      "展示占卜页面的整体UI布局和视觉效果",
+      "管理星座选择状态和选择器的展开收起",
+      "实现轮播图的自动切换和手动切换功能",
+      "展示并更新用户今日运势数据",
+      "提供占卜卡牌的网格布局和交互"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "lucide-react",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "Card",
+        "path": "./ui/card",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "component",
+        "version": null
+      },
+      {
+        "name": "Button",
+        "path": "./ui/button",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "component",
+        "version": null
+      },
+      {
+        "name": "ImageWithFallback",
+        "path": "./figma/ImageWithFallback",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "component",
+        "version": null
+      },
+      {
+        "name": "Progress",
+        "path": "./ui/progress",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "component",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 240,
+      "number_of_functions": 2,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763518993,
+  "prompt_hash": "338267308430f4b4305b22d2ee5ed3e5",
+  "token_usage": {
+    "input_tokens": 3242,
+    "output_tokens": 515,
+    "total_tokens": 3757
+  },
+  "model_name": null
+}

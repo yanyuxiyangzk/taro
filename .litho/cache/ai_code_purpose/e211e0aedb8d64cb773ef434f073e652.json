@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "根据文件路径`app/src/components/ui/badge.tsx`和文件内容分析，这是一个前端UI组件。文件位于components/ui目录下，表明是UI组件库的一部分。文件名badge.tsx表示这是一个徽章组件，使用了React和TypeScript编写。代码中使用了class-variance-authority来定义组件的样式变体，导入了Slot组件，这些都是典型的UI组件库的实现方式。从代码结构看，这是一个可复用的徽章组件，用于显示标签、状态等信息，完全符合widget（前端UI组件）的定义。"
+  },
+  "timestamp": 1763518778,
+  "prompt_hash": "e211e0aedb8d64cb773ef434f073e652",
+  "token_usage": {
+    "input_tokens": 409,
+    "output_tokens": 186,
+    "total_tokens": 595
+  },
+  "model_name": null
+}

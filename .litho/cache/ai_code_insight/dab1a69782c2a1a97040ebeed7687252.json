@@ -1,0 +1,73 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "badge.tsx",
+      "file_path": "app\\src\\components\\ui\\badge.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "Badge"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "Badge组件是一个可复用的UI徽章组件，用于显示小型的标签或状态指示器。该组件基于React构建，通过class-variance-authority(CVA)库提供了多种预定义的样式变体(默认、次要、危险、边框)。组件支持通过asChild属性灵活地将徽章样式应用到不同的HTML元素上，使用Slot组件实现元素替换功能。组件具有响应式设计特性，支持焦点状态、悬停效果和无障碍访问功能。徽章的样式通过cn工具类进行合并和条件渲染，确保了样式的灵活性和一致性。",
+    "responsibilities": [
+      "提供可定制的徽章UI元素",
+      "支持多种预定义样式变体",
+      "实现组件的无障碍访问功能",
+      "处理元素类型的动态替换逻辑",
+      "管理徽章的焦点和悬停状态样式"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": 1,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "@radix-ui/react-slot",
+        "path": null,
+        "is_external": true,
+        "line_number": 2,
+        "dependency_type": "library",
+        "version": "1.1.2"
+      },
+      {
+        "name": "class-variance-authority",
+        "path": null,
+        "is_external": true,
+        "line_number": 3,
+        "dependency_type": "library",
+        "version": "0.7.1"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": 5,
+        "dependency_type": "local",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 46,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519031,
+  "prompt_hash": "dab1a69782c2a1a97040ebeed7687252",
+  "token_usage": {
+    "input_tokens": 673,
+    "output_tokens": 438,
+    "total_tokens": 1111
+  },
+  "model_name": null
+}

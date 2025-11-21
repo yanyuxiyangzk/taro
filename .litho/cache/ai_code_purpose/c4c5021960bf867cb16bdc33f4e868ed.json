@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体是手风琴(Accordion)组件。分析依据：1) 文件路径位于components/ui目录下，表明这是一个UI组件；2) 文件名为accordion.tsx，使用tsx扩展名，符合React组件命名规范；3) 文件内容定义了多个React组件函数(Accordion、AccordionItem、AccordionTrigger)，使用了Radix UI原语库；4) 代码结构是典型的UI组件封装，通过props传递和className组合实现可复用的UI组件；5) 使用了React hooks和组件组合模式，符合前端UI组件的特征。"
+  },
+  "timestamp": 1763518763,
+  "prompt_hash": "c4c5021960bf867cb16bdc33f4e868ed",
+  "token_usage": {
+    "input_tokens": 411,
+    "output_tokens": 187,
+    "total_tokens": 598
+  },
+  "model_name": null
+}

@@ -1,0 +1,67 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "tooltip.tsx",
+      "file_path": "app\\src\\components\\ui\\tooltip.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "TooltipProvider",
+        "Tooltip",
+        "TooltipTrigger",
+        "TooltipContent"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "tooltip.tsx 是一个前端UI组件，基于 Radix UI 的 TooltipPrimitive 构建，提供了工具提示功能。该组件包含四个子组件：TooltipProvider（提供工具提示的上下文和延迟持续时间配置）、Tooltip（根工具提示组件）、TooltipTrigger（触发工具提示显示的元素）和 TooltipContent（工具提示显示的内容）。所有组件都使用 React 的 ComponentProps 类型来继承 Radix UI 组件的属性，同时添加了 data-slot 属性以便于样式定制。TooltipContent 特别包含了样式类，用于定义工具提示的外观和动画效果。",
+    "responsibilities": [
+      "提供工具提示功能",
+      "管理工具提示的显示和隐藏",
+      "定制工具提示的外观和行为",
+      "提供工具提示内容的定位和动画效果"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "React",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "TooltipPrimitive",
+        "path": "@radix-ui/react-tooltip",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "@1.1.8"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "local",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 61,
+      "number_of_functions": 4,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519232,
+  "prompt_hash": "def729a2eb8e87889caec5a0a3c98abe",
+  "token_usage": {
+    "input_tokens": 738,
+    "output_tokens": 426,
+    "total_tokens": 1164
+  },
+  "model_name": null
+}

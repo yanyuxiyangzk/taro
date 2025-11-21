@@ -1,0 +1,95 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "pagination.tsx",
+      "file_path": "app\\src\\components\\ui\\pagination.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "Pagination",
+        "PaginationContent",
+        "PaginationItem",
+        "PaginationLink",
+        "PaginationPrevious",
+        "PaginationNext",
+        "PaginationEllipsis"
+      ],
+      "interfaces": [
+        "PaginationLinkProps"
+      ]
+    },
+    "detailed_description": "该组件是一个完整的分页系统，提供了标准化的分页导航界面。该组件实现了分页的所有基础功能，包括上一页、下一页、页码链接、省略号指示器等。它使用React函数式组件实现，支持响应式设计，通过CSS类名定制化样式，并利用Lucide图标库提供页码导航图标。组件设计遵循WAI-ARIA标准，通过适当的role、aria-label等属性提升可访问性。所有子组件都支持额外的props以增强灵活性，并通过cn工具类实现样式组合。",
+    "responsibilities": [
+      "提供分页导航用户界面",
+      "管理分页链接的样式和状态",
+      "实现可访问性标准（WAI-ARIA）",
+      "支持响应式设计",
+      "提供分页组件的标准化实现"
+    ],
+    "interfaces": [
+      {
+        "name": "PaginationLinkProps",
+        "interface_type": "type",
+        "visibility": "public",
+        "parameters": [
+          {
+            "name": "isActive",
+            "param_type": "boolean",
+            "is_optional": true,
+            "description": "指示当前页码链接是否处于激活状态"
+          },
+          {
+            "name": "size",
+            "param_type": "Pick<React.ComponentProps<typeof Button>, \"size\"> & React.ComponentProps<\"a\">",
+            "is_optional": false,
+            "description": "按钮尺寸，继承自Button组件"
+          }
+        ],
+        "return_type": null,
+        "description": "分页链接组件的属性类型定义，包含激活状态和按钮尺寸等属性"
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "lucide-react",
+        "path": null,
+        "is_external": true,
+        "line_number": 2,
+        "dependency_type": "icon library",
+        "version": "0.487.0"
+      },
+      {
+        "name": "button",
+        "path": "./button",
+        "is_external": false,
+        "line_number": 7,
+        "dependency_type": "component",
+        "version": null
+      },
+      {
+        "name": "utils",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": 6,
+        "dependency_type": "utility",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 127,
+      "number_of_functions": 7,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519139,
+  "prompt_hash": "22fa8f7fb5e3166ec5ac191797bb68cb",
+  "token_usage": {
+    "input_tokens": 943,
+    "output_tokens": 558,
+    "total_tokens": 1501
+  },
+  "model_name": null
+}

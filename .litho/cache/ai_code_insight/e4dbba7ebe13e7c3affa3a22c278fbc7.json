@@ -1,0 +1,64 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "label.tsx",
+      "file_path": "app\\src\\components\\ui\\label.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.6,
+      "description": null,
+      "functions": [
+        "Label"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "Label 组件是一个可访问性友好的标签组件，基于 Radix UI 的 Label 原始组件构建。该组件的主要功能是为表单控件提供标签，支持禁用状态的样式处理，并通过 CSS 类名组合实现一致的 UI 样式。组件采用可访问性最佳实践，确保标签与其相关联的表单控件正确连接，提升用户体验和可访问性。",
+    "responsibilities": [
+      "提供标签 UI 元素",
+      "处理禁用状态的样式",
+      "确保可访问性",
+      "与表单控件关联"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "React",
+        "path": null,
+        "is_external": true,
+        "line_number": 3,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "@radix-ui/react-label",
+        "path": null,
+        "is_external": true,
+        "line_number": 4,
+        "dependency_type": "library",
+        "version": "2.1.2"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": 6,
+        "dependency_type": "function",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 24,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519246,
+  "prompt_hash": "e4dbba7ebe13e7c3affa3a22c278fbc7",
+  "token_usage": {
+    "input_tokens": 416,
+    "output_tokens": 344,
+    "total_tokens": 760
+  },
+  "model_name": null
+}

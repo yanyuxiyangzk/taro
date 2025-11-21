@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "根据文件路径`app/src/components/ui/toggle.tsx`和文件内容分析：1）文件位于components/ui目录下，表明这是一个UI组件；2）文件扩展名为tsx，是React组件格式；3）代码导入了@radix-ui/react-toggle，这是一个UI组件库，表明这是一个可复用的UI组件；4）代码定义了toggleVariants样式变体，实现了toggle按钮的UI功能；5）组件使用了class-variance-authority定义样式变体，符合UI组件库的典型实现方式。综合判断这是一个前端UI组件(widget)。"
+  },
+  "timestamp": 1763519462,
+  "prompt_hash": "dad327d3686dbf6c6d17380a7aff65c1",
+  "token_usage": {
+    "input_tokens": 414,
+    "output_tokens": 183,
+    "total_tokens": 597
+  },
+  "model_name": null
+}

@@ -1,0 +1,78 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "breadcrumb.tsx",
+      "file_path": "app\\src\\components\\ui\\breadcrumb.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "Breadcrumb",
+        "BreadcrumbList",
+        "BreadcrumbItem",
+        "BreadcrumbLink",
+        "BreadcrumbPage",
+        "BreadcrumbSeparator",
+        "BreadcrumbEllipsis"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "这是一个React组件库中的面包屑导航组件实现。该组件提供了一套完整的面包屑导航UI元素，包括导航容器、列表、项目、链接、页面、分隔符和省略号等组件。这些组件通过组合使用，可以构建出符合现代UI设计规范的面包屑导航界面。组件使用了Radix UI的Slot组件和Lucide React图标库，通过cn工具函数处理CSS类名的合并。每个组件都定义了合适的ARIA属性以增强可访问性，并使用了Tailwind CSS类名进行样式定制。",
+    "responsibilities": [
+      "提供面包屑导航的UI组件集合",
+      "确保组件的可访问性（ARIA属性）",
+      "支持自定义样式（通过className）",
+      "提供响应式设计支持"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": "react",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "@radix-ui/react-slot",
+        "path": "@radix-ui/react-slot@1.1.2",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "1.1.2"
+      },
+      {
+        "name": "lucide-react",
+        "path": "lucide-react@0.487.0",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "0.487.0"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "local",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 109,
+      "number_of_functions": 7,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519031,
+  "prompt_hash": "78c650c3f4f5c8a498aa802a0d8376c4",
+  "token_usage": {
+    "input_tokens": 859,
+    "output_tokens": 464,
+    "total_tokens": 1323
+  },
+  "model_name": null
+}

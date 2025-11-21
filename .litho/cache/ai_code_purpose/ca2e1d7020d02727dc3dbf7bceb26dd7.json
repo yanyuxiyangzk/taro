@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体是一个Skeleton（骨架屏）组件。从以下几个方面可以确认：\n1. 文件路径：位于components/ui目录下，表明这是一个UI组件\n2. 文件名：skeleton.tsx，符合UI组件命名规范\n3. 代码结构：定义了一个React函数组件Skeleton，接收className等props，并返回一个具有特定样式的div元素\n4. 功能特征：实现了骨架屏加载效果，通过animate-pulse类名提供脉冲动画效果\n5. 导出方式：导出Skeleton组件供其他模块使用\n6. 依赖：使用了cn工具函数进行类名合并，这是典型的UI组件开发模式\n因此，该文件属于widget（前端UI组件）类型"
+  },
+  "timestamp": 1763518957,
+  "prompt_hash": "ca2e1d7020d02727dc3dbf7bceb26dd7",
+  "token_usage": {
+    "input_tokens": 229,
+    "output_tokens": 216,
+    "total_tokens": 445
+  },
+  "model_name": null
+}

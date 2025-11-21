@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1. 文件路径位于components/ui目录下，表明这是一个UI组件；2. 文件名command.tsx，使用tsx扩展名，表明这是一个React组件；3. 文件内容定义了Command和CommandDialog两个React组件，封装了cmdk命令行界面功能；4. 组件使用了Dialog等其他UI组件，属于UI组件库的一部分；5. 代码结构清晰，主要是组件的样式和布局逻辑，没有业务逻辑；6. 该组件用于实现命令行界面功能，是可复用的UI组件"
+  },
+  "timestamp": 1763518813,
+  "prompt_hash": "3816c0b2ba7ac619a658749b7139cc55",
+  "token_usage": {
+    "input_tokens": 410,
+    "output_tokens": 183,
+    "total_tokens": 593
+  },
+  "model_name": null
+}

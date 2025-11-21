@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1) 文件路径位于components/ui目录下，表明这是一个UI组件；2) 文件名为collapsible.tsx，使用tsx扩展名，是React组件；3) 代码结构显示这是一个可折叠组件(Collapsible)，封装了@radix-ui/react-collapsible库的组件；4) 导出了三个组件：Collapsible、CollapsibleTrigger、CollapsibleContent，这些都是典型的UI组件模式；5) 代码中没有业务逻辑，仅是对底层UI库的封装和样式定制，符合前端UI组件的特征。"
+  },
+  "timestamp": 1763519474,
+  "prompt_hash": "6e5b94e0bb0239ee3edf9f1b29266e01",
+  "token_usage": {
+    "input_tokens": 369,
+    "output_tokens": 185,
+    "total_tokens": 554
+  },
+  "model_name": null
+}

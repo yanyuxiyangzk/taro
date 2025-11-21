@@ -1,0 +1,82 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "dialog.tsx",
+      "file_path": "app\\src\\components\\ui\\dialog.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "Dialog",
+        "DialogTrigger",
+        "DialogPortal",
+        "DialogClose",
+        "DialogOverlay",
+        "DialogContent",
+        "DialogHeader",
+        "DialogFooter",
+        "DialogTitle",
+        "DialogDescription"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "这是一个基于 Radix UI 的可访问性对话框组件库。该组件提供了完整的对话框交互功能，包括模态框的显示、隐藏、键盘导航和无障碍支持。组件集成了 Tailwind CSS 样式，提供了预定义的视觉样式和动画效果。主要功能包括：1) 对话框的打开/关闭机制；2) 背景遮罩层；3) 内容区域的样式定义；4) 对话框头部、尾部、标题和描述的标准布局组件；5) 基于 Portal 的渲染以确保模态框层级正确。",
+    "responsibilities": [
+      "提供可访问的对话框UI组件",
+      "管理对话框的打开/关闭状态",
+      "实现对话框的视觉样式和动画效果",
+      "提供对话框的标准结构组件",
+      "处理对话框与用户的交互"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": "React",
+        "is_external": true,
+        "line_number": 3,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "@radix-ui/react-dialog",
+        "path": "@radix-ui/react-dialog@1.1.6",
+        "is_external": true,
+        "line_number": 4,
+        "dependency_type": "library",
+        "version": "1.1.6"
+      },
+      {
+        "name": "lucide-react",
+        "path": "lucide-react@0.487.0",
+        "is_external": true,
+        "line_number": 5,
+        "dependency_type": "library",
+        "version": "0.487.0"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": 7,
+        "dependency_type": "utility",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 135,
+      "number_of_functions": 10,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519095,
+  "prompt_hash": "1ebd46c002d2ada2365af7f9f5e2bdee",
+  "token_usage": {
+    "input_tokens": 1222,
+    "output_tokens": 471,
+    "total_tokens": 1693
+  },
+  "model_name": null
+}

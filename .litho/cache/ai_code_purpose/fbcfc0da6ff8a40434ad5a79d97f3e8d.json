@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体是一个OTP（一次性密码）输入组件。从文件路径`app/src/components/ui/input-otp.tsx`可以看出这是一个UI组件，文件名`input-otp.tsx`表明它是React组件。代码中定义了多个UI组件函数如`InputOTP`、`InputOTPGroup`、`InputOTPSlot`，使用了React和UI相关的库如`input-otp`和`lucide-react`，并使用了`cn`工具函数进行样式合并，这些都是典型的前端UI组件特征。"
+  },
+  "timestamp": 1763519379,
+  "prompt_hash": "fbcfc0da6ff8a40434ad5a79d97f3e8d",
+  "token_usage": {
+    "input_tokens": 416,
+    "output_tokens": 169,
+    "total_tokens": 585
+  },
+  "model_name": null
+}

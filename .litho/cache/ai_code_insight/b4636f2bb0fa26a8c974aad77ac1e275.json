@@ -1,0 +1,80 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "calendar.tsx",
+      "file_path": "app\\src\\components\\ui\\calendar.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "Calendar"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "Calendar组件是一个基于react-day-picker库构建的日期选择器UI组件。它封装了DayPicker组件，提供了预定义的样式类名和自定义组件（左右箭头图标），支持显示外部日期（上个月/下个月的日期）、范围选择等特性。该组件实现了现代化的日期选择交互体验，包含日期高亮、范围选择、今天标记等功能。",
+    "responsibilities": [
+      "封装DayPicker组件并提供预设样式",
+      "处理日期选择器的视觉呈现",
+      "支持单日期和范围日期选择模式",
+      "管理日期选择器的导航和交互逻辑"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "unknown"
+      },
+      {
+        "name": "lucide-react",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "icon-library",
+        "version": "0.487.0"
+      },
+      {
+        "name": "react-day-picker",
+        "path": null,
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "ui-library",
+        "version": "8.10.1"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "utility",
+        "version": null
+      },
+      {
+        "name": "buttonVariants",
+        "path": "./button",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "component",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 75,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519084,
+  "prompt_hash": "b4636f2bb0fa26a8c974aad77ac1e275",
+  "token_usage": {
+    "input_tokens": 995,
+    "output_tokens": 431,
+    "total_tokens": 1426
+  },
+  "model_name": null
+}

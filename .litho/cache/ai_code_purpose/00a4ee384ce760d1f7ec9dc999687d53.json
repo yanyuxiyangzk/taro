@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1. 文件路径位于components/ui目录下，表明这是一个UI组件；2. 文件名为textarea.tsx，使用了React组件的扩展名；3. 代码结构是一个简单的Textarea组件，使用React.ComponentProps进行类型定义；4. 导入了cn工具函数用于处理CSS类名；5. 组件返回一个带有预设样式的textarea元素，具有典型的UI组件特征；6. 该组件没有业务逻辑，仅负责渲染一个带样式的文本输入框，符合前端UI组件的定义。"
+  },
+  "timestamp": 1763518965,
+  "prompt_hash": "00a4ee384ce760d1f7ec9dc999687d53",
+  "token_usage": {
+    "input_tokens": 352,
+    "output_tokens": 185,
+    "total_tokens": 537
+  },
+  "model_name": null
+}

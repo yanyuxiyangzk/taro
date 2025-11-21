@@ -1,0 +1,89 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "navigation-menu.tsx",
+      "file_path": "app\\src\\components\\ui\\navigation-menu.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "NavigationMenu",
+        "NavigationMenuList",
+        "NavigationMenuItem",
+        "NavigationMenuTrigger",
+        "NavigationMenuContent",
+        "NavigationMenuViewport",
+        "NavigationMenuLink",
+        "NavigationMenuIndicator",
+        "navigationMenuTriggerStyle"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "这是一个基于 Radix UI 的导航菜单组件库，提供了完整的导航菜单构建块。该组件库包含 NavigationMenu、NavigationMenuList、NavigationMenuItem、NavigationMenuTrigger、NavigationMenuContent、NavigationMenuViewport、NavigationMenuLink 和 NavigationMenuIndicator 等组件，以及一个用于触发器样式的工具函数 navigationMenuTriggerStyle。组件通过组合 Radix UI 的原生导航菜单组件，添加自定义样式和行为，实现了具有动画效果、响应式设计和可访问性的导航菜单系统。NavigationMenu 是主容器组件，可以控制是否显示 viewport；NavigationMenuTrigger 带有 ChevronDownIcon 图标，用于展开/收起菜单；NavigationMenuContent 包含动画类，用于展示折叠内容；NavigationMenuViewport 是内容的容器，提供绝对定位；其他组件则构建导航菜单的基本结构。",
+    "responsibilities": [
+      "提供导航菜单的基本结构组件",
+      "实现菜单项的展开/收起交互",
+      "管理菜单内容的动画展示效果",
+      "确保导航菜单的可访问性",
+      "提供响应式设计支持"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": "react",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "NavigationMenuPrimitive",
+        "path": "@radix-ui/react-navigation-menu@1.2.5",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "1.2.5"
+      },
+      {
+        "name": "cva",
+        "path": "class-variance-authority@0.7.1",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "0.7.1"
+      },
+      {
+        "name": "ChevronDownIcon",
+        "path": "lucide-react@0.487.0",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "0.487.0"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "local utility",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 168,
+      "number_of_functions": 9,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519131,
+  "prompt_hash": "8f4826e3b78c0f98f1860789a0b2ad6d",
+  "token_usage": {
+    "input_tokens": 1942,
+    "output_tokens": 619,
+    "total_tokens": 2561
+  },
+  "model_name": null
+}

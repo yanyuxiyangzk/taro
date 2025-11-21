@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "根据文件路径`app/src/components/figma/ImageWithFallback.tsx`和文件内容分析，这是一个前端UI组件。理由如下：1）文件位于components目录下，表明是组件；2）文件名ImageWithFallback.tsx是典型的React组件命名；3）代码导出一个React函数组件，实现了带有错误回退功能的图片组件；4）使用了React hooks（useState）和JSX语法；5）组件具有明确的UI展示功能，当图片加载失败时显示备用图像。因此，该文件属于前端UI组件(widget)类型。"
+  },
+  "timestamp": 1763518759,
+  "prompt_hash": "07f21bd6b117af6d63b2f43a2462aa97",
+  "token_usage": {
+    "input_tokens": 416,
+    "output_tokens": 181,
+    "total_tokens": 597
+  },
+  "model_name": null
+}

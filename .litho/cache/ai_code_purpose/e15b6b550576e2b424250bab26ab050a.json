@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "根据文件路径`app/src/components/ui/popover.tsx`和文件内容分析，这是一个前端UI组件：\n\n1. 文件路径显示在components/ui目录下，表明这是一个UI组件\n2. 文件名为popover.tsx，使用tsx扩展名，表明是React组件\n3. 代码结构显示定义了三个React组件函数：Popover、PopoverTrigger和PopoverContent\n4. 使用了Radix UI库的PopoverPrimitive组件作为基础，构建自定义的弹出框组件\n5. 包含了CSS类名合并函数cn的使用，用于样式处理\n6. 整体实现的是一个可复用的UI组件，符合widget组件类型的特征\n\n因此，该文件属于前端UI组件(widget)类型。"
+  },
+  "timestamp": 1763518867,
+  "prompt_hash": "e15b6b550576e2b424250bab26ab050a",
+  "token_usage": {
+    "input_tokens": 410,
+    "output_tokens": 213,
+    "total_tokens": 623
+  },
+  "model_name": null
+}

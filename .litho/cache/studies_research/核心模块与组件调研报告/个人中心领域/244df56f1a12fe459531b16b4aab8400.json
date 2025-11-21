@@ -1,0 +1,22 @@
+{
+  "data": {
+    "domain_name": "个人中心领域",
+    "module_name": "用户信息模块",
+    "module_description": "用户信息模块是个人中心领域的核心组件之一，负责展示用户头像、等级和经验值进度。该模块采用风水占卜主题的UI设计，使用深色渐变背景配合紫色调，具有现代化的界面风格。主要功能包括个人信息展示、等级显示、经验进度条以及统计数据展示。",
+    "interaction": "该模块与后端API通过React组件状态进行交互，使用props接收用户数据。前端UI组件包括头像显示区域、等级标签、经验值进度条和统计数据卡片。与成就统计模块和功能设置模块共享同一个ProfilePage组件，通过数据结构和UI布局进行区分和协作。",
+    "implementation": "该模块使用React技术栈构建，采用TypeScript编写。利用lucide-react图标库提供用户界面元素，使用Card、Button、Progress等UI组件构建界面。实现方式为函数组件，使用CSS类名实现渐变背景、模糊效果和现代化UI元素。通过grid布局展示统计数据，使用Progress组件显示经验值进度。",
+    "associated_files": [
+      "app/src/components/ProfilePage.tsx"
+    ],
+    "flowchart_mermaid": "graph TD\n    A[ProfilePage组件加载] --> B[获取用户数据]\n    B --> C[渲染头像和等级信息]\n    C --> D[显示经验值进度条]\n    D --> E[展示统计数据卡片]\n    E --> F[用户信息展示完成]",
+    "sequence_diagram_mermaid": "sequenceDiagram\n    participant C as ProfilePage组件\n    participant D as UI渲染引擎\n    participant E as 用户数据\n    \n    C->>E: 请求用户信息\n    E->>C: 返回用户数据\n    C->>D: 渲染头像、等级、经验值\n    D->>C: UI渲染完成\n    C->>C: 显示统计数据"
+  },
+  "timestamp": 1763519737,
+  "prompt_hash": "244df56f1a12fe459531b16b4aab8400",
+  "token_usage": {
+    "input_tokens": 2194,
+    "output_tokens": 450,
+    "total_tokens": 2644
+  },
+  "model_name": null
+}

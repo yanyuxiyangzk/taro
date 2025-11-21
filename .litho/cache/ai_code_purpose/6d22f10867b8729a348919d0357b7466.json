@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "根据分析，该文件是一个前端UI组件，具体分析如下：1）文件路径在components/ui目录下，表明这是一个UI组件；2）文件名为toggle-group.tsx，使用tsx扩展名，表明是React组件；3）代码结构显示这是一个ToggleGroup组件，使用了Radix UI原语库，并提供了上下文和变体支持；4）导入了React、Radix UI组件和其他UI工具函数；5）定义了ToggleGroup组件和ToggleGroupContext上下文；6）该组件用于实现Toggle Group UI模式，属于可重用的UI组件。因此，该文件属于前端UI组件(widget)类型。"
+  },
+  "timestamp": 1763519457,
+  "prompt_hash": "6d22f10867b8729a348919d0357b7466",
+  "token_usage": {
+    "input_tokens": 417,
+    "output_tokens": 193,
+    "total_tokens": 610
+  },
+  "model_name": null
+}

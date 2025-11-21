@@ -1,0 +1,56 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "textarea.tsx",
+      "file_path": "app\\src\\components\\ui\\textarea.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.6,
+      "description": null,
+      "functions": [
+        "Textarea"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "这是一个React UI组件，用于创建自定义样式的textarea输入框。组件通过cn工具函数应用CSS类名，提供了预设的样式包括边框、背景、文字颜色、聚焦效果、禁用状态等。该组件支持React.ComponentProps<'textarea'>的所有属性，通过展开props传递给底层textarea元素，同时使用data-slot属性便于样式定位。组件具有响应式设计，支持禁用状态的视觉反馈，以及错误状态的边框颜色变化。",
+    "responsibilities": [
+      "提供带样式的textarea输入框组件",
+      "处理textarea元素的样式和状态变化",
+      "支持自定义className和textarea原生属性",
+      "处理聚焦、禁用、错误等不同状态下的样式"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": 1,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": 3,
+        "dependency_type": "local",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 18,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519540,
+  "prompt_hash": "83fca8c70df61eb6c0a4bc57255669f7",
+  "token_usage": {
+    "input_tokens": 454,
+    "output_tokens": 358,
+    "total_tokens": 812
+  },
+  "model_name": null
+}

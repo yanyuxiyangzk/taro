@@ -1,0 +1,72 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "ProfilePage.tsx",
+      "file_path": "app\\src\\components\\ProfilePage.tsx",
+      "source_summary": "",
+      "code_purpose": "page",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "ProfilePage"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "ProfilePage是一个个人中心页面组件，采用风水占卜主题的UI设计。该组件展示用户个人信息、统计数据、成就系统和功能菜单。页面使用深色渐变背景配合紫色调，具有现代化的界面风格。组件主要功能包括：1)展示用户头像、等级和经验值进度 2)显示占卜次数、学习天数、获得勋章等统计数据 3)展示用户成就系统，包括已解锁和未解锁的成就 4)提供功能菜单，包含收藏、学习记录、消息通知、隐私设置、系统设置等选项 5)提供退出登录功能。页面设计注重用户体验，使用卡片布局、渐变效果、模糊背景等现代化UI元素。",
+    "responsibilities": [
+      "展示用户个人信息和统计数据",
+      "管理并展示用户成就系统",
+      "提供个人中心功能导航菜单",
+      "实现用户退出登录功能"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "lucide-react",
+        "path": null,
+        "is_external": true,
+        "line_number": 1,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "Card",
+        "path": "./ui/card",
+        "is_external": false,
+        "line_number": 2,
+        "dependency_type": "component",
+        "version": null
+      },
+      {
+        "name": "Button",
+        "path": "./ui/button",
+        "is_external": false,
+        "line_number": 3,
+        "dependency_type": "component",
+        "version": null
+      },
+      {
+        "name": "Progress",
+        "path": "./ui/progress",
+        "is_external": false,
+        "line_number": 4,
+        "dependency_type": "component",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 162,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519007,
+  "prompt_hash": "ee4e6afb4779f1fc45bb939192c2650f",
+  "token_usage": {
+    "input_tokens": 1991,
+    "output_tokens": 454,
+    "total_tokens": 2445
+  },
+  "model_name": null
+}

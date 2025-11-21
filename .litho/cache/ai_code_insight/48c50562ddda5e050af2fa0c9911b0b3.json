@@ -1,0 +1,206 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "sidebar.tsx",
+      "file_path": "app\\src\\components\\ui\\sidebar.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": "一个功能丰富的响应式侧边栏组件，支持桌面和移动设备，提供可折叠、可定制的UI界面，包含多种子组件和交互功能",
+      "functions": [
+        "SidebarProvider",
+        "Sidebar",
+        "SidebarTrigger",
+        "SidebarRail",
+        "SidebarInset",
+        "SidebarInput",
+        "SidebarHeader",
+        "SidebarFooter",
+        "SidebarSeparator",
+        "SidebarContent",
+        "SidebarGroup",
+        "SidebarGroupLabel",
+        "SidebarGroupAction",
+        "SidebarGroupContent",
+        "SidebarMenu",
+        "SidebarMenuItem",
+        "SidebarMenuButton",
+        "SidebarMenuAction",
+        "SidebarMenuBadge",
+        "SidebarMenuSkeleton",
+        "SidebarMenuSub",
+        "SidebarMenuSubItem",
+        "SidebarMenuSubButton",
+        "useSidebar"
+      ],
+      "interfaces": [
+        "SidebarContextProps"
+      ]
+    },
+    "detailed_description": "一个功能丰富的响应式侧边栏组件库，实现了完整的侧边栏UI系统。该组件提供了多种定制选项，包括不同的位置(side)、变体(variant)和可折叠(collapsible)模式。它支持桌面和移动设备，在桌面端提供可折叠的侧边栏，在移动端使用Sheet组件实现抽屉式导航。组件通过Context API提供状态管理，包括展开/收起状态，支持键盘快捷键(b)切换侧边栏状态，以及Cookie持久化保存用户偏好。组件库包含完整的子组件生态，如头部、底部、分隔符、内容区域、菜单、子菜单等，支持图标模式、悬停提示、徽章、骨架屏加载等高级功能。整体设计遵循现代UI组件的最佳实践。",
+    "responsibilities": [
+      "提供响应式侧边栏UI组件，支持桌面和移动设备",
+      "管理侧边栏展开/收起状态，支持键盘快捷键和Cookie持久化",
+      "提供完整的侧边栏子组件生态(菜单、按钮、分组等)",
+      "实现侧边栏的多种变体和交互模式",
+      "提供上下文API供其他组件访问侧边栏状态"
+    ],
+    "interfaces": [
+      {
+        "name": "SidebarContextProps",
+        "interface_type": "type",
+        "visibility": "private",
+        "parameters": [
+          {
+            "name": "state",
+            "param_type": "\"expanded\" | \"collapsed\"",
+            "is_optional": false,
+            "description": null
+          },
+          {
+            "name": "open",
+            "param_type": "boolean",
+            "is_optional": false,
+            "description": null
+          },
+          {
+            "name": "setOpen",
+            "param_type": "(open: boolean) => void",
+            "is_optional": false,
+            "description": null
+          },
+          {
+            "name": "openMobile",
+            "param_type": "boolean",
+            "is_optional": false,
+            "description": null
+          },
+          {
+            "name": "setOpenMobile",
+            "param_type": "(open: boolean) => void",
+            "is_optional": false,
+            "description": null
+          },
+          {
+            "name": "isMobile",
+            "param_type": "boolean",
+            "is_optional": false,
+            "description": null
+          },
+          {
+            "name": "toggleSidebar",
+            "param_type": "() => void",
+            "is_optional": false,
+            "description": null
+          }
+        ],
+        "return_type": null,
+        "description": "侧边栏上下文属性类型定义"
+      },
+      {
+        "name": "useSidebar",
+        "interface_type": "function",
+        "visibility": "public",
+        "parameters": [],
+        "return_type": "SidebarContextProps",
+        "description": "用于在子组件中访问侧边栏上下文的Hook"
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": "react",
+        "is_external": true,
+        "line_number": 3,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "@radix-ui/react-slot",
+        "path": "@radix-ui/react-slot@1.1.2",
+        "is_external": true,
+        "line_number": 4,
+        "dependency_type": "library",
+        "version": "1.1.2"
+      },
+      {
+        "name": "class-variance-authority",
+        "path": "class-variance-authority@0.7.1",
+        "is_external": true,
+        "line_number": 5,
+        "dependency_type": "library",
+        "version": "0.7.1"
+      },
+      {
+        "name": "lucide-react",
+        "path": "lucide-react@0.487.0",
+        "is_external": true,
+        "line_number": 6,
+        "dependency_type": "library",
+        "version": "0.487.0"
+      },
+      {
+        "name": "use-mobile",
+        "path": "./use-mobile",
+        "is_external": false,
+        "line_number": 9,
+        "dependency_type": "local",
+        "version": null
+      },
+      {
+        "name": "utils",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": 10,
+        "dependency_type": "local",
+        "version": null
+      },
+      {
+        "name": "button",
+        "path": "./button",
+        "is_external": false,
+        "line_number": 11,
+        "dependency_type": "local",
+        "version": null
+      },
+      {
+        "name": "input",
+        "path": "./input",
+        "is_external": false,
+        "line_number": 12,
+        "dependency_type": "local",
+        "version": null
+      },
+      {
+        "name": "separator",
+        "path": "./separator",
+        "is_external": false,
+        "line_number": 13,
+        "dependency_type": "local",
+        "version": null
+      },
+      {
+        "name": "sheet",
+        "path": "./sheet",
+        "is_external": false,
+        "line_number": 15,
+        "dependency_type": "local",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 10.0,
+      "lines_of_code": 726,
+      "number_of_functions": 24,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519183,
+  "prompt_hash": "48c50562ddda5e050af2fa0c9911b0b3",
+  "token_usage": {
+    "input_tokens": 5684,
+    "output_tokens": 1078,
+    "total_tokens": 6762
+  },
+  "model_name": null
+}

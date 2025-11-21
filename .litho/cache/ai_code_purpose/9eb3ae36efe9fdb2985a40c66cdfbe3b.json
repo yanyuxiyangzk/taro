@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体是一个抽屉（Drawer）组件的实现。从以下几点可以确定：1）文件路径在components/ui目录下，表明这是一个UI组件；2）文件名为drawer.tsx，使用tsx扩展名，是React组件的标准格式；3）代码内容定义了多个与Drawer相关的组件函数（Drawer、DrawerTrigger、DrawerPortal、DrawerClose、DrawerOverlay），这些都是典型的UI组件实现；4）使用了vaul库的DrawerPrimitive组件进行封装，提供了data-slot属性和CSS类名处理功能；5）代码结构清晰，专注于UI展示和交互逻辑，符合前端UI组件的特征。"
+  },
+  "timestamp": 1763519358,
+  "prompt_hash": "9eb3ae36efe9fdb2985a40c66cdfbe3b",
+  "token_usage": {
+    "input_tokens": 414,
+    "output_tokens": 202,
+    "total_tokens": 616
+  },
+  "model_name": null
+}

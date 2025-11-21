@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，位于components/ui目录下，文件名为form.tsx，符合前端UI组件的命名和路径规范。代码中定义了Form、FormField等React组件，使用了react-hook-form等表单处理库，实现了表单相关的UI组件功能，属于前端UI组件(widget)类型。"
+  },
+  "timestamp": 1763518838,
+  "prompt_hash": "b5ccfa227745ccd3d4d0e0e0ff7ac673",
+  "token_usage": {
+    "input_tokens": 409,
+    "output_tokens": 133,
+    "total_tokens": 542
+  },
+  "model_name": null
+}

@@ -1,0 +1,66 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "hover-card.tsx",
+      "file_path": "app\\src\\components\\ui\\hover-card.tsx",
+      "source_summary": "",
+      "code_purpose": "widget",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "HoverCard",
+        "HoverCardTrigger",
+        "HoverCardContent"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "该组件是一个基于Radix UI构建的可访问的悬停卡片组件。它提供了三个子组件：HoverCard作为根组件，HoverCardTrigger作为触发器，HoverCardContent作为内容展示区域。组件使用了Radix UI的原生悬停卡片功能，并增加了自定义样式类，支持对齐方式和偏移量的配置。该组件主要用途是在用户悬停在特定元素上时显示附加信息的弹出卡片，提供更好的用户体验。",
+    "responsibilities": [
+      "提供悬停卡片的基本功能",
+      "管理卡片的触发和内容展示",
+      "处理卡片的样式和动画",
+      "支持自定义配置选项"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "react",
+        "path": "react",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": null
+      },
+      {
+        "name": "@radix-ui/react-hover-card",
+        "path": "@radix-ui/react-hover-card@1.1.6",
+        "is_external": true,
+        "line_number": null,
+        "dependency_type": "library",
+        "version": "1.1.6"
+      },
+      {
+        "name": "cn",
+        "path": "./utils",
+        "is_external": false,
+        "line_number": null,
+        "dependency_type": "local",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 44,
+      "number_of_functions": 3,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763519107,
+  "prompt_hash": "1f74d59c159f993c8444657644c91c8d",
+  "token_usage": {
+    "input_tokens": 649,
+    "output_tokens": 394,
+    "total_tokens": 1043
+  },
+  "model_name": null
+}

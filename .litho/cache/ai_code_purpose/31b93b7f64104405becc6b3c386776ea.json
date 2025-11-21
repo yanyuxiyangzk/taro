@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体是一个警告对话框（Alert Dialog）组件。从以下几个方面可以确定：\n\n1. 文件路径：位于 `app/src/components/ui/` 目录下，明确表明这是一个UI组件\n2. 文件名：`alert-dialog.tsx` 表明这是一个Alert Dialog组件\n3. 代码结构：使用Radix UI原语构建，实现了AlertDialog、AlertDialogTrigger、AlertDialogPortal、AlertDialogOverlay等UI组件\n4. 文件扩展名：.tsx 表明这是React组件\n5. 功能特征：封装了对话框的各个部分，提供了声明式的UI组件接口\n\n这是一个典型的前端UI组件（widget），用于构建用户界面的对话框交互元素。"
+  },
+  "timestamp": 1763519286,
+  "prompt_hash": "31b93b7f64104405becc6b3c386776ea",
+  "token_usage": {
+    "input_tokens": 417,
+    "output_tokens": 215,
+    "total_tokens": 632
+  },
+  "model_name": null
+}

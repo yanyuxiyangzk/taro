@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "根据文件路径`app/src/components/ui/calendar.tsx`和文件内容分析，这是一个前端UI组件。理由如下：1）文件位于components/ui目录下，表明是UI组件；2）文件名为calendar.tsx，使用tsx扩展名，是React组件；3）代码中定义了Calendar组件，包装了DayPicker库组件，并使用了cn工具函数和buttonVariants样式；4）代码结构是典型的React组件定义，用于渲染日历UI界面；5）导入了react、lucide-react等UI相关库。因此，该文件是一个前端UI组件(widget)。"
+  },
+  "timestamp": 1763519319,
+  "prompt_hash": "abdf88d01bb8a963901f78e5166ba697",
+  "token_usage": {
+    "input_tokens": 415,
+    "output_tokens": 184,
+    "total_tokens": 599
+  },
+  "model_name": null
+}

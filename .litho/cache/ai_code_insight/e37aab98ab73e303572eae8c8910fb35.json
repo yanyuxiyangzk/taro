@@ -1,0 +1,72 @@
+{
+  "data": {
+    "code_dossier": {
+      "name": "FengShuiPage.tsx",
+      "file_path": "app\\src\\components\\FengShuiPage.tsx",
+      "source_summary": "",
+      "code_purpose": "page",
+      "importance_score": 0.8,
+      "description": null,
+      "functions": [
+        "FengShuiPage"
+      ],
+      "interfaces": []
+    },
+    "detailed_description": "FengShuiPage.tsx 是一个风水占卜主题的前端页面组件，采用深色/紫色渐变背景设计，展示风水相关的方位、五行和家居建议。该组件包含一个罗盘图像展示区、八方位运势区域（北、东北、东、东南、南、西南、西、西北）以及四个家居风水建议卡片。用户可以点击不同方位按钮查看该方位的五行属性、主管运势及摆放建议。页面设计采用了动画效果、渐变背景和响应式布局，提供良好的视觉体验。",
+    "responsibilities": [
+      "展示风水八方位信息",
+      "处理方位选择交互状态",
+      "展示家居风水建议",
+      "渲染风水主题UI界面"
+    ],
+    "interfaces": [],
+    "dependencies": [
+      {
+        "name": "lucide-react",
+        "path": null,
+        "is_external": true,
+        "line_number": 1,
+        "dependency_type": "icon library",
+        "version": null
+      },
+      {
+        "name": "Card",
+        "path": "./ui/card",
+        "is_external": false,
+        "line_number": 2,
+        "dependency_type": "ui component",
+        "version": null
+      },
+      {
+        "name": "ImageWithFallback",
+        "path": "./figma/ImageWithFallback",
+        "is_external": false,
+        "line_number": 3,
+        "dependency_type": "ui component",
+        "version": null
+      },
+      {
+        "name": "react",
+        "path": null,
+        "is_external": true,
+        "line_number": 4,
+        "dependency_type": "framework",
+        "version": null
+      }
+    ],
+    "complexity_metrics": {
+      "cyclomatic_complexity": 1.0,
+      "lines_of_code": 158,
+      "number_of_functions": 1,
+      "number_of_classes": 0
+    }
+  },
+  "timestamp": 1763518995,
+  "prompt_hash": "e37aab98ab73e303572eae8c8910fb35",
+  "token_usage": {
+    "input_tokens": 2159,
+    "output_tokens": 417,
+    "total_tokens": 2576
+  },
+  "model_name": null
+}

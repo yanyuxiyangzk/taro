@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.95,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1）文件路径位于components/ui/目录下，表明这是一个UI组件；2）文件名为radio-group.tsx，使用tsx扩展名，符合React组件命名规范；3）文件内容定义了RadioGroup和RadioGroupItem两个组件，基于Radix UI原生组件进行封装；4）代码结构清晰，包含必要的导入、组件定义和样式处理；5）该组件提供单选按钮组功能，属于可复用的UI组件，符合widget（前端UI组件）的定义。"
+  },
+  "timestamp": 1763519407,
+  "prompt_hash": "257660d971f911cf6f1832ac8e952d79",
+  "token_usage": {
+    "input_tokens": 417,
+    "output_tokens": 175,
+    "total_tokens": 592
+  },
+  "model_name": null
+}

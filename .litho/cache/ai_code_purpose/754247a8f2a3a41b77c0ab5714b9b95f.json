@@ -1,0 +1,15 @@
+{
+  "data": {
+    "code_purpose": "widget",
+    "confidence": 0.9,
+    "reasoning": "该文件是一个前端UI组件，具体分析如下：1) 文件路径位于components/ui目录下，表明这是一个UI组件；2) 文件名为chart.tsx，使用了tsx扩展名，表明这是一个React组件；3) 文件内容导出了ChartConfig类型定义和ChartContainer等组件，实现了图表容器功能；4) 使用了React.createContext创建上下文，useChart自定义Hook，以及Recharts图表库；5) 代码结构清晰，专注于图表UI的渲染和配置，符合前端UI组件的特征。"
+  },
+  "timestamp": 1763518804,
+  "prompt_hash": "754247a8f2a3a41b77c0ab5714b9b95f",
+  "token_usage": {
+    "input_tokens": 409,
+    "output_tokens": 176,
+    "total_tokens": 585
+  },
+  "model_name": null
+}
