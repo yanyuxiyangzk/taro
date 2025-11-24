@@ -50,49 +50,43 @@ export default function WizardProphecyPage() {
           <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-blue-500/10 blur-2xl"></div>
           
           <div className="relative overflow-hidden">
-            {/* Realistic Wizard Image Container */}
+            {/* Realistic Wizard Photo Container */}
             <div className="relative w-full h-96">
-              {/* Dark atmospheric background */}
-              <div className="absolute inset-0 bg-gradient-to-b from-black via-purple-950/50 to-black"></div>
-              
-              {/* Wizard Image with ImageWithFallback */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <img
-                  src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=800&q=80"
-                  alt="神秘巫师"
-                  className="w-full h-full object-cover opacity-80"
-                  onError={(e) => {
-                    e.currentTarget.src = "https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=800&q=80";
-                  }}
+              {/* Wizard Photo with magical overlay */}
+              <div className="absolute inset-0">
+                <img 
+                  src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&q=80" 
+                  alt="Wizard with magical staff"
+                  className="w-full h-full object-cover"
                 />
+                {/* Dark overlay for better text visibility */}
+                <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/80"></div>
               </div>
               
-              {/* Dark vignette overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/50"></div>
-              
-              {/* Magical Aura Effects */}
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 via-transparent to-blue-600/20 animate-pulse" style={{animationDuration: '3s'}}></div>
-              
-              {/* Magic Wand Glow - positioned where wizard would hold it */}
-              <div className="absolute top-1/3 right-1/4 w-32 h-32">
-                {/* Wand glow effect */}
-                <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/40 to-purple-500/40 rounded-full blur-2xl animate-pulse" style={{animationDuration: '2s'}}></div>
+              {/* Magical effects overlay */}
+              <div className="absolute inset-0 pointer-events-none">
+                {/* Starry background */}
+                <div className="absolute top-8 left-12 w-1 h-1 bg-white rounded-full animate-pulse"></div>
+                <div className="absolute top-16 left-32 w-1 h-1 bg-white rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
+                <div className="absolute top-12 right-20 w-1 h-1 bg-white rounded-full animate-pulse" style={{animationDelay: '1s'}}></div>
+                <div className="absolute top-24 right-40 w-1 h-1 bg-white rounded-full animate-pulse" style={{animationDelay: '1.5s'}}></div>
+                <div className="absolute top-32 left-24 w-1 h-1 bg-white rounded-full animate-pulse" style={{animationDelay: '2s'}}></div>
                 
-                {/* Sparkle particles around wand */}
-                <div className="absolute top-0 right-0 w-4 h-4 bg-yellow-300 rounded-full animate-ping opacity-80" style={{animationDuration: '1.5s'}}></div>
-                <div className="absolute top-4 right-8 w-3 h-3 bg-purple-300 rounded-full animate-ping opacity-70" style={{animationDuration: '1.8s', animationDelay: '0.3s'}}></div>
-                <div className="absolute top-8 right-4 w-3 h-3 bg-blue-300 rounded-full animate-ping opacity-70" style={{animationDuration: '2s', animationDelay: '0.6s'}}></div>
+                {/* Magic sparkles */}
+                <div className="absolute top-1/3 right-1/4">
+                  <div className="absolute top-0 left-0 text-yellow-300 text-2xl animate-ping opacity-60" style={{animationDuration: '1.2s'}}>✨</div>
+                  <div className="absolute top-4 left-6 text-purple-300 text-xl animate-ping opacity-50" style={{animationDuration: '1.5s', animationDelay: '0.4s'}}>✨</div>
+                  <div className="absolute top-8 left-2 text-blue-300 text-xl animate-ping opacity-50" style={{animationDuration: '1.7s', animationDelay: '0.7s'}}>✨</div>
+                </div>
                 
-                {/* Sparkle emojis */}
-                <div className="absolute -top-2 right-2 text-yellow-300 text-3xl animate-ping opacity-60" style={{animationDuration: '1.2s'}}>✨</div>
-                <div className="absolute top-6 right-10 text-purple-300 text-2xl animate-ping opacity-50" style={{animationDuration: '1.5s', animationDelay: '0.4s'}}>✨</div>
-                <div className="absolute top-10 right-6 text-blue-300 text-2xl animate-ping opacity-50" style={{animationDuration: '1.7s', animationDelay: '0.7s'}}>✨</div>
+                {/* Floating mystical symbols */}
+                <div className="absolute top-12 left-12 text-purple-300 text-4xl animate-pulse opacity-60" style={{animationDuration: '2.5s'}}>🔮</div>
+                <div className="absolute bottom-20 left-16 text-yellow-300 text-3xl animate-pulse opacity-50" style={{animationDuration: '3s', animationDelay: '0.5s'}}>⭐</div>
+                <div className="absolute top-20 right-16 text-blue-300 text-3xl animate-pulse opacity-50" style={{animationDuration: '2.8s', animationDelay: '1s'}}>✨</div>
+                
+                {/* Mystical glow effect */}
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-500/10 via-blue-500/10 to-purple-500/10 blur-2xl animate-pulse" style={{animationDuration: '3s'}}></div>
               </div>
-              
-              {/* Floating mystical symbols */}
-              <div className="absolute top-12 left-12 text-purple-300 text-4xl animate-pulse opacity-60" style={{animationDuration: '2.5s'}}>🔮</div>
-              <div className="absolute bottom-20 left-16 text-yellow-300 text-3xl animate-pulse opacity-50" style={{animationDuration: '3s', animationDelay: '0.5s'}}>⭐</div>
-              <div className="absolute top-20 right-16 text-blue-300 text-3xl animate-pulse opacity-50" style={{animationDuration: '2.8s', animationDelay: '1s'}}>✨</div>
               
               {/* Bottom text overlay */}
               <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/90 to-transparent">

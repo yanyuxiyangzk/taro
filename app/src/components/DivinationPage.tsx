@@ -132,9 +132,12 @@ export default function DivinationPage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                   <div className="absolute bottom-4 left-4 right-4 text-center">
                     <div className="text-purple-100 mb-1">解锁命运密码</div>
-                    <div className="inline-block px-4 py-1 bg-yellow-600/80 rounded-full text-white text-sm">
+                    <button
+                      onClick={() => window.location.hash = '#fortune-detail'}
+                      className="inline-block px-4 py-1 bg-yellow-600/80 hover:bg-yellow-600 rounded-full text-white text-sm transition-colors cursor-pointer"
+                    >
                       立即查看运势
-                    </div>
+                    </button>
                   </div>
                 </div>
               ))}

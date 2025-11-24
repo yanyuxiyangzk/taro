@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { authService } from '@/services/authService';
 import { userService } from '@/services/userService';
 import { UserProfile, LoginRequest, RegisterRequest } from '@/lib/api/types';

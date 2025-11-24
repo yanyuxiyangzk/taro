@@ -50,14 +50,9 @@ export default function FengShuiPage() {
       </div>
 
       {/* Eight Directions */}
-      <div className="mb-8">
-        <h3 className="text-purple-200 mb-4 text-center flex items-center justify-center gap-2">
-          <Flame className="w-5 h-5 text-red-400" />
-          八方运势
-          <Flame className="w-5 h-5 text-red-400" />
-        </h3>
-        
-        <div className="grid grid-cols-4 gap-2 mb-4">
+      <div className="mb-6">
+        <h2 className="text-purple-200 mb-4 text-center">八方吉凶</h2>
+        <div className="grid grid-cols-4 gap-3">
           {directions.map((dir, index) => {
             const Icon = dir.icon;
             const isSelected = selectedDirection === index;
@@ -66,93 +61,129 @@ export default function FengShuiPage() {
               <button
                 key={index}
                 onClick={() => setSelectedDirection(index)}
-                className={`p-3 rounded-lg border transition-all ${
+                className={`p-4 rounded-xl transition-all ${
                   isSelected
-                    ? 'bg-purple-600/30 border-purple-400'
-                    : 'bg-purple-900/20 border-purple-500/30 hover:border-purple-400/50'
+                    ? 'bg-gradient-to-br from-purple-600/50 to-blue-600/50 border-2 border-purple-400 shadow-lg shadow-purple-500/30'
+                    : 'bg-purple-900/30 border border-purple-500/30 hover:border-purple-400/50'
                 }`}
               >
-                <Icon className="w-5 h-5 text-purple-300 mx-auto mb-1" />
-                <div className="text-purple-200 text-sm">{dir.name}</div>
+                <Icon className={`w-6 h-6 mx-auto mb-2 text-${dir.color}-400`} />
+                <div className="text-purple-100 text-sm font-bold mb-1">{dir.name}</div>
+                <div className="text-purple-300/70 text-xs">{dir.element}</div>
               </button>
             );
           })}
         </div>
+      </div>
 
-        {selectedDirection !== null && (
-          <Card className="bg-gradient-to-br from-purple-900/40 to-black/40 border-purple-500/40 p-4 backdrop-blur-sm animate-in fade-in slide-in-from-bottom-4">
-            <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500/30 to-red-500/30 flex items-center justify-center flex-shrink-0 shadow-lg shadow-purple-500/20">
-                <span className="text-xl">{directions[selectedDirection].name}</span>
+      {/* 风水堪舆功能入口 */}
+      <div className="mb-8">
+        <Card 
+          onClick={() => window.location.hash = '#fengshui-detail'}
+          className="bg-gradient-to-br from-yellow-900/40 to-red-900/40 border-yellow-500/50 backdrop-blur-sm hover:border-yellow-400/70 transition-all cursor-pointer group overflow-hidden relative"
+        >
+          <div className="absolute inset-0 bg-gradient-to-r from-yellow-500/10 to-red-500/10 blur-2xl"></div>
+          <div className="relative p-6">
+            <div className="flex items-center gap-4">
+              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-yellow-600/30 to-red-600/30 border-2 border-yellow-500/50 flex items-center justify-center group-hover:scale-110 transition-transform">
+                <Compass className="w-8 h-8 text-yellow-400 animate-spin" style={{ animationDuration: '8s' }} />
               </div>
               <div className="flex-1">
-                <h4 className="text-purple-100 mb-2">
-                  五行属{directions[selectedDirection].element}
-                </h4>
-                <p className="text-purple-300/80 text-sm mb-2">
-                  主管：{directions[selectedDirection].fortune}
-                </p>
-                <p className="text-purple-300/60 text-sm">
-                  适宜摆放与{directions[selectedDirection].element}相关的物品，增强此方位能量
+                <h3 className="text-yellow-200 text-lg font-bold mb-1">风水堪舆</h3>
+                <p className="text-yellow-300/70 text-sm">罗盘定位 · 星象测算 · 智能分析</p>
+              </div>
+              <div className="text-yellow-400 text-2xl group-hover:translate-x-1 transition-transform">→</div>
+            </div>
+            <div className="mt-4 pt-4 border-t border-yellow-500/20">
+              <div className="flex items-center justify-around text-center">
+                <div>
+                  <div className="text-yellow-200 text-xs mb-1">🧭</div>
+                  <div className="text-yellow-300/70 text-xs">罗盘定向</div>
+                </div>
+                <div>
+                  <div className="text-yellow-200 text-xs mb-1">⭐</div>
+                  <div className="text-yellow-300/70 text-xs">星象测算</div>
+                </div>
+                <div>
+                  <div className="text-yellow-200 text-xs mb-1">📸</div>
+                  <div className="text-yellow-300/70 text-xs">图像分析</div>
+                </div>
+                <div>
+                  <div className="text-yellow-200 text-xs mb-1">🎥</div>
+                  <div className="text-yellow-300/70 text-xs">视频堪舆</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Card>
+      </div>
+
+      {/* Selected Direction Details */}
+      {selectedDirection !== null && (
+        <Card className="mb-8 bg-gradient-to-br from-purple-900/40 to-black/40 border-purple-500/40 backdrop-blur-sm animate-in">
+          <div className="p-6">
+            <div className="flex items-center gap-3 mb-4">
+              {(() => {
+                const Icon = directions[selectedDirection].icon;
+                return <Icon className={`w-8 h-8 text-${directions[selectedDirection].color}-400`} />;
+              })()}
+              <div>
+                <h3 className="text-purple-100 text-lg font-bold">
+                  {directions[selectedDirection].name}方
+                </h3>
+                <p className="text-purple-300/70 text-sm">
+                  {directions[selectedDirection].element} · {directions[selectedDirection].fortune}
                 </p>
               </div>
             </div>
-          </Card>
-        )}
-      </div>
+            <div className="bg-black/30 rounded-lg p-4 border border-purple-500/20">
+              <p className="text-purple-200/90 text-sm leading-relaxed">
+                {directions[selectedDirection].name}方属{directions[selectedDirection].element}，主管{directions[selectedDirection].fortune}。
+                此方位宜保持整洁明亮，可摆放相应五行属性的物品以增强运势。
+              </p>
+            </div>
+          </div>
+        </Card>
+      )}
 
       {/* Feng Shui Tips */}
-      <div>
-        <h3 className="text-purple-200 mb-4 text-center flex items-center justify-center gap-2">
-          <Flame className="w-5 h-5 text-red-400" />
-          家居建议
-          <Flame className="w-5 h-5 text-red-400" />
-        </h3>
-        
-        <div className="grid grid-cols-1 gap-3">
+      <div className="mb-8">
+        <h2 className="text-purple-200 mb-4 text-center">风水建议</h2>
+        <div className="space-y-3">
           {fengShuiTips.map((tip, index) => (
             <Card
               key={index}
-              className="bg-gradient-to-br from-purple-900/30 to-black/30 border-purple-500/30 p-4 backdrop-blur-sm hover:border-purple-400/40 transition-all"
+              className="bg-gradient-to-br from-purple-900/30 to-black/30 border-purple-500/30 backdrop-blur-sm hover:border-purple-400/40 transition-all"
             >
-              <div className="flex items-start justify-between gap-3">
-                <div className="flex-1">
-                  <h4 className="text-purple-100 mb-1">{tip.title}</h4>
-                  <p className="text-purple-300/70 text-sm">{tip.desc}</p>
+              <div className="p-4">
+                <div className="flex items-center justify-between mb-2">
+                  <h4 className="text-purple-100 font-bold">{tip.title}</h4>
+                  <span
+                    className={`px-3 py-1 rounded-full text-xs font-bold ${
+                      tip.level === '优'
+                        ? 'bg-green-500/20 text-green-300 border border-green-500/30'
+                        : tip.level === '良'
+                        ? 'bg-blue-500/20 text-blue-300 border border-blue-500/30'
+                        : 'bg-yellow-500/20 text-yellow-300 border border-yellow-500/30'
+                    }`}
+                  >
+                    {tip.level}
+                  </span>
                 </div>
-                <div
-                  className={`px-3 py-1 rounded-full text-sm flex-shrink-0 ${
-                    tip.level === '优'
-                      ? 'bg-green-500/20 text-green-300 border border-green-500/30'
-                      : tip.level === '良'
-                      ? 'bg-blue-500/20 text-blue-300 border border-blue-500/30'
-                      : 'bg-yellow-500/20 text-yellow-300 border border-yellow-500/30'
-                  }`}
-                >
-                  {tip.level}
-                </div>
+                <p className="text-purple-300/80 text-sm">{tip.desc}</p>
               </div>
             </Card>
           ))}
         </div>
       </div>
 
-      {/* Crystal Ball */}
-      <div className="mt-8">
-        <Card className="bg-gradient-to-br from-purple-900/20 to-black/20 border-purple-500/30 overflow-hidden relative">
-          <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-red-500/10 blur-2xl"></div>
-          <div className="relative p-4">
-            <ImageWithFallback
-              src="https://images.unsplash.com/photo-1669867660200-810bd0921333?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcnlzdGFsJTIwYmFsbCUyMG1hZ2ljfGVufDF8fHx8MTc2Mjc1NjU1OHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-              alt="Crystal Ball"
-              className="w-full h-40 object-cover rounded-lg mb-3"
-            />
-            <p className="text-purple-200/80 text-center text-sm">
-              水晶能量场可以净化空间，提升居所气场
-            </p>
-          </div>
-        </Card>
-      </div>
+      {/* Analysis Button */}
+      <button
+        onClick={() => window.location.hash = '#fengshui-analysis'}
+        className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white py-4 px-6 rounded-full font-bold transition-all shadow-lg shadow-purple-500/30"
+      >
+        开始风水分析
+      </button>
     </div>
   );
 }

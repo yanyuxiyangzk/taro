@@ -10,6 +10,10 @@ import SpreadDetailPage from './components/SpreadDetailPage';
 import TarotReadingPage from './components/TarotReadingPage';
 import MysticBookPage from './components/MysticBookPage';
 import WizardProphecyPage from './components/WizardProphecyPage';
+import FortuneDetailPage from './components/FortuneDetailPage';
+import FengShuiAnalysisPage from './components/FengShuiAnalysisPage';
+import FengShuiCompassPage from './components/FengShuiCompassPage';
+import FengShuiDetailPage from './components/FengShuiDetailPage';
 
 type TabType = 'divination' | 'fengshui' | 'community' | 'profile';
 
@@ -19,7 +23,11 @@ function AppContent() {
   const [spreadDetailId, setSpreadDetailId] = useState<string | null>(null);
   const [readingSpreadId, setReadingSpreadId] = useState<string | null>(null);
   const [showMysticBook, setShowMysticBook] = useState(false);
-  const [showWizardProphecy, setShowWizardProphecy] = useState(false); 
+  const [showWizardProphecy, setShowWizardProphecy] = useState(false);
+  const [showFortuneDetail, setShowFortuneDetail] = useState(false);
+  const [showFengShuiAnalysis, setShowFengShuiAnalysis] = useState(false);
+  const [showFengShuiCompass, setShowFengShuiCompass] = useState(false);
+  const [showFengShuiDetail, setShowFengShuiDetail] = useState(false);
 
   const tabs = [
     { id: 'divination' as TabType, icon: Sparkles, label: '占卜' },
@@ -40,6 +48,7 @@ function AppContent() {
         setShowTarotSpreads(false);
         setShowMysticBook(false);
         setShowWizardProphecy(false);
+        setShowFortuneDetail(false);
       } else if (hash.startsWith('#spread-detail/')) {
         const spreadId = hash.replace('#spread-detail/', '');
         setSpreadDetailId(spreadId);
@@ -47,20 +56,55 @@ function AppContent() {
         setShowTarotSpreads(false);
         setShowMysticBook(false);
         setShowWizardProphecy(false);
+        setShowFortuneDetail(false);
       } else if (hash === '#tarot-spreads') {
         setShowTarotSpreads(true);
         setSpreadDetailId(null);
         setReadingSpreadId(null);
         setShowMysticBook(false);
         setShowWizardProphecy(false);
+        setShowFortuneDetail(false);
       } else if (hash === '#mystic-book') {
         setShowMysticBook(true);
         setShowTarotSpreads(false);
         setSpreadDetailId(null);
         setReadingSpreadId(null);
         setShowWizardProphecy(false);
+        setShowFortuneDetail(false);
       } else if (hash === '#wizard-prophecy') {
         setShowWizardProphecy(true);
+        setShowMysticBook(false);
+        setShowTarotSpreads(false);
+        setSpreadDetailId(null);
+        setReadingSpreadId(null);
+        setShowFortuneDetail(false);
+      } else if (hash === '#fortune-detail') {
+        setShowFortuneDetail(true);
+        setShowWizardProphecy(false);
+        setShowMysticBook(false);
+        setShowTarotSpreads(false);
+        setSpreadDetailId(null);
+        setReadingSpreadId(null);
+        setShowFengShuiAnalysis(false);
+      } else if (hash === '#fengshui-analysis') {
+        setShowFengShuiAnalysis(true);
+        setShowFortuneDetail(false);
+        setShowWizardProphecy(false);
+        setShowMysticBook(false);
+        setShowTarotSpreads(false);
+        setSpreadDetailId(null);
+        setReadingSpreadId(null);
+        setShowFengShuiCompass(false);
+      } else if (hash === '#fengshui-compass') {
+        setShowFengShuiCompass(true);
+        setShowFengShuiAnalysis(false);
+        setShowFengShuiDetail(false);
+      } else if (hash === '#fengshui-detail') {
+        setShowFengShuiDetail(true);
+        setShowFengShuiCompass(false);
+        setShowFengShuiAnalysis(false);
+        setShowFortuneDetail(false);
+        setShowWizardProphecy(false);
         setShowMysticBook(false);
         setShowTarotSpreads(false);
         setSpreadDetailId(null);
@@ -71,6 +115,10 @@ function AppContent() {
         setReadingSpreadId(null);
         setShowMysticBook(false);
         setShowWizardProphecy(false);
+        setShowFortuneDetail(false);
+        setShowFengShuiAnalysis(false);
+        setShowFengShuiCompass(false);
+        setShowFengShuiDetail(false);
       }
     };
 
@@ -98,6 +146,22 @@ function AppContent() {
     
     if (showWizardProphecy) {
       return <WizardProphecyPage />;
+    }
+    
+    if (showFortuneDetail) {
+      return <FortuneDetailPage />;
+    }
+    
+    if (showFengShuiAnalysis) {
+      return <FengShuiAnalysisPage />;
+    }
+    
+    if (showFengShuiCompass) {
+      return <FengShuiCompassPage />;
+    }
+
+    if (showFengShuiDetail) {
+      return <FengShuiDetailPage />;
     }
 
     switch (activeTab) {
@@ -129,7 +193,7 @@ function AppContent() {
       </div>
 
       {/* Bottom Navigation */}
-      {!showTarotSpreads && !spreadDetailId && !readingSpreadId && !showMysticBook && !showWizardProphecy && (
+      {!showTarotSpreads && !spreadDetailId && !readingSpreadId && !showMysticBook && !showWizardProphecy && !showFortuneDetail && !showFengShuiAnalysis && !showFengShuiCompass && !showFengShuiDetail && (
         <nav className="fixed bottom-0 left-0 right-0 bg-black/90 backdrop-blur-lg border-t border-purple-500/30 z-50">
           <div className="max-w-md mx-auto px-4">
             <div className="flex items-center justify-around py-3">
