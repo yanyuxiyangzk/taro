@@ -90,7 +90,7 @@ export default function FengShuiPage() {
               </div>
               <div className="flex-1">
                 <h3 className="text-yellow-200 text-lg font-bold mb-1">风水堪舆</h3>
-                <p className="text-yellow-300/70 text-sm">罗盘定位 · 星象测算 · 智能分析</p>
+                <p className="text-white text-sm" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8), 0 0 2px rgba(0,0,0,0.9)' }}>罗盘定位 · 星象测算 · 智能分析</p>
               </div>
               <div className="text-yellow-400 text-2xl group-hover:translate-x-1 transition-transform">→</div>
             </div>
@@ -98,24 +98,76 @@ export default function FengShuiPage() {
               <div className="flex items-center justify-around text-center">
                 <div>
                   <div className="text-yellow-200 text-xs mb-1">🧭</div>
-                  <div className="text-yellow-300/70 text-xs">罗盘定向</div>
+                  <div className="text-white text-xs" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8), 0 0 2px rgba(0,0,0,0.9)' }}>罗盘定向</div>
                 </div>
                 <div>
                   <div className="text-yellow-200 text-xs mb-1">⭐</div>
-                  <div className="text-yellow-300/70 text-xs">星象测算</div>
+                  <div className="text-white text-xs" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8), 0 0 2px rgba(0,0,0,0.9)' }}>星象测算</div>
                 </div>
                 <div>
                   <div className="text-yellow-200 text-xs mb-1">📸</div>
-                  <div className="text-yellow-300/70 text-xs">图像分析</div>
+                  <div className="text-white text-xs" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8), 0 0 2px rgba(0,0,0,0.9)' }}>图像分析</div>
                 </div>
                 <div>
                   <div className="text-yellow-200 text-xs mb-1">🎥</div>
-                  <div className="text-yellow-300/70 text-xs">视频堪舆</div>
+                  <div className="text-white text-xs" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8), 0 0 2px rgba(0,0,0,0.9)' }}>视频堪舆</div>
                 </div>
               </div>
             </div>
           </div>
         </Card>
+      </div>
+
+      {/* 风水功能模块 */}
+      <div className="mb-8">
+        <h2 className="text-purple-200 mb-4 text-center flex items-center justify-center gap-2">
+          <span>✨</span>
+          <span>风水功能</span>
+          <span>✨</span>
+        </h2>
+        <div className="grid grid-cols-3 gap-3">
+          {/* 风水布局 */}
+          <Card
+            onClick={() => window.location.hash = '#fengshui-layout'}
+            className="bg-gradient-to-br from-purple-900/40 to-black/40 border-purple-500/30 backdrop-blur-sm hover:border-purple-400/50 transition-all cursor-pointer group overflow-hidden relative h-36"
+          >
+            <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-transparent"></div>
+            <div className="relative p-4 h-full flex flex-col items-center justify-center text-center">
+              <div className="text-4xl mb-2 group-hover:scale-110 transition-transform">🏠</div>
+              <h4 className="text-purple-100 font-bold mb-1 text-sm">风水布局</h4>
+              <p className="text-purple-300/70 text-xs leading-tight">家居规划</p>
+            </div>
+            <div className="absolute inset-0 bg-purple-500/0 group-hover:bg-purple-500/10 transition-all pointer-events-none"></div>
+          </Card>
+
+          {/* 风水工具 */}
+          <Card
+            onClick={() => window.location.hash = '#fengshui-tools'}
+            className="bg-gradient-to-br from-blue-900/40 to-black/40 border-blue-500/30 backdrop-blur-sm hover:border-blue-400/50 transition-all cursor-pointer group overflow-hidden relative h-36"
+          >
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent"></div>
+            <div className="relative p-4 h-full flex flex-col items-center justify-center text-center">
+              <div className="text-4xl mb-2 group-hover:scale-110 transition-transform">🧭</div>
+              <h4 className="text-white font-bold mb-1 text-sm" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8), 0 0 2px rgba(0,0,0,0.9)' }}>风水工具</h4>
+              <p className="text-white text-xs leading-tight" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8), 0 0 2px rgba(0,0,0,0.9)' }}>测算工具</p>
+            </div>
+            <div className="absolute inset-0 bg-blue-500/0 group-hover:bg-blue-500/10 transition-all pointer-events-none"></div>
+          </Card>
+
+          {/* 风水知识 */}
+          <Card
+            onClick={() => window.location.hash = '#fengshui-knowledge'}
+            className="bg-gradient-to-br from-green-900/40 to-black/40 border-green-500/30 backdrop-blur-sm hover:border-green-400/50 transition-all cursor-pointer group overflow-hidden relative h-36"
+          >
+            <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent"></div>
+            <div className="relative p-4 h-full flex flex-col items-center justify-center text-center">
+              <div className="text-4xl mb-2 group-hover:scale-110 transition-transform">📚</div>
+              <h4 className="text-white font-bold mb-1 text-sm" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8), 0 0 2px rgba(0,0,0,0.9)' }}>风水知识</h4>
+              <p className="text-white text-xs leading-tight" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.8), 0 0 2px rgba(0,0,0,0.9)' }}>学习智慧</p>
+            </div>
+            <div className="absolute inset-0 bg-green-500/0 group-hover:bg-green-500/10 transition-all pointer-events-none"></div>
+          </Card>
+        </div>
       </div>
 
       {/* Selected Direction Details */}

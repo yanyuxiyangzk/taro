@@ -95,18 +95,21 @@ export default function FengShuiDetailPage() {
       <div className="px-6 pt-6 space-y-6">
         {/* 时间和位置信息 */}
         <div className="bg-gradient-to-br from-purple-900/50 to-purple-800/30 border-purple-500/40 backdrop-blur-sm rounded-xl border p-5">
-          <div className="flex items-center justify-between mb-4">
-            <div>
+          <div className="flex items-start justify-between">
+            <div className="flex-1">
               <div className="text-purple-200 text-sm mb-1">当前时间</div>
               <div className="text-purple-50 text-lg font-bold">
                 {currentTime.toLocaleTimeString('zh-CN')}
               </div>
-              <div className="text-purple-300 text-xs mt-1">{getTimeOfDay()}</div>
+              <div className="text-white text-xs mt-1">{getTimeOfDay()}</div>
             </div>
-            <div className="text-right">
+            <div className="flex-1 text-right">
               <div className="text-purple-200 text-sm mb-1">位置</div>
-              <div className="text-purple-50 text-sm font-medium">
-                {location ? `${location.lat.toFixed(2)}°N, ${location.lng.toFixed(2)}°E` : '获取中...'}
+              <div className="text-purple-50 text-lg font-bold">
+                {location ? `${location.lat.toFixed(2)}°N` : '获取中...'}
+              </div>
+              <div className="text-white text-xs mt-1">
+                {location ? `${location.lng.toFixed(2)}°E` : ''}
               </div>
             </div>
           </div>
@@ -131,10 +134,67 @@ export default function FengShuiDetailPage() {
             <p className="text-purple-300 text-sm">
               八卦定位 · 五行调和 · 阴阳平衡
             </p>
-            <div className="flex items-center justify-center gap-4 text-xs text-purple-400/80 mt-3">
+            <div className="flex items-center justify-center gap-4 text-xs text-white mt-3">
               <span>🧭 方位测算</span>
               <span>⚡ 实时运转</span>
               <span>✨ 智能分析</span>
+            </div>
+          </div>
+        </div>
+
+        {/* 风水分析模块 */}
+        <div className="grid grid-cols-2 gap-4">
+          {/* 吉位分析 */}
+          <div className="bg-gradient-to-br from-green-900/40 to-emerald-900/30 backdrop-blur-sm rounded-xl border border-green-500/30 p-5">
+            <div className="text-center">
+              <div className="text-5xl mb-3">🍀</div>
+              <h4 className="text-white text-xl font-bold mb-2">吉</h4>
+              <p className="text-white text-sm mb-3">吉位方向</p>
+              <div className="bg-green-950/50 rounded-lg p-3 mb-3">
+                <div className="text-green-400 text-2xl font-bold">东南</div>
+                <div className="text-green-300 text-xs mt-1">巽位</div>
+              </div>
+              <div className="space-y-2 text-left">
+                <div className="flex items-start gap-2 text-xs text-white">
+                  <span className="text-green-400">✓</span>
+                  <span>适合摆放绿植</span>
+                </div>
+                <div className="flex items-start gap-2 text-xs text-white">
+                  <span className="text-green-400">✓</span>
+                  <span>利于事业发展</span>
+                </div>
+                <div className="flex items-start gap-2 text-xs text-white">
+                  <span className="text-green-400">✓</span>
+                  <span>增强财运气场</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* 旺位分析 */}
+          <div className="bg-gradient-to-br from-red-900/40 to-rose-900/30 backdrop-blur-sm rounded-xl border border-red-500/30 p-5">
+            <div className="text-center">
+              <div className="text-5xl mb-3">🔥</div>
+              <h4 className="text-white text-xl font-bold mb-2">旺</h4>
+              <p className="text-white text-sm mb-3">旺位方向</p>
+              <div className="bg-red-950/50 rounded-lg p-3 mb-3">
+                <div className="text-red-400 text-2xl font-bold">正南</div>
+                <div className="text-red-300 text-xs mt-1">离位</div>
+              </div>
+              <div className="space-y-2 text-left">
+                <div className="flex items-start gap-2 text-xs text-white">
+                  <span className="text-red-400">✓</span>
+                  <span>适合摆放红色物品</span>
+                </div>
+                <div className="flex items-start gap-2 text-xs text-white">
+                  <span className="text-red-400">✓</span>
+                  <span>提升人际关系</span>
+                </div>
+                <div className="flex items-start gap-2 text-xs text-white">
+                  <span className="text-red-400">✓</span>
+                  <span>增强名声运势</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

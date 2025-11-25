@@ -22,7 +22,8 @@ const divinationCards = [
     title: '卡牌问答', 
     desc: '100w+ 回答', 
     icon: '🎴', 
-    bg: 'https://images.unsplash.com/photo-1671013033034-5ea58e9c5008?w=400' 
+    bg: 'https://images.unsplash.com/photo-1671013033034-5ea58e9c5008?w=400',
+    link: '#card-draw-animation'
   },
   { 
     title: '星图单图', 
@@ -34,7 +35,8 @@ const divinationCards = [
     title: '骰子问答', 
     desc: '趣味占卜', 
     icon: '🎲', 
-    bg: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=400' // 骰子图片
+    bg: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=400', // 骰子图片
+    link: '#dice-reading'
   },
   { 
     title: '星图合图', 
@@ -242,8 +244,8 @@ export default function DivinationPage() {
               
               <div className="relative p-4 h-full flex flex-col justify-end">
                 <div className="text-3xl mb-2">{card.icon}</div>
-                <h4 className="text-purple-100 mb-1">{card.title}</h4>
-                <p className="text-purple-300/70 text-xs">{card.desc}</p>
+                <h4 className="text-white font-bold mb-1 drop-shadow-lg">{card.title}</h4>
+                <p className="text-purple-200 text-xs drop-shadow">{card.desc}</p>
               </div>
 
               {/* Hover effect */}
