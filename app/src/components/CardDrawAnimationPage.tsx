@@ -278,7 +278,7 @@ export default function CardDrawAnimationPage() {
               </div>
             </div>
 
-            {/* 卡牌正面 - 塔罗牌 */}
+            {/* 卡牌正面 - 仙子残影 */}
             <div
               className="absolute inset-0"
               style={{
@@ -287,47 +287,53 @@ export default function CardDrawAnimationPage() {
                 transform: 'rotateY(180deg)',
               }}
             >
-              <div className="w-full h-full bg-gradient-to-br from-amber-50 via-purple-50 to-purple-100 rounded-3xl border-4 border-yellow-500 relative overflow-hidden shadow-2xl">
+              <div className="w-full h-full bg-gradient-to-br from-pink-100 via-purple-50 to-blue-100 rounded-3xl border-4 border-pink-300 relative overflow-hidden shadow-2xl">
                 {/* 光芒效果 */}
-                <div className="absolute inset-0 bg-gradient-to-br from-yellow-200/50 via-transparent to-purple-200/30"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-pink-200/50 via-transparent to-blue-200/30"></div>
                 
-                {/* 金色装饰边框 */}
-                <div className="absolute top-6 left-6 right-6 bottom-6 border-2 border-yellow-600/40 rounded-2xl"></div>
+                {/* 粉色装饰边框 */}
+                <div className="absolute top-6 left-6 right-6 bottom-6 border-2 border-pink-400/50 rounded-2xl"></div>
                 
-                {/* 四角装饰 */}
-                <svg className="absolute top-4 left-4 w-8 h-8 text-purple-700" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2L15 9L22 12L15 15L12 22L9 15L2 12L9 9L12 2Z" />
+                {/* 四角装饰 - 使用仙子风格 */}
+                <svg className="absolute top-4 left-4 w-8 h-8 text-pink-500" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2.5c-1.8 0-3.5.7-4.8 2-1.3 1.3-2 3-2 4.8 0 3.6 2.9 6.5 6.5 6.5s6.5-2.9 6.5-6.5c0-1.8-.7-3.5-2-4.8-1.3-1.3-3-2-4.8-2zm0 11c-1.4 0-2.5-1.1-2.5-2.5s1.1-2.5 2.5-2.5 2.5 1.1 2.5 2.5-1.1 2.5-2.5 2.5z" />
                 </svg>
-                <svg className="absolute top-4 right-4 w-8 h-8 text-purple-700" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2L15 9L22 12L15 15L12 22L9 15L2 12L9 9L12 2Z" />
+                <svg className="absolute top-4 right-4 w-8 h-8 text-pink-500" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2.5c-1.8 0-3.5.7-4.8 2-1.3 1.3-2 3-2 4.8 0 3.6 2.9 6.5 6.5 6.5s6.5-2.9 6.5-6.5c0-1.8-.7-3.5-2-4.8-1.3-1.3-3-2-4.8-2zm0 11c-1.4 0-2.5-1.1-2.5-2.5s1.1-2.5 2.5-2.5 2.5 1.1 2.5 2.5-1.1 2.5-2.5 2.5z" />
                 </svg>
-                <svg className="absolute bottom-4 left-4 w-8 h-8 text-purple-700" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2L15 9L22 12L15 15L12 22L9 15L2 12L9 9L12 2Z" />
+                <svg className="absolute bottom-4 left-4 w-8 h-8 text-pink-500" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2.5c-1.8 0-3.5.7-4.8 2-1.3 1.3-2 3-2 4.8 0 3.6 2.9 6.5 6.5 6.5s6.5-2.9 6.5-6.5c0-1.8-.7-3.5-2-4.8-1.3-1.3-3-2-4.8-2zm0 11c-1.4 0-2.5-1.1-2.5-2.5s1.1-2.5 2.5-2.5 2.5 1.1 2.5 2.5-1.1 2.5-2.5 2.5z" />
                 </svg>
-                <svg className="absolute bottom-4 right-4 w-8 h-8 text-purple-700" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2L15 9L22 12L15 15L12 22L9 15L2 12L9 9L12 2Z" />
+                <svg className="absolute bottom-4 right-4 w-8 h-8 text-pink-500" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2.5c-1.8 0-3.5.7-4.8 2-1.3 1.3-2 3-2 4.8 0 3.6 2.9 6.5 6.5 6.5s6.5-2.9 6.5-6.5c0-1.8-.7-3.5-2-4.8-1.3-1.3-3-2-4.8-2zm0 11c-1.4 0-2.5-1.1-2.5-2.5s1.1-2.5 2.5-2.5 2.5 1.1 2.5 2.5-1.1 2.5-2.5 2.5z" />
                 </svg>
                 
-                {/* 塔罗牌内容 */}
+                {/* 仙子残影内容 */}
                 <div className="absolute inset-0 flex flex-col items-center justify-center p-6">
-                  <div className="text-purple-700 text-2xl mb-4 font-serif">✦ ✦ ✦</div>
+                  <div className="text-pink-500 text-2xl mb-4 font-serif">✦ ✦ ✦</div>
                   
-                  {/* 塔罗牌图案 */}
+                  {/* 仙子图案 - 残影效果 */}
                   <div className="relative mb-4">
-                    <div className="text-7xl">🃏</div>
-                    <div className="absolute inset-0 bg-gradient-to-r from-purple-400/20 to-yellow-400/20 blur-xl rounded-full"></div>
+                    <div className="text-7xl opacity-80">🧚‍♀️</div>
+                    {/* 残影效果 */}
+                    <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
+                      <div className="text-7xl opacity-40 transform translate-x-1 -translate-y-1">🧚‍♀️</div>
+                      <div className="text-7xl opacity-20 transform translate-x-2 -translate-y-2">🧚‍♀️</div>
+                      <div className="text-7xl opacity-10 transform translate-x-3 -translate-y-3">🧚‍♀️</div>
+                    </div>
+                    <div className="absolute inset-0 bg-gradient-to-r from-pink-400/20 to-purple-400/20 blur-xl rounded-full"></div>
                   </div>
                   
-                  {/* 塔罗牌名称 */}
-                  <div className="text-purple-900 text-3xl font-bold mb-2 font-serif">{selectedCard.name}</div>
+                  {/* 仙子卡牌标题 */}
+                  <div className="text-purple-900 text-3xl font-bold mb-2 font-serif">仙子残影</div>
                   
-                  {/* 位置 */}
-                  <div className="text-purple-700 text-lg mb-2">{selectedCard.position}</div>
+                  {/* 描述 */}
+                  <div className="text-purple-700 text-lg mb-2">Fairy Silhouette</div>
                   
                   {/* 含义 */}
-                  <div className="text-purple-600 text-center text-sm font-medium">{selectedCard.meaning}</div>
+                  <div className="text-purple-600 text-center text-sm font-medium">魔法、神秘、纯净的精灵力量</div>
                   
-                  <div className="text-purple-700 text-xl font-serif mt-2">✦</div>
+                  <div className="text-pink-500 text-xl font-serif mt-2">✦</div>
                 </div>
               </div>
             </div>
