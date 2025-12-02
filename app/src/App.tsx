@@ -20,6 +20,8 @@ import FengShuiKnowledgePage from './components/FengShuiKnowledgePage';
 import DiceReadingPage from './components/DiceReadingPage';
 import CardDrawAnimationPage from './components/CardDrawAnimationPage';
 import CardReadingDetailPage from './components/CardReadingDetailPage';
+import PalmReadingPage from './components/PalmReadingPage';
+import DreamInterpretationPage from './components/DreamInterpretationPage';
 
 type TabType = 'divination' | 'fengshui' | 'community' | 'profile';
 
@@ -40,6 +42,8 @@ function AppContent() {
   const [showDiceReading, setShowDiceReading] = useState(false);
   const [showCardDrawAnimation, setShowCardDrawAnimation] = useState(false);
   const [showCardReadingDetail, setShowCardReadingDetail] = useState(false);
+  const [showPalmReading, setShowPalmReading] = useState(false);
+  const [showDreamInterpretation, setShowDreamInterpretation] = useState(false);
 
   const tabs = [
     { id: 'divination' as TabType, icon: Sparkles, label: '占卜' },
@@ -211,6 +215,43 @@ function AppContent() {
         setShowTarotSpreads(false);
         setSpreadDetailId(null);
         setReadingSpreadId(null);
+        setShowPalmReading(false);
+      } else if (hash === '#palm-reading') {
+        setShowPalmReading(true);
+        setShowCardReadingDetail(false);
+        setShowCardDrawAnimation(false);
+        setShowDiceReading(false);
+        setShowFengShuiKnowledge(false);
+        setShowFengShuiTools(false);
+        setShowFengShuiLayout(false);
+        setShowFengShuiDetail(false);
+        setShowFengShuiCompass(false);
+        setShowFengShuiAnalysis(false);
+        setShowFortuneDetail(false);
+        setShowWizardProphecy(false);
+        setShowMysticBook(false);
+        setShowTarotSpreads(false);
+        setSpreadDetailId(null);
+        setReadingSpreadId(null);
+        setShowDreamInterpretation(false);
+      } else if (hash === '#dream-interpretation') {
+        setShowDreamInterpretation(true);
+        setShowPalmReading(false);
+        setShowCardReadingDetail(false);
+        setShowCardDrawAnimation(false);
+        setShowDiceReading(false);
+        setShowFengShuiKnowledge(false);
+        setShowFengShuiTools(false);
+        setShowFengShuiLayout(false);
+        setShowFengShuiDetail(false);
+        setShowFengShuiCompass(false);
+        setShowFengShuiAnalysis(false);
+        setShowFortuneDetail(false);
+        setShowWizardProphecy(false);
+        setShowMysticBook(false);
+        setShowTarotSpreads(false);
+        setSpreadDetailId(null);
+        setReadingSpreadId(null);
       } else {
         setShowTarotSpreads(false);
         setSpreadDetailId(null);
@@ -227,6 +268,8 @@ function AppContent() {
         setShowDiceReading(false);
         setShowCardDrawAnimation(false);
         setShowCardReadingDetail(false);
+        setShowPalmReading(false);
+        setShowDreamInterpretation(false);
       }
     };
 
@@ -296,6 +339,14 @@ function AppContent() {
       return <CardReadingDetailPage />;
     }
 
+    if (showPalmReading) {
+      return <PalmReadingPage />;
+    }
+
+    if (showDreamInterpretation) {
+      return <DreamInterpretationPage />;
+    }
+
     switch (activeTab) {
       case 'divination':
         return <DivinationPage />;
@@ -325,7 +376,7 @@ function AppContent() {
       </div>
 
       {/* Bottom Navigation */}
-      {!showTarotSpreads && !spreadDetailId && !readingSpreadId && !showMysticBook && !showWizardProphecy && !showFortuneDetail && !showFengShuiAnalysis && !showFengShuiCompass && !showFengShuiDetail && !showFengShuiLayout && !showFengShuiTools && !showFengShuiKnowledge && !showDiceReading && !showCardDrawAnimation && !showCardReadingDetail && (
+      {!showTarotSpreads && !spreadDetailId && !readingSpreadId && !showMysticBook && !showWizardProphecy && !showFortuneDetail && !showFengShuiAnalysis && !showFengShuiCompass && !showFengShuiDetail && !showFengShuiLayout && !showFengShuiTools && !showFengShuiKnowledge && !showDiceReading && !showCardDrawAnimation && !showCardReadingDetail && !showPalmReading && !showDreamInterpretation && (
         <nav className="fixed bottom-0 left-0 right-0 bg-black/90 backdrop-blur-lg border-t border-purple-500/30 z-50">
           <div className="max-w-md mx-auto px-4">
             <div className="flex items-center justify-around py-3">

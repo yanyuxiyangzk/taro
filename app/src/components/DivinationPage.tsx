@@ -46,15 +46,17 @@ const divinationCards = [
   },
   { 
     title: '梦境详解', 
-    desc: '专业达人解答', 
+    desc: '周公解梦', 
     icon: '💭', 
-    bg: 'https://images.unsplash.com/photo-1559466851-47d3cc0872ba?w=400' 
+    bg: 'https://images.unsplash.com/photo-1559466851-47d3cc0872ba?w=400',
+    link: '#dream-interpretation'
   },
   { 
     title: '手相问答', 
     desc: '专业达人解答', 
     icon: '✋', 
-    bg: 'https://images.unsplash.com/photo-1607824972522-2821fba071f5?w=400' 
+    bg: 'https://images.unsplash.com/photo-1607824972522-2821fba071f5?w=400',
+    link: '#palm-reading'
   },
   { 
     title: '神秘之书', 
